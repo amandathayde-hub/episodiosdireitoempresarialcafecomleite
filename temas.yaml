@@ -1,0 +1,174 @@
+# TEMAS E PALAVRAS-CHAVE (proposta para aprovação)
+#
+# Como funciona: um episódio recebe um tema quando alguma palavra-chave
+# aparece no TÍTULO ou na DESCRIÇÃO, ou aparece pelo menos
+# "minimo_na_transcricao" vezes na TRANSCRIÇÃO.
+# Acentos e maiúsculas não importam ("falencia" = "Falência").
+# Um episódio pode ter vários temas. Para corrigir um episódio específico,
+# use "temas:" no overrides.yaml.
+
+minimo_na_transcricao: 5
+
+temas:
+  Societário:
+    - direito societário
+    - sociedade anônima
+    - sociedades anônimas
+    - sociedade limitada
+    - S.A.
+    - acionista
+    - acionistas
+    - sócio
+    - sócios
+    - quotas
+    - assembleia
+    - dissolução parcial
+    - apuração de haveres
+    - acordo de acionistas
+    - grupos societários
+    - desconsideração da personalidade jurídica
+    - dividendos
+    - controlador
+    - poder de controle
+    - holding
+
+  Recuperação judicial e falência:
+    - recuperação judicial
+    - recuperação extrajudicial
+    - falência
+    - insolvência
+    - Lei 11.101
+    - credores
+    - plano de recuperação
+    - administrador judicial
+    - crise da empresa
+
+  Contratos empresariais:
+    - contrato
+    - contratos
+    - contratual
+    - cláusula
+    - franquia
+    - distribuição
+    - earn-out
+    - boa-fé
+    - onerosidade excessiva
+    - vesting
+    - redes contratuais
+
+  Concorrência e antitruste:
+    - concorrência
+    - concorrencial
+    - antitruste
+    - CADE
+    - cartel
+    - atos de concentração
+    - fusões verticais
+    - conglomerais
+    - abuso de posição dominante
+    - não concorrência
+    - private enforcement
+
+  Mercado de capitais:
+    - mercado de capitais
+    - CVM
+    - Comissão de Valores Mobiliários
+    - valores mobiliários
+    - companhia aberta
+    - companhias abertas
+    - B3
+    - oferta pública
+    - IPO
+    - tomada de controle
+    - poison pill
+
+  Arbitragem e solução de conflitos:
+    - arbitragem
+    - arbitral
+    - mediação
+    - conflitos societários
+    - impasses societários
+
+  Propriedade intelectual:
+    - propriedade intelectual
+    - propriedade industrial
+    - marca
+    - marcas
+    - patente
+    - patentes
+    - sinais distintivos
+    - ativos intangíveis
+    - direito autoral
+
+  Títulos de crédito:
+    - títulos de crédito
+    - título de crédito
+    - duplicata
+    - cheque
+    - nota promissória
+    - letra de câmbio
+    - cédula de crédito
+
+  Governança corporativa:
+    - governança
+    - conselho de administração
+    - administradores
+    - deveres fiduciários
+    - dever de diligência
+    - business judgment rule
+    - conflito de interesses
+    - compliance
+    - ESG
+    - diversidade
+
+  Fundos de investimento:
+    - fundos de investimento
+    - fundo de investimento
+    - gestores de fundos
+    - cotistas
+    - FII
+    - FIDC
+
+  # --- Temas extras sugeridos (aprove ou apague) ---
+  Acordos sancionadores e leniência:
+    - acordo de leniência
+    - acordos de leniência
+    - leniência
+    - acordos sancionadores
+    - termo de compromisso
+    - TCC
+    - anticorrupção
+    - SecexConsenso
+
+  Defesa comercial e comércio internacional:
+    - defesa comercial
+    - antidumping
+    - medidas compensatórias
+    - interesse público
+    - comércio internacional
+
+  Teoria geral e história do direito comercial:
+    - direito comercial
+    - teoria da empresa
+    - empresário
+    - lex mercatoria
+    - Código Comercial
+    - ato de comércio
+    - estabelecimento empresarial
+    - história
+
+  Startups, tecnologia e inovação:
+    - startup
+    - startups
+    - Marco Legal das Startups
+    - tecnologia
+    - inovação
+    - inteligência artificial
+    - blockchain
+    - criptoativos
+
+  Direito do futebol e esporte:
+    - futebol
+    - SAF
+    - Sociedade Anônima do Futebol
+    - esporte
