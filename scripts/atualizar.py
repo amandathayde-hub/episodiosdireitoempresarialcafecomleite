@@ -143,6 +143,20 @@ def main():
     arquivo_eps = DADOS / "episodes.json"
     if arquivo_eps.exists():
         anterior = {e["guid"]: e for e in json.loads(arquivo_eps.read_text(encoding="utf-8"))}
+    # O feed às vezes chega de uma cópia antiga (cache) sem os episódios mais
+    # recentes. Episódio já conhecido nunca some sozinho: para tirar do site,
+    # use "ocultar: true" no overrides.yaml.
+    no_feed = {e["guid"] for e in episodios}
+    fora_do_feed = [e for g, e in anterior.items() if g not in no_feed]
+    for ep in fora_do_feed:
+        ep["fora_do_feed"] = True
+    episodios = sorted(episodios + fora_do_feed, key=lambda e: e["data"], reverse=True)
+    if fora_do_feed:
+        print(f"   {len(fora_do_feed)} episódio(s) conhecido(s) não vieram no feed desta vez; mantidos.")
+    for ep in episodios:
+        if ep["guid"] in no_feed:
+            ep.pop("fora_do_feed", None)
+
     if args.playlist:
         videos = json.loads(Path(args.playlist).read_text(encoding="utf-8"))
     else:
