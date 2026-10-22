@@ -1,0 +1,35 @@
+# CORREÇÕES MANUAIS
+# O que estiver aqui vale mais do que o que o sistema descobre sozinho.
+#
+# Como usar:
+#   - Cada episódio é identificado pelo número que aparece no site
+#     (ex.: "60") ou, para episódios sem número, pelo código "extra-AAAA-MM-DD".
+#   - Use sempre aspas no identificador.
+#   - Campos possíveis em cada episódio:
+#       numero:      número correto do episódio
+#       convidados:  lista de nomes, na forma "Nome Sobrenome"
+#       temas:       lista de temas (substitui a classificação automática)
+#       youtube:     código do vídeo (o que vem depois de "watch?v=" no link)
+#       ocultar:     true  (esconde o episódio do site)
+#   - Linhas que começam com # são comentários e são ignoradas.
+
+episodios:
+  "560":            # o feed diz #EP560, mas é o episódio 60
+    numero: 60
+  "82":             # título traz só as iniciais "PATELLA, L. A."
+    convidados: ["Laura Amaral Patella"]
+  "58":             # título diz "JUSTINO, Manoel Justino" (confira)
+    convidados: ["Manoel Justino Bezerra Filho", "Cassio Cavalli"]
+  "285":            # título escrito "MARTINS. Guilherme V."
+    convidados: ["Guilherme V. Martins"]
+  "314":            # no YouTube este episódio foi publicado como "#114"
+    youtube: "4ekEghNHt1k"
+
+# Grafias diferentes da mesma pessoa: "como aparece": "como deve aparecer"
+pessoas:
+  "Gladson Mamede": "Gladston Mamede"
+  "G. Mamede": "Gladston Mamede"
+  "L. A. Patella": "Laura Amaral Patella"
+  "M. J. Bezerra Filho": "Manoel Justino Bezerra Filho"
+  "Angelo G Prata de Carvalho": "Ângelo Gamba Prata de Carvalho"   # confira
+  "Angelo Prata de Carvalho": "Ângelo Gamba Prata de Carvalho"     # confira

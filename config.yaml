@@ -1,0 +1,19 @@
+# Configurações gerais do site de episódios.
+# Edite com cuidado: mantenha os dois-pontos e os espaços do começo das linhas.
+
+rss: https://anchor.fm/s/654b6580/podcast/rss
+playlist_youtube: https://www.youtube.com/playlist?list=PLW-zVBq6n2zkv-lylH2GNdULBLJr8zB9n
+
+site:
+  titulo: Episódios – Direito Empresarial Café com Leite
+  url: https://episodios.direitoempresarialcafecomleite.com
+  site_principal: https://podcast.direitoempresarialcafecomleite.com/
+
+transcricao:
+  # groq = transcreve o MP3 do feed com Whisper no Groq (precisa do segredo GROQ_API_KEY)
+  # nenhuma = não transcreve; episódios novos ficam como "transcrição pendente"
+  fonte: groq
+  modelo: whisper-large-v3-turbo
+  idioma: pt
+  # Quantos episódios transcrever por execução (a carga inicial vai em lotes).
+  maximo_por_execucao: 60
