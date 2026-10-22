@@ -34,6 +34,8 @@ jobs:
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v6
         with:
@@ -58,8 +60,19 @@ jobs:
           git add data transcripts
           if git diff --cached --quiet; then
             echo "Nada novo."
-          else
-            git commit -q -m "Atualização automática dos episódios"
-            git pull -q --rebase origin main
-            git push -q origin HEAD:main
+            exit 0
           fi
+          git commit -q -m "Atualização automática dos episódios"
+          for tentativa in 1 2 3; do
+            if ! saida=$(git pull --rebase origin main 2>&1); then
+              echo "::error title=Falha ao juntar com o main::$(echo "$saida" | tail -3 | tr '\n' ' ')"
+              exit 1
+            fi
+            if saida=$(git push origin HEAD:main 2>&1); then
+              echo "::notice title=Gravado::Novidades gravadas no repositório."
+              exit 0
+            fi
+            echo "::warning title=Push recusado (tentativa $tentativa)::$(echo "$saida" | tail -3 | tr '\n' ' ')"
+            sleep 10
+          done
+          exit 1

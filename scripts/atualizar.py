@@ -7,6 +7,7 @@ Uso:
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -203,7 +204,15 @@ def main():
           f"({pendentes} com transcrição pendente).")
     if repetidos:
         print(f"   ATENÇÃO: identificadores repetidos: {repetidos}")
+    if os.environ.get("GITHUB_ACTIONS"):
+        # Resumo visível na página da execução (e legível pela API do GitHub).
+        resumo = f"{len(episodios)} episódios; {pendentes} com transcrição pendente."
+        if args.transcrever:
+            resumo += (f" Transcritos agora: {rel_tr['transcritos']}. Falhas: {rel_tr['falhas']}."
+                       f" Parou: {rel_tr['parou_por']}")
+        print(f"::notice title=Resumo::{resumo[:1000]}")
     if erro_chave:
+        print(f"::error title=Chave do Groq::{erro_chave[:500]}")
         sys.exit(f"ERRO: {erro_chave}")
 
 
