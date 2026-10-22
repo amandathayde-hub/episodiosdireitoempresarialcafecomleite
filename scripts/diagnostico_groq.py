@@ -43,14 +43,20 @@ def main():
         mp3 = Path(pasta) / "ep.mp3"
         t._baixar(ep["mp3"], mp3)
         pedaco = t.cortar_audio(mp3, pasta)[1]
-        r = chamar(pedaco, chave, "whisper-large-v3-turbo", "verbose_json", "")
+        r = {"text": ""} if os.environ.get("PULAR_GROQ") else chamar(pedaco, chave, "whisper-large-v3-turbo", "verbose_json", "")
         texto_groq = r.get("text", "")
         exemplos = [texto_groq[max(0, m.start() - 50):m.end() + 30] for m in CORTADAS.finditer(texto_groq)][:4]
         print(f"::notice title=Groq turbo sem dica::{taxa(texto_groq)} || exemplos: {' ### '.join(exemplos)}")
 
         import time
-        from faster_whisper import WhisperModel
+        import traceback
+        try:
+            from faster_whisper import WhisperModel
+        except Exception:  # noqa: BLE001
+            print(f"::error title=import faster_whisper::{traceback.format_exc()[-900:]}".replace("\n", " | "))
+            return
         for nome in ("large-v3-turbo", "small"):
+          try:
             inicio = time.time()
             modelo = WhisperModel(nome, device="cpu", compute_type="int8")
             carregado = time.time()
@@ -60,6 +66,8 @@ def main():
             exemplos = [texto[max(0, m.start() - 50):m.end() + 30] for m in CORTADAS.finditer(texto)][:3]
             print(f"::notice title=faster-whisper {nome}::{taxa(texto)}; carregar {carregado - inicio:.0f}s, "
                   f"transcrever 10 min de áudio em {fim - carregado:.0f}s || {texto[:200]} || exemplos: {' ### '.join(exemplos)}")
+          except Exception:  # noqa: BLE001
+            print(f"::error title=faster-whisper {nome}::{traceback.format_exc()[-900:]}".replace("\n", " | "))
 
 
 if __name__ == "__main__":

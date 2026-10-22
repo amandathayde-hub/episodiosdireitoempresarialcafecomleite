@@ -28,4 +28,5 @@ jobs:
       - name: Comparar formatos e modelos
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          PULAR_GROQ: "1"
         run: python scripts/diagnostico_groq.py 288
