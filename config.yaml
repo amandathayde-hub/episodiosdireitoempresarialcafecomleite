@@ -16,4 +16,4 @@ transcricao:
   modelo: whisper-large-v3-turbo
   idioma: pt
   # Quantos episódios transcrever por execução (a carga inicial vai em lotes).
-  maximo_por_execucao: 2   # teste inicial; depois volta para 60
+  maximo_por_execucao: 60
