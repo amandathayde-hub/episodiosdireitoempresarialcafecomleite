@@ -1,0 +1,31 @@
+name: Verificar DNS (uso técnico)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/verificar-dns.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  dns:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Consultar registros e registradores
+        run: |
+          for d in direitoempresarialcafecomleite.com direitoempresarialcafecomleite.com.br amandaathayde.com.br; do
+            ns=$(dig +short NS $d | tr '\n' ' ')
+            a=$(dig +short A $d | tr '\n' ' ')
+            echo "::notice title=$d::NS: ${ns:-nenhum} | A: ${a:-nenhum}"
+          done
+          for h in podcast.direitoempresarialcafecomleite.com podcast.direitoempresarialcafecomleite.com.br www.amandaathayde.com.br episodios.direitoempresarialcafecomleite.com; do
+            c=$(dig +short CNAME $h | tr '\n' ' '); a=$(dig +short A $h | tr '\n' ' ')
+            echo "::notice title=$h::CNAME: ${c:-nenhum} | A: ${a:-nenhum}"
+          done
+          reg=$(curl -s https://rdap.verisign.com/com/v1/domain/direitoempresarialcafecomleite.com | python3 -c "import json,sys;d=json.load(sys.stdin);print([e.get('vcardArray',[0,[]])[1][1][3] for e in d.get('entities',[]) if 'registrar' in e.get('roles',[])])" 2>&1 | tail -1)
+          echo "::notice title=Registrador do .com::$reg"
+          br=$(curl -s https://rdap.registro.br/domain/direitoempresarialcafecomleite.com.br | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('ldhName'), d.get('status'))" 2>&1 | tail -1)
+          echo "::notice title=registro.br .com.br::$br"
