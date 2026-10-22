@@ -5,9 +5,18 @@ rss: https://anchor.fm/s/654b6580/podcast/rss
 playlist_youtube: https://www.youtube.com/playlist?list=PLW-zVBq6n2zkv-lylH2GNdULBLJr8zB9n
 
 site:
-  titulo: Episódios – Direito Empresarial Café com Leite
-  url: https://episodios.direitoempresarialcafecomleite.com
+  titulo: Busca de episódios – Direito Empresarial Café com Leite
+  nome_podcast: Direito Empresarial Café com Leite
+  # Endereço público do site. Enquanto o domínio próprio não estiver pronto,
+  # é o endereço do GitHub Pages. Depois: https://episodios.direitoempresarialcafecomleite.com
+  url: https://amandathayde-hub.github.io/episodiosdireitoempresarialcafecomleite
+  # Domínio próprio (deixe vazio até configurar o DNS; ver CHECKLIST.md).
+  dominio: ""
   site_principal: https://podcast.direitoempresarialcafecomleite.com/
+  spotify_programa: https://open.spotify.com/show/3rgLXFIScTgCGHqidktCG1
+  youtube_canal: https://www.youtube.com/@AmandaAthayde/videos
+  # Imagem usada ao compartilhar no WhatsApp/LinkedIn (capa do podcast no feed).
+  capa: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/16894400/16894400-1627131207535-00d258608c1d3.jpg
 
 transcricao:
   # local = roda o Whisper na própria máquina do GitHub (grátis, padrão)
