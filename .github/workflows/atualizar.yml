@@ -33,8 +33,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:
+      # Sempre a versão mais nova do main (não a do momento em que a
+      # execução foi agendada), para não refazer o que outra já fez.
       - uses: actions/checkout@v5
         with:
+          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-python@v6
@@ -57,22 +60,24 @@ jobs:
         run: |
           git config user.name "atualizacao-automatica"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data transcripts
-          if git diff --cached --quiet; then
-            echo "Nada novo."
-            exit 0
-          fi
-          git commit -q -m "Atualização automática dos episódios"
           for tentativa in 1 2 3; do
-            if ! saida=$(git pull --rebase origin main 2>&1); then
-              echo "::error title=Falha ao juntar com o main::$(echo "$saida" | tail -3 | tr '\n' ' ')"
-              exit 1
+            git add data transcripts
+            if git diff --cached --quiet; then
+              echo "Nada novo."
+              exit 0
             fi
+            git commit -q -m "Atualização automática dos episódios"
             if saida=$(git push origin HEAD:main 2>&1); then
               echo "::notice title=Gravado::Novidades gravadas no repositório."
               exit 0
             fi
-            echo "::warning title=Push recusado (tentativa $tentativa)::$(echo "$saida" | tail -3 | tr '\n' ' ')"
-            sleep 10
+            # O main mudou durante a execução: parte da versão nova, acrescenta
+            # só as transcrições que ainda não existem lá e refaz os dados.
+            echo "::warning title=Main mudou (tentativa $tentativa)::refazendo sobre a versão nova"
+            mkdir -p /tmp/novas && cp transcripts/*.txt /tmp/novas/ 2>/dev/null || true
+            git fetch -q origin main && git reset -q --hard origin/main
+            mkdir -p transcripts && cp -n /tmp/novas/*.txt transcripts/ 2>/dev/null || true
+            python scripts/atualizar.py
           done
+          echo "::error title=Não consegui gravar::o main mudou três vezes seguidas"
           exit 1
