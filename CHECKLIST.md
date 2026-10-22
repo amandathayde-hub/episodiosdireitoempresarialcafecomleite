@@ -61,6 +61,12 @@ Documentação: https://docs.github.com/pt/pages/configuring-a-custom-domain-for
       https://github.com/amandathayde-hub/episodiosdireitoempresarialcafecomleite/branches
       → ícone de lixeira em `teste-sem-prefixo`, `claude/etapa-1` e `claude/etapa-1-parser`.
 
+## G. Depois da versão 1 aprovada
+
+- [ ] **Estatísticas de visitas sem cookies** (GoatCounter): criar a conta em
+      https://www.goatcounter.com/signup e pedir para incluir o código no site.
+- [ ] Revisar os temas adicionais propostos a partir das transcrições completas.
+
 ## Limites e custos (conferir antes de divulgar)
 
 * GitHub Actions: gratuito para repositórios públicos nas máquinas padrão —
