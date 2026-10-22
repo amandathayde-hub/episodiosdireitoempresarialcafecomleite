@@ -60,7 +60,12 @@ def main():
             inicio = time.time()
             modelo = WhisperModel(nome, device="cpu", compute_type="int8")
             carregado = time.time()
-            segs, _ = modelo.transcribe(str(pedaco), language="pt", beam_size=1, vad_filter=True)
+            import subprocess
+            import numpy as np
+            bruto = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(pedaco), "-f", "f32le",
+                                    "-ac", "1", "-ar", "16000", "-"], capture_output=True, check=True).stdout
+            audio = np.frombuffer(bruto, dtype=np.float32)
+            segs, _ = modelo.transcribe(audio, language="pt", beam_size=1, vad_filter=True)
             texto = " ".join(s.text for s in segs)
             fim = time.time()
             exemplos = [texto[max(0, m.start() - 50):m.end() + 30] for m in CORTADAS.finditer(texto)][:3]
