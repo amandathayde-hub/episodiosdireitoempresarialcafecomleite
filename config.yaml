@@ -10,10 +10,13 @@ site:
   site_principal: https://podcast.direitoempresarialcafecomleite.com/
 
 transcricao:
-  # groq = transcreve o MP3 do feed com Whisper no Groq (precisa do segredo GROQ_API_KEY)
+  # local = roda o Whisper na própria máquina do GitHub (grátis, padrão)
+  # groq  = envia o áudio ao Groq (precisa do segredo GROQ_API_KEY; em
+  #         2026-10 o Groq cortava palavras acentuadas, por isso não é o padrão)
   # nenhuma = não transcreve; episódios novos ficam como "transcrição pendente"
-  fonte: nenhuma   # PAUSADO: investigando palavras acentuadas cortadas
-  modelo: whisper-large-v3-turbo
+  fonte: local
+  modelo_local: large-v3-turbo
+  modelo_groq: whisper-large-v3-turbo
   idioma: pt
-  # Quantos episódios transcrever por execução (a carga inicial vai em lotes).
+  # Só para a fonte groq: quantos episódios por execução.
   maximo_por_execucao: 60

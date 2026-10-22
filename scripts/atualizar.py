@@ -123,8 +123,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rss", help="arquivo XML local em vez de baixar o feed")
     ap.add_argument("--playlist", help="arquivo JSON local com [{id, titulo}]")
-    ap.add_argument("--transcrever", action="store_true",
-                    help="transcreve os episódios pendentes (precisa de GROQ_API_KEY)")
+    ap.add_argument("--planejar", action="store_true",
+                    help="no GitHub Actions: decide em quantas máquinas dividir as transcrições")
     args = ap.parse_args()
 
     config = carregar_yaml("config.yaml")
@@ -183,19 +183,6 @@ def main():
     for ep in episodios:
         ep["transcricao"] = "ok" if (TRANSCRICOES / f"{ep['id']}.txt").exists() else "pendente"
 
-    erro_chave = None
-    if args.transcrever:
-        print("3) Transcrevendo episódios pendentes...")
-        TRANSCRICOES.mkdir(exist_ok=True)
-        try:
-            rel_tr = transcricao.transcrever_pendentes(episodios, TRANSCRICOES, config.get("transcricao", {}))
-        except transcricao.ChaveInvalida as e:
-            erro_chave = str(e)
-            rel_tr = {"transcritos": [], "falhas": [], "parou_por": erro_chave}
-        gravar_json(RELATORIOS / "transcricao.json", rel_tr)
-        print(f"   {len(rel_tr['transcritos'])} transcritos, {len(rel_tr['falhas'])} falhas."
-              + (f" Parou: {rel_tr['parou_por']}" if rel_tr["parou_por"] else ""))
-
     lista_temas = temas.aplicar(episodios, TRANSCRICOES, carregar_yaml("temas.yaml"))
     gravar_json(DADOS / "temas.json", lista_temas)
 
@@ -224,15 +211,25 @@ def main():
         print(f"   ATENÇÃO: identificadores repetidos: {repetidos}")
     if os.environ.get("GITHUB_ACTIONS"):
         # Resumo visível na página da execução (e legível pela API do GitHub).
-        resumo = f"{len(episodios)} episódios; {pendentes} com transcrição pendente."
-        if args.transcrever:
-            resumo += (f" Transcritos agora: {rel_tr['transcritos']}. Falhas: {rel_tr['falhas']}."
-                       f" Parou: {rel_tr['parou_por']}")
-        print(f"::notice title=Resumo::{resumo[:1000]}")
-    if erro_chave:
-        print(f"::error title=Chave do Groq::{erro_chave[:500]}")
-        sys.exit(f"ERRO: {erro_chave}")
+        print(f"::notice title=Resumo::{len(episodios)} episódios; {pendentes} com transcrição pendente.")
+    if args.planejar:
+        planejar(episodios, config.get("transcricao", {}))
 
+
+def planejar(episodios, config_tr):
+    """Escolhe quantas máquinas usar: cada uma transcreve até ~8 h de áudio
+    (cerca de 3,5 h de trabalho), no máximo 20 ao mesmo tempo."""
+    if config_tr.get("fonte", "local") not in ("local", "groq"):
+        fatias = 0
+    else:
+        segundos = sum(e.get("duracao_seg") or 3600 for e in transcricao.pendentes(episodios))
+        fatias = 0 if not segundos else 1 if config_tr.get("fonte") == "groq" else min(20, -(-segundos // (8 * 3600)))
+    print(f"   transcrição em {fatias} máquina(s)")
+    saida = os.environ.get("GITHUB_OUTPUT")
+    if saida:
+        with open(saida, "a", encoding="utf-8") as f:
+            f.write(f"fatias={json.dumps(list(range(fatias)))}\n")
+            f.write(f"total={fatias}\n")
 
 if __name__ == "__main__":
     main()

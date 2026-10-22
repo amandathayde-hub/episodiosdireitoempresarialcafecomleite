@@ -2,12 +2,8 @@ name: Atualizar episódios
 
 on:
   schedule:
-    # Horários em UTC. 09:07 UTC = 06:07 em Brasília. As outras execuções
-    # adiantam a carga inicial das transcrições; sem novidades, terminam rápido.
+    # Horário em UTC: 09:07 UTC = 06:07 em Brasília.
     - cron: "7 9 * * *"
-    - cron: "7 15 * * *"
-    - cron: "7 21 * * *"
-    - cron: "7 3 * * *"
   # Quando o código ou as correções mudam, roda de novo sozinho.
   push:
     branches: [main]
@@ -29,34 +25,102 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  atualizar:
-    runs-on: ubuntu-latest
-    timeout-minutes: 340
+  # 1) Lê RSS e YouTube e decide em quantas máquinas dividir as transcrições.
+  preparar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    outputs:
+      fatias: ${{ steps.plano.outputs.fatias }}
+      total: ${{ steps.plano.outputs.total }}
     steps:
-      # Sempre a versão mais nova do main (não a do momento em que a
-      # execução foi agendada), para não refazer o que outra já fez.
+      # Sempre a versão mais nova do main (não a do momento do agendamento).
       - uses: actions/checkout@v5
         with:
           ref: main
-          fetch-depth: 0
-
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Ler RSS e YouTube
+        id: plano
+        run: python scripts/atualizar.py --planejar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dados
+          path: data/episodes.json
+          retention-days: 2
 
+  # 2) Transcreve os pendentes, várias máquinas ao mesmo tempo.
+  transcrever:
+    needs: preparar
+    if: needs.preparar.outputs.total != '0'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        fatia: ${{ fromJSON(needs.preparar.outputs.fatias) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: dados
+          path: data
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
       - name: Instalar programas
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q -r requirements.txt
-
-      - name: Ler RSS e YouTube, transcrever pendentes
+          pip install -q -r requirements.txt faster-whisper
+      - name: Guardar o modelo do Whisper entre execuções
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-large-v3-turbo
+      - name: Transcrever
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python scripts/atualizar.py --transcrever
-
-      - name: Guardar novidades no repositório
+        run: python scripts/transcrever_fatia.py --fatia ${{ matrix.fatia }} --de ${{ needs.preparar.outputs.total }} --limite-horas 5
+      - uses: actions/upload-artifact@v4
         if: always()
+        with:
+          name: transcricoes-${{ matrix.fatia }}
+          path: novas/*.txt
+          if-no-files-found: ignore
+          retention-days: 2
+
+  # 3) Junta tudo, refaz temas e dados e grava no repositório.
+  gravar:
+    needs: [preparar, transcrever]
+    if: always() && needs.preparar.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: transcricoes-*
+          path: /tmp/novas
+          merge-multiple: true
+      - name: Juntar transcrições novas e refazer os dados
+        run: |
+          mkdir -p transcripts
+          cp -n /tmp/novas/*.txt transcripts/ 2>/dev/null || true
+          python scripts/atualizar.py
+      - name: Guardar novidades no repositório
         run: |
           git config user.name "atualizacao-automatica"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -74,7 +138,6 @@ jobs:
             # O main mudou durante a execução: parte da versão nova, acrescenta
             # só as transcrições que ainda não existem lá e refaz os dados.
             echo "::warning title=Main mudou (tentativa $tentativa)::refazendo sobre a versão nova"
-            mkdir -p /tmp/novas && cp transcripts/*.txt /tmp/novas/ 2>/dev/null || true
             git fetch -q origin main && git reset -q --hard origin/main
             mkdir -p transcripts && cp -n /tmp/novas/*.txt transcripts/ 2>/dev/null || true
             python scripts/atualizar.py

@@ -1,15 +1,14 @@
-"""Transcrição dos episódios a partir do MP3 do feed, com Whisper no Groq.
+"""Transcrição dos episódios a partir do MP3 do feed, com o Whisper.
 
-A chave fica no segredo GROQ_API_KEY do GitHub (nunca no código).
-Para cada episódio pendente:
-  1. baixa o MP3;
-  2. converte para mono 16 kHz e corta em pedaços de 10 minutos (o Groq
-     aceita arquivos pequenos);
-  3. envia cada pedaço ao Groq, usando o título como "dica" para acertar
-     nomes próprios;
-  4. junta o texto em parágrafos com a marcação de tempo [mm:ss] e grava
-     transcripts/<id>.txt.
-Se o limite do Groq for atingido, para e continua na próxima execução.
+Duas fontes, escolhidas em config.yaml (transcricao.fonte):
+  local  (padrão) roda o Whisper (faster-whisper, modelo large-v3-turbo) na
+         própria máquina do GitHub Actions. Grátis para repositório público.
+  groq   envia o áudio ao Groq (chave no segredo GROQ_API_KEY). Mais rápido,
+         mas em 2026-10 cortava palavras acentuadas ("voc" em vez de "você").
+
+Para cada episódio pendente: baixa o MP3, transcreve usando o título como
+"dica" para acertar nomes próprios, junta o texto em parágrafos com a
+marcação de tempo [mm:ss] e grava transcripts/<id>.txt.
 """
 
 import json
@@ -136,16 +135,19 @@ def montar_texto(segmentos, paragrafo_seg=60):
     return "\n\n".join(paragrafos) + "\n"
 
 
-def transcrever_episodio(ep, chave, modelo, idioma):
+def _dica(ep):
     nomes = ", ".join(p["nome"] for p in ep["convidados"] + ep.get("autores", []))
-    dica = f"Podcast Direito Empresarial Café com Leite, com Amanda Athayde. {nomes}. {ep['obra']}"
+    return f"Podcast Direito Empresarial Café com Leite, com Amanda Athayde. {nomes}. {ep['obra']}"
+
+
+def transcrever_episodio_groq(ep, chave, modelo, idioma):
     with tempfile.TemporaryDirectory() as pasta:
         mp3 = Path(pasta) / "episodio.mp3"
         _baixar(ep["mp3"], mp3)
         pedacos = cortar_audio(mp3, pasta)
         segmentos = []
         for i, pedaco in enumerate(pedacos):
-            resposta = transcrever_pedaco(pedaco, chave, modelo, idioma, dica)
+            resposta = transcrever_pedaco(pedaco, chave, modelo, idioma, _dica(ep))
             deslocamento = i * PEDACO_SEG
             if resposta.get("segments"):
                 segmentos += [(deslocamento + s["start"], s["text"]) for s in resposta["segments"]]
@@ -154,27 +156,73 @@ def transcrever_episodio(ep, chave, modelo, idioma):
     return montar_texto(segmentos)
 
 
-def transcrever_pendentes(episodios, pasta_saida, config, limite_seg=5 * 3600):
-    """Transcreve os pendentes (mais novos primeiro). Devolve o relatório."""
-    chave = os.environ.get("GROQ_API_KEY", "").strip()
+def _audio_16k(arquivo):
+    """Decodifica com o ffmpeg para o formato que o Whisper usa."""
+    import numpy as np
+    bruto = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(arquivo), "-f", "f32le",
+                            "-ac", "1", "-ar", "16000", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(bruto, dtype=np.float32)
+
+
+def transcrever_episodio_local(ep, modelo_whisper, idioma):
+    with tempfile.TemporaryDirectory() as pasta:
+        mp3 = Path(pasta) / "episodio.mp3"
+        _baixar(ep["mp3"], mp3)
+        audio = _audio_16k(mp3)
+    segmentos, _ = modelo_whisper.transcribe(
+        audio, language=idioma, beam_size=1, vad_filter=True,
+        initial_prompt=_dica(ep)[:400], condition_on_previous_text=False)
+    return montar_texto([(s.start, s.text) for s in segmentos])
+
+
+def dividir(episodios, partes):
+    """Divide os episódios em 'partes' grupos de duração parecida (sempre do
+    mesmo jeito, para cada máquina saber qual é a sua parte)."""
+    grupos = [[] for _ in range(partes)]
+    cargas = [0] * partes
+    for ep in sorted(episodios, key=lambda e: (-(e.get("duracao_seg") or 0), e["id"])):
+        i = cargas.index(min(cargas))
+        grupos[i].append(ep)
+        cargas[i] += ep.get("duracao_seg") or 0
+    return grupos
+
+
+def pendentes(episodios):
+    return [e for e in episodios if e["transcricao"] == "pendente" and e.get("mp3") and not e.get("oculto")]
+
+
+def transcrever_pendentes(episodios, pasta_saida, config, fatia=0, de=1, limite_seg=5 * 3600):
+    """Transcreve a parte 'fatia' (de 'de' partes) dos pendentes."""
+    fonte = config.get("fonte", "local")
     rel = {"transcritos": [], "falhas": [], "parou_por": None}
-    if config.get("fonte") != "groq":
+    lista = dividir(pendentes(episodios), de)[fatia]
+    if fonte not in ("local", "groq"):
         rel["parou_por"] = "fonte de transcrição desligada no config.yaml"
         return rel
-    if not chave:
-        rel["parou_por"] = "segredo GROQ_API_KEY não encontrado"
+    if not lista:
         return rel
 
+    if fonte == "groq":
+        chave = os.environ.get("GROQ_API_KEY", "").strip()
+        if not chave:
+            rel["parou_por"] = "segredo GROQ_API_KEY não encontrado"
+            return rel
+        lista = lista[: int(config.get("maximo_por_execucao", 60))]
+        modelo = config.get("modelo_groq", "whisper-large-v3-turbo")
+        transcrever = lambda ep: transcrever_episodio_groq(ep, chave, modelo, config.get("idioma", "pt"))  # noqa: E731
+    else:
+        from faster_whisper import WhisperModel
+        modelo = WhisperModel(config.get("modelo_local", "large-v3-turbo"), device="cpu", compute_type="int8")
+        transcrever = lambda ep: transcrever_episodio_local(ep, modelo, config.get("idioma", "pt"))  # noqa: E731
+
     inicio = time.time()
-    pendentes = [e for e in episodios if e["transcricao"] == "pendente" and e.get("mp3") and not e.get("oculto")]
-    for ep in pendentes[: int(config.get("maximo_por_execucao", 20))]:
+    for ep in lista:
         if time.time() - inicio > limite_seg:
-            rel["parou_por"] = "tempo máximo da execução"
+            rel["parou_por"] = "tempo máximo da execução (continua na próxima)"
             break
-        print(f"   transcrevendo {ep['id']}: {ep['titulo'][:70]}")
+        print(f"   transcrevendo {ep['id']}: {ep['titulo'][:70]}", flush=True)
         try:
-            texto = transcrever_episodio(ep, chave, config.get("modelo", "whisper-large-v3-turbo"),
-                                         config.get("idioma", "pt"))
+            texto = transcrever(ep)
         except LimiteAtingido as e:
             rel["parou_por"] = str(e)
             break
