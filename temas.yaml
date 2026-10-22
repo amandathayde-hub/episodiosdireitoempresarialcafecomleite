@@ -1,174 +1,243 @@
-# TEMAS E PALAVRAS-CHAVE (proposta para aprovação)
+# TEMAS E PALAVRAS-CHAVE
 #
 # Como funciona: um episódio recebe um tema quando alguma palavra-chave
-# aparece no TÍTULO ou na DESCRIÇÃO, ou aparece pelo menos
-# "minimo_na_transcricao" vezes na TRANSCRIÇÃO.
+# aparece no TÍTULO ou na DESCRIÇÃO, ou quando as palavras-chave do tema
+# aparecem, somadas, pelo menos "minimo_na_transcricao" vezes na TRANSCRIÇÃO
+# (sem contar a abertura e o encerramento padrão do podcast).
 # Acentos e maiúsculas não importam ("falencia" = "Falência").
-# Um episódio pode ter vários temas. Para corrigir um episódio específico,
-# use "temas:" no overrides.yaml.
+# Um episódio pode ter VÁRIOS temas ao mesmo tempo.
+# Para corrigir um episódio específico, use "temas:" no overrides.yaml.
+#
+# Os temas estão organizados em grupos (aparecem assim no filtro do site).
 
-minimo_na_transcricao: 5
+minimo_na_transcricao: 8
 
-temas:
-  Societário:
-    - direito societário
-    - sociedade anônima
-    - sociedades anônimas
-    - sociedade limitada
-    - S.A.
-    - acionista
-    - acionistas
-    - sócio
-    - sócios
-    - quotas
-    - assembleia
-    - dissolução parcial
-    - apuração de haveres
-    - acordo de acionistas
-    - grupos societários
-    - desconsideração da personalidade jurídica
-    - dividendos
-    - controlador
-    - poder de controle
-    - holding
+grupos:
+  Direito Empresarial:
+    Teoria da empresa e da atividade negocial:
+      - teoria da empresa
+      - atividade negocial
+      - atividade empresária
+      - atividade empresarial
+      - empresário individual
+      - estabelecimento empresarial
+      - estabelecimento comercial
+      - aviamento
+      - nome empresarial
+      - registro de empresas
+      - Junta Comercial
+      - DREI
+      - ato de comércio
+      - atos de comércio
+      - mercancia
+      - lex mercatoria
+      - Código Comercial
+      - direito comercial
+      - liberdade econômica
+      - livre iniciativa
+      - função social da empresa
+      - preservação da empresa
+      - fattispecie
+      - comercialistas
 
-  Recuperação judicial e falência:
-    - recuperação judicial
-    - recuperação extrajudicial
-    - falência
-    - insolvência
-    - Lei 11.101
-    - credores
-    - plano de recuperação
-    - administrador judicial
-    - crise da empresa
+    Societário geral:
+      - direito societário
+      - societário
+      - societária
+      - sócio
+      - sócios
+      - sociedade em comum
+      - sociedade em conta de participação
+      - sociedade simples
+      - cooperativa
+      - cooperativas
+      - grupos societários
+      - grupo societário
+      - desconsideração da personalidade jurídica
+      - personalidade jurídica
+      - dissolução parcial
+      - apuração de haveres
+      - exclusão de sócio
+      - affectio societatis
+      - interesse social
+      - tipos societários
+      - tipologia societária
+      - deliberações sociais
+      - holding
+      - joint venture
+      - joint ventures
 
-  Contratos empresariais:
-    - contrato
-    - contratos
-    - contratual
-    - cláusula
-    - franquia
-    - distribuição
-    - earn-out
-    - boa-fé
-    - onerosidade excessiva
-    - vesting
-    - redes contratuais
+    Sociedades limitadas:
+      - sociedade limitada
+      - sociedades limitadas
+      - limitada
+      - limitadas
+      - Ltda
+      - quotas
+      - cotas sociais
+      - quotista
+      - quotistas
+      - cessão de quotas
+      - sociedade limitada unipessoal
+      - SLU
 
-  Concorrência e antitruste:
-    - concorrência
-    - concorrencial
-    - antitruste
-    - CADE
-    - cartel
-    - atos de concentração
-    - fusões verticais
-    - conglomerais
-    - abuso de posição dominante
-    - não concorrência
-    - private enforcement
+    Sociedades anônimas (S.A.):
+      - sociedade anônima
+      - sociedades anônimas
+      - sociedade por ações
+      - sociedades por ações
+      - S.A.
+      - S/A
+      - Lei 6.404
+      - Lei das S.A.
+      - Lei das Sociedades Anônimas
+      - companhia
+      - companhias
+      - acionista
+      - acionistas
+      - acionista controlador
+      - acordo de acionistas
+      - assembleia geral
+      - dividendos
+      - poder de controle
+      - ações preferenciais
+      - voto plural
+      - debêntures
+      - Sociedade Anônima do Futebol
 
-  Mercado de capitais:
-    - mercado de capitais
-    - CVM
-    - Comissão de Valores Mobiliários
-    - valores mobiliários
-    - companhia aberta
-    - companhias abertas
-    - B3
-    - oferta pública
-    - IPO
-    - tomada de controle
-    - poison pill
+  Outros temas:
+    Recuperação judicial e falência:
+      - recuperação judicial
+      - recuperação extrajudicial
+      - falência
+      - falências
+      - insolvência
+      - Lei 11.101
+      - credores
+      - plano de recuperação
+      - administrador judicial
+      - crise da empresa
+      - ação revocatória
+      - concursal
 
-  Arbitragem e solução de conflitos:
-    - arbitragem
-    - arbitral
-    - mediação
-    - conflitos societários
-    - impasses societários
+    Contratos empresariais:
+      - contrato
+      - contratos
+      - contratual
+      - contratuais
+      - cláusula
+      - franquia
+      - contratos de distribuição
+      - earn-out
+      - boa-fé
+      - onerosidade excessiva
+      - vesting
+      - redes contratuais
 
-  Propriedade intelectual:
-    - propriedade intelectual
-    - propriedade industrial
-    - marca
-    - marcas
-    - patente
-    - patentes
-    - sinais distintivos
-    - ativos intangíveis
-    - direito autoral
+    Concorrência e antitruste:
+      - concorrência
+      - concorrencial
+      - antitruste
+      - CADE
+      - cartel
+      - atos de concentração
+      - fusões verticais
+      - conglomerais
+      - abuso de posição dominante
+      - não concorrência
+      - private enforcement
 
-  Títulos de crédito:
-    - títulos de crédito
-    - título de crédito
-    - duplicata
-    - cheque
-    - nota promissória
-    - letra de câmbio
-    - cédula de crédito
+    Mercado de capitais:
+      - mercado de capitais
+      - CVM
+      - Comissão de Valores Mobiliários
+      - valores mobiliários
+      - companhia aberta
+      - companhias abertas
+      - B3
+      - oferta pública
+      - IPO
+      - tomada de controle
+      - poison pill
 
-  Governança corporativa:
-    - governança
-    - conselho de administração
-    - administradores
-    - deveres fiduciários
-    - dever de diligência
-    - business judgment rule
-    - conflito de interesses
-    - compliance
-    - ESG
-    - diversidade
+    Arbitragem e solução de conflitos:
+      - arbitragem
+      - arbitral
+      - mediação
+      - conflitos societários
+      - impasses societários
 
-  Fundos de investimento:
-    - fundos de investimento
-    - fundo de investimento
-    - gestores de fundos
-    - cotistas
-    - FII
-    - FIDC
+    Propriedade intelectual:
+      - propriedade intelectual
+      - propriedade industrial
+      - marca
+      - marcas
+      - patente
+      - patentes
+      - sinais distintivos
+      - ativos intangíveis
+      - direito autoral
 
-  # --- Temas extras sugeridos (aprove ou apague) ---
-  Acordos sancionadores e leniência:
-    - acordo de leniência
-    - acordos de leniência
-    - leniência
-    - acordos sancionadores
-    - termo de compromisso
-    - TCC
-    - anticorrupção
-    - SecexConsenso
+    Títulos de crédito:
+      - títulos de crédito
+      - título de crédito
+      - duplicata
+      - cheque
+      - nota promissória
+      - letra de câmbio
+      - cédula de crédito
 
-  Defesa comercial e comércio internacional:
-    - defesa comercial
-    - antidumping
-    - medidas compensatórias
-    - interesse público
-    - comércio internacional
+    Governança corporativa:
+      - governança
+      - conselho de administração
+      - administradores
+      - deveres fiduciários
+      - dever de diligência
+      - business judgment rule
+      - conflito de interesses
+      - compliance
+      - ESG
+      - diversidade
 
-  Teoria geral e história do direito comercial:
-    - direito comercial
-    - teoria da empresa
-    - empresário
-    - lex mercatoria
-    - Código Comercial
-    - ato de comércio
-    - estabelecimento empresarial
-    - história
+    Fundos de investimento:
+      - fundos de investimento
+      - fundo de investimento
+      - gestores de fundos
+      - cotistas
+      - FII
+      - FIDC
 
-  Startups, tecnologia e inovação:
-    - startup
-    - startups
-    - Marco Legal das Startups
-    - tecnologia
-    - inovação
-    - inteligência artificial
-    - blockchain
-    - criptoativos
+    Acordos sancionadores e leniência:
+      - acordo de leniência
+      - acordos de leniência
+      - leniência
+      - acordos sancionadores
+      - acordo sancionador
+      - termo de compromisso
+      - TCC
+      - anticorrupção
+      - SecexConsenso
+      - consensualidade
 
-  Direito do futebol e esporte:
-    - futebol
-    - SAF
-    - Sociedade Anônima do Futebol
-    - esporte
+    Defesa comercial e comércio internacional:
+      - defesa comercial
+      - antidumping
+      - medidas compensatórias
+      - interesse público
+      - comércio internacional
+
+    Startups, tecnologia e inovação:
+      - startup
+      - startups
+      - Marco Legal das Startups
+      - tecnologia
+      - inovação
+      - inteligência artificial
+      - blockchain
+      - criptoativos
+
+    Direito do futebol e esporte:
+      - futebol
+      - SAF
+      - Sociedade Anônima do Futebol
+      - esporte

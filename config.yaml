@@ -12,7 +12,7 @@ site:
 transcricao:
   # groq = transcreve o MP3 do feed com Whisper no Groq (precisa do segredo GROQ_API_KEY)
   # nenhuma = não transcreve; episódios novos ficam como "transcrição pendente"
-  fonte: groq
+  fonte: nenhuma   # PAUSADO: investigando palavras acentuadas cortadas
   modelo: whisper-large-v3-turbo
   idioma: pt
   # Quantos episódios transcrever por execução (a carga inicial vai em lotes).

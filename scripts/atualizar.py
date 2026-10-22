@@ -16,6 +16,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 
 import rss  # noqa: E402
+import temas  # noqa: E402
 import transcricao  # noqa: E402
 import youtube  # noqa: E402
 from titulos import chave_pessoa, pessoa_natural, sem_acentos  # noqa: E402
@@ -194,6 +195,9 @@ def main():
         gravar_json(RELATORIOS / "transcricao.json", rel_tr)
         print(f"   {len(rel_tr['transcritos'])} transcritos, {len(rel_tr['falhas'])} falhas."
               + (f" Parou: {rel_tr['parou_por']}" if rel_tr["parou_por"] else ""))
+
+    lista_temas = temas.aplicar(episodios, TRANSCRICOES, carregar_yaml("temas.yaml"))
+    gravar_json(DADOS / "temas.json", lista_temas)
 
     ids = [e["id"] for e in episodios]
     repetidos = sorted({i for i in ids if ids.count(i) > 1})
