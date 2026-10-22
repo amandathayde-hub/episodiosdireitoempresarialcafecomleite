@@ -36,7 +36,7 @@ def chamar(arquivo, chave, modelo, formato, dica):
 
 def main():
     ep_id = sys.argv[1]
-    chave = os.environ["GROQ_API_KEY"]
+    chave = os.environ["GROQ_API_KEY"].strip()
     ep = next(e for e in json.loads(Path("data/episodes.json").read_text(encoding="utf-8")) if e["id"] == ep_id)
     dica = f"Podcast Direito Empresarial Café com Leite, com Amanda Athayde. {ep['obra']}"[:400]
     with tempfile.TemporaryDirectory() as pasta:

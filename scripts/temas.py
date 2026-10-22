@@ -9,28 +9,45 @@ def _normalizar(texto):
     return " " + re.sub(r"\s+", " ", sem_acentos(texto or "").lower()) + " "
 
 
-def trecho_da_conversa(transcricao):
-    """Tira a abertura e o encerramento padrão do podcast, que se repetem em
-    todos os episódios e atrapalhariam a busca e os temas.
-    Devolve (inicio, fim) em caracteres; se não reconhecer, devolve tudo."""
+def _inicio_da_frase(texto, pos):
+    """Recua até o começo da frase (ou até depois da marcação [mm:ss])."""
+    corte = max(texto.rfind(". ", 0, pos), texto.rfind("? ", 0, pos), texto.rfind("] ", 0, pos))
+    return corte + 2 if corte != -1 and pos - corte < 60 else pos
+
+
+def trechos_padrao(transcricao):
+    """Trechos que se repetem em todos os episódios e não devem contar para a
+    busca nem para os temas: abertura, anúncio do meio e encerramento.
+    Devolve uma lista de (inicio, fim) em caracteres."""
     if not transcricao:
-        return 0, 0
+        return []
+    # sem_acentos preserva o tamanho do texto, então as posições batem.
     texto = sem_acentos(transcricao).lower()
     n = len(texto)
-    inicio, fim = 0, n
-    abertura = [m.start() for m in re.finditer(r"(a nossa )?xicara de cafe com leite de direito empresarial de hoje", texto)]
-    if abertura and abertura[0] < n * 0.2:
-        inicio = abertura[0]
-        # Volta até o começo da frase, preservando a marcação [mm:ss].
-        ponto = max(texto.rfind(". ", 0, inicio), texto.rfind("] ", 0, inicio))
-        if ponto != -1 and inicio - ponto < 40:
-            inicio = ponto + 2
+    trechos = []
+    m = re.search(r"xicara de cafe com leite de direito empresarial de hoje", texto)
+    if m and m.start() < n * 0.2:
+        trechos.append((0, _inicio_da_frase(texto, m.start())))
+    for m in re.finditer(r"segura so um pouquinho que eu (ja )?volto", texto):
+        volta = re.compile(r"vamos voltar (para|pra) (a )?nossa conversa[^.?!]*[.?!]")
+        fim = volta.search(texto, m.end(), m.end() + 2500)
+        if fim:
+            trechos.append((_inicio_da_frase(texto, m.start()), fim.end()))
     for m in re.finditer(r"xicara de cafe com leite (foi|ja foi|esta) devidamente tomada", texto):
         if m.start() > n * 0.7:
-            frase = max(texto.rfind(". ", 0, m.start()), texto.rfind("] ", 0, m.start()))
-            fim = frase + 2 if frase != -1 else m.start()
+            trechos.append((_inicio_da_frase(texto, m.start()), n))
             break
-    return inicio, fim
+    return trechos
+
+
+def texto_da_conversa(transcricao):
+    """A transcrição sem os trechos padrão."""
+    partes, pos = [], 0
+    for inicio, fim in sorted(trechos_padrao(transcricao)):
+        partes.append(transcricao[pos:inicio])
+        pos = max(pos, fim)
+    partes.append(transcricao[pos:])
+    return " ".join(partes)
 
 
 def carregar(config_temas):
@@ -47,8 +64,7 @@ def carregar(config_temas):
 
 def classificar(ep, transcricao, regras, minimo):
     metadados = _normalizar(" ".join([ep["titulo"], ep.get("obra", ""), ep.get("descricao", "")]))
-    inicio, fim = trecho_da_conversa(transcricao)
-    conversa = _normalizar(transcricao[inicio:fim]) if transcricao else ""
+    conversa = _normalizar(texto_da_conversa(transcricao)) if transcricao else ""
     temas = []
     for r in regras:
         if any(p.search(metadados) for p in r["padroes"]):
