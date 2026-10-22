@@ -1,10 +1,6 @@
 {
  "sem_video": [
   {
-   "id": "328",
-   "titulo": "#328: GUTINIEKI, João Otávio Bacchi. A tutela do Direito da Concorrência no Poder Judiciário: o private enforcement do antitruste no Brasil. Londrina: Thoth, 2025."
-  },
-  {
    "id": "327",
    "titulo": "#327: MENDONÇA, Saulo Bichara; MACIEL, Alvaro dos Santos. Transformações da ordem econômica e a recuperação judicial às instituições não empresárias no Brasil:"
   },
@@ -252,6 +248,13 @@
   }
  ],
  "por_semelhanca": [
+  {
+   "id": "extra-2026-06-02",
+   "video": "LNIc7_VK4gU",
+   "titulo_video": "#300: TRATADO DE DIREITO DOS ACORDOS SANCIONADORES NO BRASIL - Teoria geral, acordos em espécie...",
+   "semelhanca": 0.96,
+   "numero_adotado": 300
+  },
   {
    "id": "extra-2026-04-14",
    "video": "mxa6dZrlukY",
