@@ -7,11 +7,10 @@ playlist_youtube: https://www.youtube.com/playlist?list=PLW-zVBq6n2zkv-lylH2GNdU
 site:
   titulo: Busca de episódios – Direito Empresarial Café com Leite
   nome_podcast: Direito Empresarial Café com Leite
-  # Endereço público do site. Enquanto o domínio próprio não estiver pronto,
-  # é o endereço do GitHub Pages. Depois: https://episodios.direitoempresarialcafecomleite.com
-  url: https://amandathayde-hub.github.io/episodiosdireitoempresarialcafecomleite
-  # Domínio próprio (deixe vazio até configurar o DNS; ver CHECKLIST.md).
-  dominio: ""
+  # Endereço público do site (domínio próprio configurado no GitHub Pages
+  # e no DNS da Hostinger; ver CHECKLIST.md).
+  url: https://episodios.direitoempresarialcafecomleite.com
+  dominio: episodios.direitoempresarialcafecomleite.com
   site_principal: https://podcast.direitoempresarialcafecomleite.com/
   spotify_programa: https://open.spotify.com/show/3rgLXFIScTgCGHqidktCG1
   youtube_canal: https://www.youtube.com/@AmandaAthayde/videos
