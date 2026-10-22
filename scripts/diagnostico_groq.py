@@ -43,28 +43,23 @@ def main():
         mp3 = Path(pasta) / "ep.mp3"
         t._baixar(ep["mp3"], mp3)
         pedaco = t.cortar_audio(mp3, pasta)[1]
-        testes = [
-            ("whisper-large-v3-turbo", "verbose_json", dica),
-            ("whisper-large-v3-turbo", "verbose_json", ""),
-            ("whisper-large-v3-turbo", "json", dica),
-            ("whisper-large-v3-turbo", "text", dica),
-            ("whisper-large-v3", "verbose_json", dica),
-            ("whisper-large-v3", "json", dica),
-        ]
-        for modelo, formato, d in testes:
-            try:
-                r = chamar(pedaco, chave, modelo, formato, d)
-            except Exception as e:  # noqa: BLE001
-                print(f"::warning title={modelo} {formato}::erro {str(e)[:300]}")
-                continue
-            if isinstance(r, str):
-                resultado = f"text: {taxa(r)}"
-            else:
-                resultado = f"campo text: {taxa(r.get('text', ''))}"
-                if r.get("segments"):
-                    resultado += f" | segmentos: {taxa(' '.join(s['text'] for s in r['segments']))}"
-            amostra = (r if isinstance(r, str) else r.get("text", ""))[:200].replace("\n", " ")
-            print(f"::notice title={modelo} {formato} {'com dica' if d else 'sem dica'}::{resultado} || {amostra}")
+        r = chamar(pedaco, chave, "whisper-large-v3-turbo", "verbose_json", "")
+        texto_groq = r.get("text", "")
+        exemplos = [texto_groq[max(0, m.start() - 50):m.end() + 30] for m in CORTADAS.finditer(texto_groq)][:4]
+        print(f"::notice title=Groq turbo sem dica::{taxa(texto_groq)} || exemplos: {' ### '.join(exemplos)}")
+
+        import time
+        from faster_whisper import WhisperModel
+        for nome in ("large-v3-turbo", "small"):
+            inicio = time.time()
+            modelo = WhisperModel(nome, device="cpu", compute_type="int8")
+            carregado = time.time()
+            segs, _ = modelo.transcribe(str(pedaco), language="pt", beam_size=1, vad_filter=True)
+            texto = " ".join(s.text for s in segs)
+            fim = time.time()
+            exemplos = [texto[max(0, m.start() - 50):m.end() + 30] for m in CORTADAS.finditer(texto)][:3]
+            print(f"::notice title=faster-whisper {nome}::{taxa(texto)}; carregar {carregado - inicio:.0f}s, "
+                  f"transcrever 10 min de áudio em {fim - carregado:.0f}s || {texto[:200]} || exemplos: {' ### '.join(exemplos)}")
 
 
 if __name__ == "__main__":
