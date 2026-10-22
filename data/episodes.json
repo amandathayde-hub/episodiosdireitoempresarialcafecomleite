@@ -14,6 +14,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A tutela do Direito da Concorrência no Poder Judiciário: o private enforcement do antitruste no Brasil. Londrina: Thoth, 2025.",
   "ano_obra": 2025,
@@ -50,6 +51,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Transformações da ordem econômica e a recuperação judicial às instituições não empresárias no Brasil.",
   "ano_obra": null,
@@ -76,6 +78,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Igualdade de tratamento no direito societário, SP: Quartier Latin, 2026.",
   "ano_obra": 2026,
@@ -103,6 +106,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Os Gestores de Fundos de Investimento e a Regra da Decisão Negocial no Brasil (Business Judgment Rule).",
   "ano_obra": null,
@@ -130,6 +134,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Reparação de danos a interesses transindividuais à vista da recuperação judicial do agente causador.",
   "ano_obra": null,
@@ -157,6 +162,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Recuperação de empresa e falência: Análise jurídica e econômica dos regimes da crise e insolvência empresarial. São Paulo: Quartier Latin, 2025.",
   "ano_obra": 2025,
@@ -183,6 +189,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Aula Ao Vivo - Fusões verticais e conglomerais.",
   "ano_obra": null,
@@ -209,6 +216,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A tutela processual do acesso à informação pelo sócio: uma análise a partir do julgamento do processo 3829/11.0TBVCT.G1.S1 do Supremo Tribunal de Justiça português.",
   "ano_obra": null,
@@ -237,6 +245,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "LEV, Baruch; GU, Feng. The M&A Failure Trap: Why Most Mergers and Acquisitions Fail and How the Few Succeed. Editora: Wiley Finance, 1a ed. 2024.",
   "ano_obra": 2024,
@@ -263,6 +272,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A não concorrência dos administradores das S.A 1ª Edição. Editora Fórum: São Paulo. 2025.",
   "ano_obra": 2025,
@@ -289,6 +299,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "M&A: Regime Societário e Contratual. Quartier Latin: São Paulo. 2024.",
   "ano_obra": 2024,
@@ -315,6 +326,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Extensão da Cláusula Compromissória em Contextos de Contratos Coligados. Editora Fórum. 1ª Edição. 2026.",
   "ano_obra": 2026,
@@ -341,6 +353,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O CNJ e a tentativa tardia de harmonização dos procedimentos de insolvência. Ivanildo Figueiredo comenta sobre a uniformização dos processos de recuperação judicial.",
   "ano_obra": null,
@@ -367,6 +380,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Aula Ao Vivo - Cláusulas de não concorrência em contratos empresariais e em contratos de trabalho.",
   "ano_obra": null,
@@ -403,6 +417,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Fundamentos do ECA Digital. Lílian Cintra de Melo comenta sobre a proteção de crianças e adolescentes no ambiente digital.",
   "ano_obra": null,
@@ -429,6 +444,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito do mercado de valores mobiliários. 1. ed. São Paulo: Rio de Janeiro, 2026. v. 1. 816 p.",
   "ano_obra": 2026,
@@ -453,10 +469,12 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A primeira lei. Editora WMF Martins Fontes: São Paulo, 1ª edição, 2026.",
   "ano_obra": 2026,
@@ -484,6 +502,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Transparência de informações nas farmacêuticas transnacionais: o estudo de caso da Novartis.",
   "ano_obra": null,
@@ -511,6 +530,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A ação derivada de responsabilidade contra o controlador: a instrumentalidade do processo e a tutela jurisdicional plena do patrimônio social da companhia. 2025.",
   "ano_obra": 2025,
@@ -538,6 +558,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A advocacia como empresa: novas tecnologias, perspectivas e desafios. São Paulo: Expert Editora, 2021.",
   "ano_obra": 2021,
@@ -556,15 +577,18 @@
   "titulo": "#310: LIMA JUNIOR, João Manoel; e SILVA, Priscilla. Vozes do Direito Empresarial. Belo Horizonte, MG: Editora Expert, 2025",
   "convidados": [
    {
-    "nome": "João Manoel Lima Júnior",
-    "sobrenome": "Lima Júnior",
-    "citacao": "LIMA JUNIOR, João Manoel",
+    "nome": "João Manoel de Lima Junior",
+    "sobrenome": "Lima Junior",
+    "citacao": "LIMA JUNIOR, João Manoel de",
     "variantes": [
-     "João Júnior",
-     "LIMA JUNIOR, João Manoel"
+     "João Junior",
+     "João Manoel Lima Júnior",
+     "LIMA JUNIOR, João Manoel",
+     "LIMA JUNIOR, João Manoel de"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "e SILVA, Priscilla. Vozes do Direito Empresarial. Belo Horizonte, MG: Editora Expert, 2025.",
   "ano_obra": 2025,
@@ -591,6 +615,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Aula Ao Vivo - Antitruste no Esporte: Como o direito concorrencial impacta o mercado?",
   "ano_obra": null,
@@ -617,6 +642,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contrato de sociedade e formas societárias. 1ª edição. Saraiva:São Paulo. 1989.",
   "ano_obra": 1989,
@@ -643,6 +669,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Encerramento da décima primeira temporada.",
   "ano_obra": null,
@@ -670,6 +697,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Reforma da Lei da SAF”, publicada em junho de 2026 no Migalhas.",
   "ano_obra": 2026,
@@ -688,14 +716,18 @@
   "titulo": "#307: CARMAGNANI, Júlia. Regime Jurídico do Usufruto Sobre Ações de Sociedade Anônima. Dissertação de Mestrado do Programa de Pós-Graduação em Direito,",
   "convidados": [
    {
-    "nome": "Júlia Carmagnani",
+    "nome": "Julia Lima Carmagnani",
     "sobrenome": "Carmagnani",
-    "citacao": "CARMAGNANI, Júlia",
+    "citacao": "CARMAGNANI, Julia Lima",
     "variantes": [
-     "CARMAGNANI, Júlia"
+     "CARMAGNANI, Julia Lima",
+     "CARMAGNANI, Júlia",
+     "Julia Carmagnani",
+     "Júlia Carmagnani"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Regime Jurídico do Usufruto Sobre Ações de Sociedade Anônima. Dissertação de Mestrado do Programa de Pós-Graduação em Direito,.",
   "ano_obra": null,
@@ -723,6 +755,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sociedades limitadas: Das antigas \"por quotas\" à governança societária. Migalhas.",
   "ano_obra": null,
@@ -749,6 +782,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A tokenização do crédito: dos mercadores de Veneza ao blockchain. A teoria geral dos títulos de crédito à luz desta nova tecnologia. Tese de Doutorado.",
   "ano_obra": null,
@@ -775,6 +809,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Responsabilidade do Controlador por Atos Ilícitos da Sociedade Controlada. 1. ed. Rio de Janeiro: Almedina Brasil, 2025.",
   "ano_obra": 2025,
@@ -801,6 +836,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Danos no Mercado de Capitais - A Quantificação do Prejuízo por Falhas Informacionais.",
   "ano_obra": null,
@@ -828,6 +864,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Eu me sinto um condomínio! Fundos de Investimento e Personalidade Jurídica. João Accioly comenta sobre os Fundos de Investimento.",
   "ano_obra": null,
@@ -855,6 +892,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Os conflitos societários nas companhias fechadas: as hipóteses de dissolução parcial. 1. ed. Belo Horizonte: Fórum, 2025.",
   "ano_obra": 2025,
@@ -869,8 +907,8 @@
  },
  {
   "guid": "3f7a1e5d-a0d0-457f-b243-dbf7022f173f",
-  "numero": null,
-  "titulo": "TRATADO DE DIREITO DOS ACORDOS SANCIONADORES NO BRASIL - Teoria geral, acordos em espécie e guia prático de negociação. São Paulo: Marcial Pons, 2026.",
+  "numero": 300,
+  "titulo": "#300: TRATADO DE DIREITO DOS ACORDOS SANCIONADORES NO BRASIL - Teoria geral, acordos em espécie e guia prático de negociação. São Paulo: Marcial Pons, 2026.",
   "convidados": [
    {
     "nome": "Amanda Athayde",
@@ -881,15 +919,16 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "TRATADO DE DIREITO DOS ACORDOS SANCIONADORES NO BRASIL - Teoria geral, acordos em espécie e guia prático de negociação. São Paulo: Marcial Pons, 2026.",
   "ano_obra": 2026,
   "data": "2026-06-02",
   "duracao_seg": 2744,
   "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje chega em clima de celebração: episódio especial 300! Para marcar a ocasião, recebemos Amanda Athayde, que nos conduz por uma conversa instigante a partir da obra \"Tratado de Direito dos Acordos Sancionadores no Brasil - Teoria geral, acordos em espécie e guia prático de negociação\", publicada pela editora Marcial Pons em 2026. Um encontro repleto de reflexões essenciais para compreender, na prática e na teoria, os caminhos dessa importante área do Direito.",
-  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/TRATADO-DE-DIREITO-DOS-ACORDOS-SANCIONADORES-NO-BRASIL---Teoria-geral--acordos-em-espcie-e-guia-prtico-de-negociao--So-Paulo-Marcial-Pons--2026-e3k6erc",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/300-TRATADO-DE-DIREITO-DOS-ACORDOS-SANCIONADORES-NO-BRASIL---Teoria-geral--acordos-em-espcie-e-guia-prtico-de-negociao--So-Paulo-Marcial-Pons--2026-e3k6erc",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120846636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-1%2F425295244-44100-2-6d4c167fa92b3.mp3",
-  "id": "extra-2026-06-02",
+  "id": "300",
   "youtube": "LNIc7_VK4gU",
   "transcricao": "pendente"
  },
@@ -908,6 +947,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Dos bons costumes no Direito Privado. São Paulo: Thoth Editora, 2024.",
   "ano_obra": 2024,
@@ -944,6 +984,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A tributação do deságio no plano de recuperação judicial.",
   "ano_obra": null,
@@ -971,6 +1012,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "e SCHUTT, Júlia. Intervenção Judicial nas Sociedades Empresárias: Fundamentos, modalidades e aplicações.",
   "ano_obra": null,
@@ -986,7 +1028,7 @@
  {
   "guid": "3b7aa391-0574-48bf-a251-ef506693ef9c",
   "numero": 296,
-  "titulo": "#296: EPXX: SALTON, Rodrigo. O dever de informar na fase pré-contratual e as operações de M&A.",
+  "titulo": "#296: SALTON, Rodrigo. O dever de informar na fase pré-contratual e as operações de M&A.",
   "convidados": [
    {
     "nome": "Rodrigo Salton",
@@ -997,13 +1039,14 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O dever de informar na fase pré-contratual e as operações de M&A.",
   "ano_obra": null,
   "data": "2026-05-19",
   "duracao_seg": 3571,
   "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da obra O dever de informar na fase pré-contratual e as operações de M&A;, de Rodrigo Salton, e para isso teremos a alegria de contar com a participação do próprio autor para comentá-la.",
-  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/296-EPXX-SALTON--Rodrigo--O-dever-de-informar-na-fase-pr-contratual-e-as-operaes-de-MA-e3jhm52",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/296-SALTON--Rodrigo--O-dever-de-informar-na-fase-pr-contratual-e-as-operaes-de-MA-e3jhm52",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120165986/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424388103-44100-2-e51f4176bb451.mp3",
   "id": "296",
   "youtube": "p8Aeld3uDKg",
@@ -1023,6 +1066,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Corporate law, governance, and sustainability: The public turn in the global socioecological transition. Tese de Doutorado em Direito da Universidade de São Paulo. 2024.",
   "ano_obra": 2024,
@@ -1050,6 +1094,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contrato de Mútuo Conversível em ParticipaçãoSocietária.",
   "ano_obra": null,
@@ -1077,6 +1122,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Negócios da Companhia com Ações de sua Emissão. 2014. 327 p. Dissertação (Mestrado em Direito Comercial), Faculdade de Direito da Universidade de São Paulo, São Paulo, 2014.",
   "ano_obra": 2014,
@@ -1104,6 +1150,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O regime jurídico do capital social na recuperação judicial.",
   "ano_obra": null,
@@ -1139,6 +1186,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O que dizem os acordos e os não acordos na SecexConsenso do TCU? Série de 10 artigos com análise quantitativa e qualitativa dos casos (2022-2025).",
   "ano_obra": 2025,
@@ -1167,6 +1215,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "As reservas das sociedades anônimas: entre liberdade e controle. Dissertação de Mestrado. Faculdade de Direito. Universidade de São Paulo, 2025.",
   "ano_obra": 2025,
@@ -1194,6 +1243,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "e ARMANI, Wagner. Representação Comercial. São Paulo: Editora Foco. 2025.",
   "ano_obra": 2025,
@@ -1221,6 +1271,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos de M&A: limitações à tutela do comprador e a cláusula de remédio exclusivo. São Paulo: Quartier Latin, 2025.",
   "ano_obra": 2025,
@@ -1247,6 +1298,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A cláusula resolutiva expressa ipso facto e a crise da empresa: parâmetros para exame da legitimidade da resolução do contrato em caso de insolvência do contratante.",
   "ano_obra": null,
@@ -1273,6 +1325,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Gaban, Eduardo Molan. Direito Antitruste. 5. ed. SãoPaulo: Saraiva, 2024.",
   "ano_obra": 2024,
@@ -1300,6 +1353,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "correcao",
   "obra": "MARTINS. Guilherme V. Sociedade Limitada Unipessoal. Editora Quarter Latin - 20anos. Janeiro de 2024.",
   "ano_obra": 2024,
@@ -1327,6 +1381,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O direito de fiscalização dos acionistas minoritários de sociedades integrantes de grupos de fato no direito brasileiro. São Paulo, 2025.",
   "ano_obra": 2025,
@@ -1354,6 +1409,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Impactos da Reforma da Lei de Falências e Recuperação de Empresas e Risco de Crédito. Editora Allez-Y. Prêmio RMF de 2024.",
   "ano_obra": 2024,
@@ -1381,6 +1437,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Prescrição da pretensão indenizatória contra administrador e controlador de sociedade anônima à luz dos arts. 287 e 288 da LSA. Dissertação de Mestrado (USP).",
   "ano_obra": null,
@@ -1408,6 +1465,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Coase, big techs e o sonho de Lênin - Economia digital, ao mesmo tempo pulverizada e concentrada, coloca em xeque paradigmas normativos herdados da era industrial.",
   "ano_obra": null,
@@ -1435,6 +1493,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Resolução dos Contratos de Colaboração Empresarial.",
   "ano_obra": null,
@@ -1463,6 +1522,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Lei de Recuperação e Falência: Lei 11.101/2005 - Comentada por artigo. 16ª edição. Manoel Justino comenta sobre a Lei de recuperação e falência.",
   "ano_obra": 2005,
@@ -1489,6 +1549,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "P. G. Abuso do poder de controle nas sociedades anônimas: caracterização e meios de repressão. 1. ed. São Paulo: Editora Quartier Latin do Brasil, 2025, v.1. 259p.",
   "ano_obra": 2025,
@@ -1511,12 +1572,15 @@
     "sobrenome": "Nascimento",
     "citacao": "NASCIMENTO, João Pedro",
     "variantes": [
+     "J. P. B. Nascimento",
      "João Nascimento",
+     "NASCIMENTO, J. P. B.",
      "NASCIMENTO, João",
      "NASCIMENTO, João Pedro"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "P.B. “Governança Corporativa à Brasileira”. Temas de Direito Empresarial.",
   "ano_obra": null,
@@ -1543,6 +1607,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Encerramento da 10ª temporada.",
   "ano_obra": null,
@@ -1587,6 +1652,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Cláusulas de Earn-Out e Não Concorrência.",
   "ano_obra": null,
@@ -1615,6 +1681,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Liquidação de Sociedade Anônima: comentários aos artigos 208 a 219.",
   "ano_obra": null,
@@ -1642,6 +1709,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Execução diferida em contratos de fusões e aquisiçõe.",
   "ano_obra": null,
@@ -1670,6 +1738,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Armadilha processual ou instrumento de pacificação?",
   "ano_obra": null,
@@ -1696,6 +1765,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Interpretação Dos Contratos: O Silêncio No Ambiente Negocial. São Paulo: Editora Forense, Ed. 1, 2025.",
   "ano_obra": 2025,
@@ -1722,6 +1792,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Curso de Contencioso Societário Aplicado.",
   "ano_obra": null,
@@ -1750,6 +1821,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Desnecessidade de alteração da LSA para adoção do pronunciamento correspondente ao IFRS 18. Opinião, Consultor Jurídico.",
   "ano_obra": null,
@@ -1779,6 +1851,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Lex monopolia: Ascensão e decadência. 1. ed. Marcial Pons, 2025.",
   "ano_obra": 2025,
@@ -1801,12 +1874,15 @@
     "sobrenome": "Nascimento",
     "citacao": "NASCIMENTO, João Pedro",
     "variantes": [
+     "J. P. B. Nascimento",
      "João Nascimento",
+     "NASCIMENTO, J. P. B.",
      "NASCIMENTO, João",
      "NASCIMENTO, João Pedro"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Simplificação e inovação: regime FÁCIL abre portas para empresas de menor porte no mercado de capitais.",
   "ano_obra": null,
@@ -1825,20 +1901,21 @@
   "titulo": "#266: Lesão e a Onerosidade Excessiva nos Contratos Empresariais: Limites e Aplicações Práticas",
   "convidados": [
    {
-    "nome": "Amanda Athayde",
-    "sobrenome": "Athayde",
-    "citacao": "ATHAYDE, Amanda",
+    "nome": "Bertrand Wanderer",
+    "sobrenome": "Wanderer",
+    "citacao": "WANDERER, Bertrand",
     "variantes": [
-     "ATHAYDE, Amanda"
+     "WANDERER, Bertrand"
     ]
    }
   ],
-  "origem_convidado": "apresentadora",
+  "autores": [],
+  "origem_convidado": "correcao",
   "obra": "Lesão e a Onerosidade Excessiva nos Contratos Empresariais: Limites e Aplicações Práticas.",
   "ano_obra": null,
   "data": "2025-10-23",
   "duracao_seg": 1715,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo “Lesão e Onerosidade Excessiva nos Contratos Empresariais”, de Bertrand Wanderer, publicado na Série Instituto Brasiliense de Direito Público (IDP), pela Editora Saraiva.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo “Lesão e Onerosidade Excessiva nos Contratos Empresariais”, de Bertrand Wanderer, publicado na Série Instituto Brasiliense de Direito Público (IDP), pela Editora Saraiva.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/266-Leso-e-a-Onerosidade-Excessiva-nos-Contratos-Empresariais-Limites-e-Aplicaes-Prticas-e39t8td",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110059885/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-22%2F409768472-44100-2-b1ec0b567b347.mp3",
   "id": "266",
@@ -1861,12 +1938,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Onde o céu é mais azul: a preferência das companhias aéreas pelo Chapter 11.",
   "ano_obra": null,
   "data": "2025-10-21",
   "duracao_seg": 2708,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo “Onde o céu é mais azul: a preferência das companhias aéreas pelo Chapter 11 e outras considerações de direito comparado” da Nicole Raca Bromberg, que será publicado em obra de comemoração aos 20 anos da lei de recuperação judicial e falências, sob a coordenação da professora Sheila Neder Cerezetti, Emanuelle Urbano Maffioletti, e Gustavo Lacerda Franco.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo “Onde o céu é mais azul: a preferência das companhias aéreas pelo Chapter 11 e outras considerações de direito comparado” da Nicole Raca Bromberg, que será publicado em obra de comemoração aos 20 anos da lei de recuperação judicial e falências, sob a coordenação da professora Sheila Neder Cerezetti, Emanuelle Urbano Maffioletti, e Gustavo Lacerda Franco.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/265-Nicole-Bromberg--Onde-o-cu--mais-azul-a-preferncia-das-companhias-areas-pelo-Chapter-11-e39q2ri",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109955378/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-20%2F409629534-44100-2-fea2d431780c3.mp3",
   "id": "265",
@@ -1887,12 +1965,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A inconstitucionalidade da vedação à formação de sociedade marital.",
   "ano_obra": null,
   "data": "2025-10-16",
   "duracao_seg": 1522,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da inconstitucionalidade da vedação à formação de sociedade marital pelo Código Civil brasileiro” em Revista de Direito Empresarial. No 12. Jul./dez. Curitiba: Juruá, 2009. Glicério comenta sobre sociedades empresariais maritais.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da inconstitucionalidade da vedação à formação de sociedade marital pelo Código Civil brasileiro” em Revista de Direito Empresarial. No 12. Jul./dez. Curitiba: Juruá, 2009. Glicério comenta sobre sociedades empresariais maritais.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/264-GLICRIO--Joo---A-inconstitucionalidade-da-vedao--formao-de-sociedade-marital-e39irqt",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109718813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-15%2F409322532-44100-2-b6794e6532e0c.mp3",
   "id": "264",
@@ -1913,12 +1992,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "contrato de vesting no contexto brasileiro.",
   "ano_obra": null,
   "data": "2025-10-14",
   "duracao_seg": 1744,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro da professora Amanda Ramalho, intitulado “O contrato de vesting – Livre iniciativa e relações sociais”. E para isso teremos a alegria de contar com a participação da própria professora Amanda, para comentá-la. Amanda Ramalho é advogada, professora, mestre em Direito pela Universidade da Amazônia e doutoranda em Direito Comercial pela PUC de São Paulo. Sócia-fundadora do escritório AMR Advogados. Com uma pesquisa voltada para contratos atípicos e inovação, Amanda se dedica a entender como o Direito pode, de fato, acompanhar a realidade dos empreendedores e favorecer o desenvolvimento de novos negócios no Brasil.\n\nProfa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro da professora Amanda Ramalho, intitulado “O contrato de vesting – Livre iniciativa e relações sociais”. E para isso teremos a alegria de contar com a participação da própria professora Amanda, para comentá-la. Amanda Ramalho é advogada, professora, mestre em Direito pela Universidade da Amazônia e doutoranda em Direito Comercial pela PUC de São Paulo. Sócia-fundadora do escritório AMR Advogados. Com uma pesquisa voltada para contratos atípicos e inovação, Amanda se dedica a entender como o Direito pode, de fato, acompanhar a realidade dos empreendedores e favorecer o desenvolvimento de novos negócios no Brasil.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/263-Amanda-Ramalho--comenta-sobre-contrato-de-vesting-no-contexto-brasileiro-e39felv",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109607039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-13%2F409198673-44100-2-32aa3963001c4.mp3",
   "id": "263",
@@ -1948,12 +2028,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Os desafios das arbitragens societárias complexas.",
   "ano_obra": null,
   "data": "2025-10-09",
   "duracao_seg": 1631,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar dos desafios das arbitragens societárias complexas. Eleonora Coelho comenta sobre a relevância e os desafios da arbitragem no contexto da resolução de disputas societárias complexas.\n\nProfa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar dos desafios das arbitragens societárias complexas. Eleonora Coelho comenta sobre a relevância e os desafios da arbitragem no contexto da resolução de disputas societárias complexas.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/262-COELHO--Eleonora-OLIVEIRA--Louise-Maia-de--Os-desafios-das-arbitragens-societrias-complexas-e398uvk",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109394356/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-8%2F408898382-44100-2-69ca7dc79fd36.mp3",
   "id": "262",
@@ -1974,12 +2055,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "comenta sobre a novos horizontes do Direito Comercial em relação à COP 30.",
   "ano_obra": null,
   "data": "2025-10-07",
   "duracao_seg": 753,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da palestra do Dr. Clóvis Malcher no XIII Congresso Brasileiro de Direito Comercial. E para isso teremos a alegria de contar com a participação do próprio professor Clóvis, para comentá-lo.\n\nProfa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleiteTranscrição",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da palestra do Dr. Clóvis Malcher no XIII Congresso Brasileiro de Direito Comercial. E para isso teremos a alegria de contar com a participação do próprio professor Clóvis, para comentá-lo.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/261-MALCHER--Clvis--comenta-sobre-a-novos-horizontes-do-Direito-Comercial-em-relao--COP-30-e395pd6",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109290342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-6%2F408762946-44100-2-e48ecb1b6975c.mp3",
   "id": "261",
@@ -1992,20 +2074,24 @@
   "titulo": "#260: ULHOA, Fábio. Direito Autoral - Presente, passado e futuro.",
   "convidados": [
    {
-    "nome": "Fábio Ulhoa",
-    "sobrenome": "Ulhoa",
-    "citacao": "ULHOA, Fábio",
+    "nome": "Fábio Ulhoa Coelho",
+    "sobrenome": "Coelho",
+    "citacao": "COELHO, Fábio Ulhoa",
     "variantes": [
-     "ULHOA, Fábio"
+     "COELHO, Fábio",
+     "COELHO, Fábio Ulhoa",
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito Autoral - Presente, passado e futuro.",
   "ano_obra": null,
   "data": "2025-10-02",
   "duracao_seg": 1993,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro “Direito Autoral - Presente, passado e futuro” do Professor Fábio Ulhoa Coelho. E para isso teremos a alegria de contar com a participação da do próprio autor para comentá-lo.Professor titular da Pontifícia Universidade Católica de São Paulo. Mestre e Doutor em Direito pela Pontifícia Universidade Católica de São Paulo. Advogado que atua em Direito Comercial, principalmente em: societário, contratual, direito da concorrência, falência erecuperação de empresas.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro “Direito Autoral - Presente, passado e futuro” do Professor Fábio Ulhoa Coelho. E para isso teremos a alegria de contar com a participação da do próprio autor para comentá-lo.Professor titular da Pontifícia Universidade Católica de São Paulo. Mestre e Doutor em Direito pela Pontifícia Universidade Católica de São Paulo. Advogado que atua em Direito Comercial, principalmente em: societário, contratual, direito da concorrência, falência erecuperação de empresas.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/260-ULHOA--Fbio--Direito-Autoral---Presente--passado-e-futuro-e38v964",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109077124/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-1%2F408485380-44100-2-cd85f6033973c.mp3",
   "id": "260",
@@ -2026,6 +2112,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A insolvência transnacional a partir do direito internacional e do direito brasileiro.",
   "ano_obra": null,
@@ -2053,6 +2140,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Compliance: Instrumento de privatização da tutela do direito penal levado ao processo. 2023. Universidad de Salamanca.",
   "ano_obra": 2023,
@@ -2079,12 +2167,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Advogado Miguel Arraes comenta sobre negócios indiretos evícios redibitórios.",
   "ano_obra": null,
   "data": "2025-09-23",
   "duracao_seg": 1407,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do tema denegócios indiretos e vícios redibitórios. E para isso teremos a alegria de contar com aparticipação de Miguel Arraes para comentá-lo.Advogado do Pinheiro Neto Advogados, especializado em operações de M&A, private equitye contratos empresariais. É mestrando em direito civil na UERJ com dissertação sobre víciosredibitórios e operações de M&A.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleiteTranscrição",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do tema denegócios indiretos e vícios redibitórios. E para isso teremos a alegria de contar com aparticipação de Miguel Arraes para comentá-lo.Advogado do Pinheiro Neto Advogados, especializado em operações de M&A, private equitye contratos empresariais. É mestrando em direito civil na UERJ com dissertação sobre víciosredibitórios e operações de M&A.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/257-ARRAES--Miguel--Advogado-Miguel-Arraes-comenta-sobre-negcios-indiretos-evcios-redibitrios-e38igge",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108658638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-22%2F407942137-44100-2-51b1cc0005412.mp3",
   "id": "257",
@@ -2105,12 +2194,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Propriedade Intelectual, Sinais Distintivos Não Tradicionais e trade dress.",
   "ano_obra": null,
   "data": "2025-09-18",
   "duracao_seg": 2962,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do tema Propriedade Intelectual e Sinais Distintivos Não Tradicionais. E para isso teremos a alegria de contar com a participação da professora Kone Furtunato para comentá-lo.Professora de Direito Comercial e Propriedade Intelectual da UFRJ e nos cursos de Mestrado e Doutorado da Academia do INPI/BR. Doutora e Mestre em Direito Comercial pela Pontifícia Universidade Católica de São Paulo. Pesquisadora visitante na Universidade de Saint Gallen na Suíça.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do tema Propriedade Intelectual e Sinais Distintivos Não Tradicionais. E para isso teremos a alegria de contar com a participação da professora Kone Furtunato para comentá-lo.Professora de Direito Comercial e Propriedade Intelectual da UFRJ e nos cursos de Mestrado e Doutorado da Academia do INPI/BR. Doutora e Mestre em Direito Comercial pela Pontifícia Universidade Católica de São Paulo. Pesquisadora visitante na Universidade de Saint Gallen na Suíça.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/256-FURTUNATO--Kone-Propriedade-Intelectual--Sinais-Distintivos-No-Tradicionais-e-trade-dress-e38blu9",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108434825/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-17%2F407654026-44100-2-5da66b342e6de.mp3",
   "id": "256",
@@ -2132,12 +2222,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Reforma do Código Civil (partes 1 a 5) publicados no JOTA, Opinião & Análise, Artigos, 2025.",
   "ano_obra": 2025,
   "data": "2025-09-16",
   "duracao_seg": 4096,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar sobre a sequênciade cinco artigos do Professor Marcelo Nunes Guedes sobre a Reforma do Código Civil. Epara isso teremos a alegria de contar com a participação do próprio autor para comentá-los.É doutor, mestre e professor de Direito Comercial da Faculdade de Direito da PontifíciaUniversidade Católica de São Paulo - PUCSP. É Coordenador responsável pela pesquisa quefundamentou o parecer da Corregedoria de Justiça do TJSP. É diretor-presidente e associadofundador da Associação Brasileira de Jurimetria - ABJ. É Membro da Society of EmpiricalLegal Studies - SELS. Membro e representante brasileiro na reunião de fundação da GlobalSociety of Empirical Legal Studies - SELS Global.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar sobre a sequênciade cinco artigos do Professor Marcelo Nunes Guedes sobre a Reforma do Código Civil. Epara isso teremos a alegria de contar com a participação do próprio autor para comentá-los.É doutor, mestre e professor de Direito Comercial da Faculdade de Direito da PontifíciaUniversidade Católica de São Paulo - PUCSP. É Coordenador responsável pela pesquisa quefundamentou o parecer da Corregedoria de Justiça do TJSP. É diretor-presidente e associadofundador da Associação Brasileira de Jurimetria - ABJ. É Membro da Society of EmpiricalLegal Studies - SELS. Membro e representante brasileiro na reunião de fundação da GlobalSociety of Empirical Legal Studies - SELS Global.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/255-NUNES--Marcelo-Guedes--A-Reforma-do-Cdigo-Civil-partes-1-a-5-publicados-no-JOTA--Opinio--Anlise--Artigos--2025-e388snv",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108343487/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-15%2F407536363-44100-2-fa04f1dd262a5.mp3",
   "id": "255",
@@ -2167,12 +2258,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Desconsideração atributiva/regulatória da personalidade jurídica na persecução anticorrupção.",
   "ano_obra": null,
   "data": "2025-09-11",
   "duracao_seg": 1281,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo: Desconsideração atributiva/regulatória da personalidade jurídica na persecução anticorrupção: uma análise quantitativa e qualitativa a partir dos PARs julgados pela CGU entre 2014 e 2024. In. Desconsideração da Personalidade Jurídica: pressupostos, consequências, casuística. ADAMEK, Marcelo Vieira Von. CONTI, André. (Org.). São Paulo: Quartier Latin, 2024. Pp. 599-674.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo: Desconsideração atributiva/regulatória da personalidade jurídica na persecução anticorrupção: uma análise quantitativa e qualitativa a partir dos PARs julgados pela CGU entre 2014 e 2024. In. Desconsideração da Personalidade Jurídica: pressupostos, consequências, casuística. ADAMEK, Marcelo Vieira Von. CONTI, André. (Org.). São Paulo: Quartier Latin, 2024. Pp. 599-674.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/254-ATHAYDE--Amanda--TREVIZO--Carolina-Pagotto--Desconsiderao-atributivaregulatria-da-personalidade-jurdica-na-persecuo-anticorrupo-e382dbm",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108131126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-10%2F407266696-44100-2-4c5d61f200ae6.mp3",
   "id": "254",
@@ -2203,12 +2295,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Formas de desconsideração inversa da personalidade jurídica.",
   "ano_obra": null,
   "data": "2025-09-09",
   "duracao_seg": 723,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo da professora Amanda Maranhão e do professor Yago Santos, intitulado “Formas de desconsideração inversa da personalidade jurídica: problemas atuais e limitações”. E para isso teremos a alegria de contar com a participação da própria professora Amanda, para comentá-lo.Amanda é mestra em Direito International e Comparado pela Universidade de São Paulo (USP). Atualmente é sócia no Arraes Maranhão Advogados, atuando nas áreas de comércio internacional, direito empresarial e resolução de conflitos. Fez curso de especialização em \"International Commercial Litigation and Arbitration\" na London School of Economics and Political Science (LSE). Autora de diversos artigos de Direito Internacional, Direito Civil, Direito Empresarial e Arbitragem, publicados em revistas especializadas. Foi a fundadora do Grupo de Estudos em Arbitragem da UFPE.Prof. Amanda, é uma imensa alegria você ter aceitado o convite para participar do nosso podcast e por apresentar, de modo simples, curto e gostoso, sua visão sobre as formas de desconsideração inversa da personalidade jurídica e os problemas atuais relacionados a esse tema.\n\nProfa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do artigo da professora Amanda Maranhão e do professor Yago Santos, intitulado “Formas de desconsideração inversa da personalidade jurídica: problemas atuais e limitações”. E para isso teremos a alegria de contar com a participação da própria professora Amanda, para comentá-lo.Amanda é mestra em Direito International e Comparado pela Universidade de São Paulo (USP). Atualmente é sócia no Arraes Maranhão Advogados, atuando nas áreas de comércio internacional, direito empresarial e resolução de conflitos. Fez curso de especialização em \"International Commercial Litigation and Arbitration\" na London School of Economics and Political Science (LSE). Autora de diversos artigos de Direito Internacional, Direito Civil, Direito Empresarial e Arbitragem, publicados em revistas especializadas. Foi a fundadora do Grupo de Estudos em Arbitragem da UFPE.Prof. Amanda, é uma imensa alegria você ter aceitado o convite para participar do nosso podcast e por apresentar, de modo simples, curto e gostoso, sua visão sobre as formas de desconsideração inversa da personalidade jurídica e os problemas atuais relacionados a esse tema.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/253-Amanda-Arraes-de-Albuquerque-SANTOS--Yago-Aparecido-Oliveira--Formas-de-desconsiderao-inversa-da-personalidade-jurdica-e37vfif",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108035087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-8%2F407144873-44100-2-2ae920edb6b84.mp3",
   "id": "253",
@@ -2230,12 +2323,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Enriquecimento sem causa e sua aplicação aos bens digitais.",
   "ano_obra": null,
   "data": "2025-09-04",
   "duracao_seg": 2058,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro do professor José Luiz Moura Faleiros Júnior, intitulado “Enriquecimento sem causa e sua aplicação aos bens digitais”. E para isso teremos a alegria de contar com a participação do próprio professor José Faleiros Junior, para comentá-la.José Luiz de Moura Faleiros Júnior é advogado, professor e pesquisador. É doutorando em Direito Civil pela USP e em Direito, Tecnologia e Inovação pela UFMG, além de mestre e bacharel em Direito pela Universidade Federal de Uberlândia (UFU). Atua como professor em instituições como a Faculdade Milton Campos e a Skema Law School, e é supervisor acadêmico da pós-graduação em Direito Privado, Tecnologia e Inovação da Ebradi. Associado e Primeiro Vice-Presidente do Instituto Brasileiro de Estudos de Responsabilidade Civil – IBERC. Com especializações em áreas como Direito Digital e Compliance, também integra diversos grupos de pesquisa voltados à interface entre Direito e tecnologia.Profa Amanda Athayde⚖️Advogada Pinheiro Neto📱 Acesse:✅ Direito Empresarial café com leite / direitoempresarialcafecomleite",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro do professor José Luiz Moura Faleiros Júnior, intitulado “Enriquecimento sem causa e sua aplicação aos bens digitais”. E para isso teremos a alegria de contar com a participação do próprio professor José Faleiros Junior, para comentá-la.José Luiz de Moura Faleiros Júnior é advogado, professor e pesquisador. É doutorando em Direito Civil pela USP e em Direito, Tecnologia e Inovação pela UFMG, além de mestre e bacharel em Direito pela Universidade Federal de Uberlândia (UFU). Atua como professor em instituições como a Faculdade Milton Campos e a Skema Law School, e é supervisor acadêmico da pós-graduação em Direito Privado, Tecnologia e Inovação da Ebradi. Associado e Primeiro Vice-Presidente do Instituto Brasileiro de Estudos de Responsabilidade Civil – IBERC. Com especializações em áreas como Direito Digital e Compliance, também integra diversos grupos de pesquisa voltados à interface entre Direito e tecnologia.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/EP252-FALEIROS-JNIOR--Jos-Luiz-Moura--Enriquecimento-sem-causa-e-sua-aplicao-aos-bens-digitais-e37ms4i",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107753042/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-3%2F406797762-44100-2-ceb75c699323e.mp3",
   "id": "252",
@@ -2256,12 +2350,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "o conceito, a autonomia e os princípios do Direito empresarial.",
   "ano_obra": null,
   "data": "2025-09-02",
   "duracao_seg": 2817,
-  "descricao": "Nossa xícara de café com leite de Direito Empresarial de hoje recebe Ivo Waisberg, que comenta sobre o conceito, a autonomia e os princípios do Direito Empresarial, trazendo reflexões fundamentais para compreender a área.Profa Amanda Athayde⚖️Advogada Pinheiro Neto",
+  "descricao": "Nossa xícara de café com leite de Direito Empresarial de hoje recebe Ivo Waisberg, que comenta sobre o conceito, a autonomia e os princípios do Direito Empresarial, trazendo reflexões fundamentais para compreender a área.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/EP251-Ivo-Waisberg-comenta-sobre-o-conceito--a-autonomia-e-os-princpios-do-Direito-empresarial-e37kb5h",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107670129/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-1%2F406692036-44100-2-65f8aba1cfb41.mp3",
   "id": "251",
@@ -2283,12 +2378,13 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Project Finance. Tese de doutorado pela UERJ. 2025.",
   "ano_obra": 2025,
   "data": "2025-08-28",
   "duracao_seg": 1379,
-  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da tese de doutorado Impactos da recuperação judicial no financiamento de projetos de concessionárias de infraestrutura por meio do project finance. E para isso teremos a alegria de contar com a participação do própria autora para comentá-la.\n\nProfa Amanda Athayde⚖️Advogada Pinheiro Neto\n\n📱 Acesse:✅ Direito Empresarial Café com Leite https://www.instagram.com/direitoempresarialcafecomleite/",
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da tese de doutorado Impactos da recuperação judicial no financiamento de projetos de concessionárias de infraestrutura por meio do project finance. E para isso teremos a alegria de contar com a participação do própria autora para comentá-la.",
   "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/EP250-NEIVA--Ana-Maria---Project-Finance--Tese-de-doutorado-pela-UERJ--2025-e37de92",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107443938/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-27%2F406405668-44100-2-e7ff5cb01489d.mp3",
   "id": "250",
@@ -2309,6 +2405,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Reforma do Código Civil. Revista Senado Federal. 2024.",
   "ano_obra": 2024,
@@ -2335,6 +2432,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "a história das corporações.",
   "ano_obra": null,
@@ -2362,6 +2460,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Resolução de Impasses Societários.",
   "ano_obra": null,
@@ -2388,6 +2487,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos Comerciais de Colaboração: Transição entre Espécies.",
   "ano_obra": null,
@@ -2416,6 +2516,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Avaliação de ativos intangíveis.",
   "ano_obra": null,
@@ -2442,6 +2543,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Encerramento de temporada.",
   "ano_obra": null,
@@ -2460,6 +2562,22 @@
   "titulo": "EP#243: WIEDEMANN, Herbert. Excerto do Direito Societário I – Fundamentos. Tradução de Erasmo Valladão A. e N. França. In: FRANÇA, Erasmo Valladão Azevedo e Novaes (coord.). Direito Societário Contemp",
   "convidados": [
    {
+    "nome": "Erasmo Valladão Azevedo e Novaes França",
+    "sobrenome": "França",
+    "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
+    "variantes": [
+     "Erasmo França",
+     "Erasmo Valadao",
+     "Erasmo Valladão A. França",
+     "Erasmo Valladão França",
+     "FRANÇA, Erasmo Valladão",
+     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão Azevedo e Novaes"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Herbert Wiedemann",
     "sobrenome": "Wiedemann",
     "citacao": "WIEDEMANN, Herbert",
@@ -2468,7 +2586,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Excerto do Direito Societário I – Fundamentos. Tradução de Erasmo Valladão A. e N. França. In: FRANÇA, Erasmo Valladão Azevedo e Novaes (coord.). Direito Societário Contemp.",
   "ano_obra": null,
   "data": "2025-06-26",
@@ -2495,6 +2613,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O segredo de negócio como um direito real de propriedade (intelectual). Tese de doutorado, PUC, 2025.",
   "ano_obra": 2025,
@@ -2521,6 +2640,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Há mora em obrigações negativas? AGIRE - Direito Privado em Ação.",
   "ano_obra": null,
@@ -2548,6 +2668,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Invalidade de deliberações assembleares à luz da doutrina e dos tribunais: regimes de invalidade aplicáveis às deliberações de acionistas. Belo Horizonte: Editora Dialética.",
   "ano_obra": null,
@@ -2574,6 +2695,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito de preferência em transferências indiretas de participação societária. AGIRE, 24 de março de 2025.",
   "ano_obra": 2025,
@@ -2601,6 +2723,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Comentários sobre o artigo “Shotguns and Deadlocks” de Claudia Landeo e Kathryn Spier. “Claudia M. Landeo & Kathryn E. Spier, Shotguns and Deadlocks, 31 Yale J. on.",
   "ano_obra": null,
@@ -2628,6 +2751,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Por uma cadeira de \"Finanças & contabilidade corporativas\" na matriz curricular do direito societário brasileiro.",
   "ano_obra": null,
@@ -2664,6 +2788,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Breve introdução ao Direito Empresarial da Moda.",
   "ano_obra": null,
@@ -2690,6 +2815,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A reação político-legislativa ao uso disfuncional do princípio da preservação da empresa nas decisões homologatórias de planos de recuperação judicial.",
   "ano_obra": null,
@@ -2712,12 +2838,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O Significado do Prêmio Nobel de Economia de 2024 - Algumas das reflexões propostas por Acemoglu, Robinson e Johnson. JOTA - Economia. Publicado em 23/10/2024.",
   "ano_obra": 2024,
@@ -2745,6 +2870,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sistema Brasileiro de Insolvência Transnacional. 1. ed. Curitiba: Juruá Editora, 2021. v. 1. 310p.",
   "ano_obra": 2021,
@@ -2772,6 +2898,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Suspensão do Exercício de Direitos do Acionista – São Paulo Quartier Latin, 2018.",
   "ano_obra": 2018,
@@ -2799,6 +2926,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A cooperação do poder judiciário no processo arbitral. São Paulo: Almedina Brasil, 2023. Meios adequados de solução de conflitos: arbitragem, dispute board, mediação.",
   "ano_obra": 2023,
@@ -2827,6 +2955,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito das Cooperativas - Fundamentos da Identidade e da Organização. Thot Editora. 2024.",
   "ano_obra": 2024,
@@ -2849,11 +2978,13 @@
     "sobrenome": "Berger",
     "citacao": "BERGER, Renato",
     "variantes": [
-     "BERGER, Renato"
+     "BERGER, Renato",
+     "Renator Berger"
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "autores": [],
+  "origem_convidado": "comentador",
   "obra": "As Ações derivadas no Direito Societário. Quartier Latin. São Paulo. 2023.",
   "ano_obra": 2023,
   "data": "2025-05-06",
@@ -2871,12 +3002,11 @@
   "titulo": "EP#228: TURRA, P. G. R. OLIVEIRA, Y. A responsabilidade dos diretores e administradores em sociedades anônimas de acordo com a TRT6.",
   "convidados": [
    {
-    "nome": "P. G. R. Turra",
+    "nome": "Pedro Turra",
     "sobrenome": "Turra",
-    "citacao": "TURRA, P. G. R.",
+    "citacao": "TURRA, Pedro",
     "variantes": [
-     "P. Turra",
-     "TURRA, P. G. R."
+     "TURRA, Pedro"
     ]
    },
    {
@@ -2888,6 +3018,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A responsabilidade dos diretores e administradores em sociedades anônimas de acordo com a TRT6.",
   "ano_obra": null,
@@ -2915,6 +3046,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Opção de Venda de Ações no Mercado de Private Equity, art. 1.008 do Código Civil e Sociedade Leonina. Revista de Direito das Sociedades e dos Valores Mobiliários.",
   "ano_obra": null,
@@ -2942,6 +3074,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Crime e Caos: Proposta para a Criminalidade Empresarial Brasileira.",
   "ano_obra": null,
@@ -2960,15 +3093,15 @@
   "titulo": "EP#225: COELHO CAVALCANTI, Eduardo P. C.. Conflito de Interesses e outras Hipóteses de Impedimento de Voto na Lei das S/A: Regime Jurídico e Análise dos Precedentes dos EUA e da CVM",
   "convidados": [
    {
-    "nome": "Eduardo P. C. Coelho Cavalcanti",
-    "sobrenome": "Coelho Cavalcanti",
-    "citacao": "COELHO CAVALCANTI, Eduardo P. C.",
+    "nome": "Eduardo Coelho",
+    "sobrenome": "Coelho",
+    "citacao": "COELHO, Eduardo",
     "variantes": [
-     "COELHO CAVALCANTI, Eduardo P. C.",
-     "Eduardo Cavalcanti"
+     "COELHO, Eduardo"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Conflito de Interesses e outras Hipóteses de Impedimento de Voto na Lei das S/A: Regime Jurídico e Análise dos Precedentes dos EUA e da CVM.",
   "ano_obra": null,
@@ -3004,6 +3137,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "As medidas antidumping à luz da jurisprudência do STJ (1996-2023). Temas Complexos de Direito Empresarial na jurisprudência dos Tribunais Superiore.",
   "ano_obra": 2023,
@@ -3040,6 +3174,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Cláusula-mandato para emissão de títulos de crédito nos arranjos de pagamento de cartões: comentários à posição do STJ.",
   "ano_obra": null,
@@ -3058,6 +3193,16 @@
   "titulo": "EP#222: MAFRA, Ricardo. O acionista de referência e sua qualificação jurídica para fins da lei nº 6.404/1976: reflexões iniciais.",
   "convidados": [
    {
+    "nome": "Ricardo Silva",
+    "sobrenome": "Silva",
+    "citacao": "SILVA, Ricardo",
+    "variantes": [
+     "SILVA, Ricardo"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Ricardo Mafra",
     "sobrenome": "Mafra",
     "citacao": "MAFRA, Ricardo",
@@ -3066,7 +3211,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "O acionista de referência e sua qualificação jurídica para fins da lei nº 6.404/1976: reflexões iniciais.",
   "ano_obra": 1976,
   "data": "2025-04-08",
@@ -3093,6 +3238,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Poder Econômico e Poder Político no Direito da Concorrência Brasileiro: Uma Análise a Partir da Sociologia Econômica e da Ordem Econômica Constitucional. 2022.",
   "ano_obra": 2022,
@@ -3129,6 +3275,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "(2023) O art. 144, VIII, do CPC e a sua necessária adequação ao procedimento arbitral: breves notas para o tema.",
   "ano_obra": 2023,
@@ -3156,6 +3303,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Non Compete em M&A. 1. ed. São Paulo: Quartier Latin, 2024. v. 1. 224p.",
   "ano_obra": 2024,
@@ -3182,6 +3330,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Proteção à Liquidez no Mercado de Capitais Brasileiro. Editora Quarter Latin. 2018.",
   "ano_obra": 2018,
@@ -3218,6 +3367,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Arruda, P.G. . DIREITO DE EMPRESA: Introdução ao Direito de Empresa e Títulos de Crédito. 2. ed. São Paulo: Juspodivm, 2024. v. 1. 352p.",
   "ano_obra": 2024,
@@ -3244,6 +3394,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Anulação, rescisão e repactuação de acordo de leniência: distinções incipientes mas necessárias. Revista da CGU, Dossiê Especial Dez anos da Lei Anticorrupção no Brasil.",
   "ano_obra": null,
@@ -3272,6 +3423,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito Empresarial em Quadrinhos.",
   "ano_obra": null,
@@ -3299,6 +3451,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Compra e venda de participação societária e vícios redibitórios. In AGIRE Direito Privado em Ação, n.º 130, 2024.",
   "ano_obra": 2024,
@@ -3335,6 +3488,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Recuperação de Empresas - Curso avançado em Direito, Economia e Finanças. 1. ed. Sao Paulo: Thomson Reuters, 2023.",
   "ano_obra": 2023,
@@ -3362,6 +3516,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Controle Acionário Compartilhado e Solução de Impasses: Estudo de Caso da Companhia Brasileira de Distribuição. Fundação Getulio Vargas - Escola de Direito de São Paulo.",
   "ano_obra": null,
@@ -3389,6 +3544,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Preservação da Microempresa e da Empresa de Pequeno Porte em Recuperação Judicial Como Forma de Proteção do Trabalho e de Fortalecimento da Economia Nacional. UFBA.",
   "ano_obra": null,
@@ -3407,14 +3563,15 @@
   "titulo": "EP#210: GONZALEZ, G. Notas sobre a Eleição do Conselho de Administração por Meio de Votação Maj. ; e GONZALEZ, G. Novas Considerações sobre a Eleição Majoritária para o Cons. de Adm.: O Caso Vale",
   "convidados": [
    {
-    "nome": "G. Gonzalez",
+    "nome": "Gustavo Gonzalez",
     "sobrenome": "Gonzalez",
-    "citacao": "GONZALEZ, G.",
+    "citacao": "GONZALEZ, Gustavo",
     "variantes": [
-     "GONZALEZ, G."
+     "GONZALEZ, Gustavo"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Notas sobre a Eleição do Conselho de Administração por Meio de Votação Maj. ; e GONZALEZ, G. Novas Considerações sobre a Eleição Majoritária para o Cons. de Adm.: O Caso Vale.",
   "ano_obra": null,
@@ -3439,10 +3596,12 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "(2024) Direito e Verdade - 1. ed. - São Paulo, SP.",
   "ano_obra": 2024,
@@ -3470,6 +3629,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Influência Alemã na Teoria do Interesse Social das Sociedades Anônimas. Revista Semestral de Direito Empresarial, Julho/Dezembro, no 33, p. 171-208. RJ: Renovar, 2007.",
   "ano_obra": 2007,
@@ -3505,6 +3665,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Apuração de haveres na sociedade limitada: a possibilidade de convivência, excepcional, do balanço de determinação com outro critério de cálculo.",
   "ano_obra": null,
@@ -3527,11 +3688,14 @@
     "sobrenome": "Pugliesi",
     "citacao": "PUGLIESI, Adriana Valéria",
     "variantes": [
+     "A. V. Pugliesi",
      "Adriana Pugliesi",
+     "PUGLIESI, A. V.",
      "PUGLIESI, Adriana Valéria"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A exclusão compulsória de sócio em sociedade limitada. In: HANSZMANN, Felipe. (Org.). 3o volume da obra ?Atualidades em Direito Societário e Mercado de Capitais?",
   "ano_obra": null,
@@ -3550,15 +3714,18 @@
   "titulo": "EP#205: LIMA JUNIOR, J. M.. O bitcoin é um valor mobiliário ou um ativo financeiro?. REVISTA DE INFORMAÇÃO LEGISLATIVA, v. 236, p. 209-235, 2022.",
   "convidados": [
    {
-    "nome": "J. M. Lima Júnior",
-    "sobrenome": "Lima Júnior",
-    "citacao": "LIMA JUNIOR, J. M.",
+    "nome": "João Manoel de Lima Junior",
+    "sobrenome": "Lima Junior",
+    "citacao": "LIMA JUNIOR, João Manoel de",
     "variantes": [
-     "J. Júnior",
-     "LIMA JUNIOR, J. M."
+     "João Junior",
+     "João Manoel Lima Júnior",
+     "LIMA JUNIOR, João Manoel",
+     "LIMA JUNIOR, João Manoel de"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O bitcoin é um valor mobiliário ou um ativo financeiro?. REVISTA DE INFORMAÇÃO LEGISLATIVA, v. 236, p. 209-235, 2022.",
   "ano_obra": 2022,
@@ -3581,7 +3748,6 @@
     "sobrenome": "Mamede",
     "citacao": "MAMEDE, Gladston",
     "variantes": [
-     "G. Mamede",
      "Gladson Mamede",
      "MAMEDE, Gladston"
     ]
@@ -3620,6 +3786,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Partilha de quota(s) do sócio único de Sociedade Limitada em face a regime de comunhão.",
   "ano_obra": null,
@@ -3647,6 +3814,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Vulnerabilidade dos créditos quirografários nos processos de recuperação judicial: análise comparativa com o modelo da concordata no direito concursal brasileiro.",
   "ano_obra": null,
@@ -3665,12 +3833,11 @@
   "titulo": "EP#202: TOLEDO, P. F. C. S.; BEZERRA FILHO, M. J. ; PUGLIESI, A. V. ; CALÇAS, M. Q. P. . Tratado De Direito Empresarial / Recuperação Empresarial e Falência (Org. Modesto Carvalhosa). 2. ed. São Paulo",
   "convidados": [
    {
-    "nome": "P. F. C. S. Toledo",
+    "nome": "Paulo Toledo",
     "sobrenome": "Toledo",
-    "citacao": "TOLEDO, P. F. C. S.",
+    "citacao": "TOLEDO, Paulo",
     "variantes": [
-     "P. Toledo",
-     "TOLEDO, P. F. C. S."
+     "TOLEDO, Paulo"
     ]
    },
    {
@@ -3684,12 +3851,14 @@
     ]
    },
    {
-    "nome": "A. V. Pugliesi",
+    "nome": "Adriana Valéria Pugliesi",
     "sobrenome": "Pugliesi",
-    "citacao": "PUGLIESI, A. V.",
+    "citacao": "PUGLIESI, Adriana Valéria",
     "variantes": [
-     "A. Pugliesi",
-     "PUGLIESI, A. V."
+     "A. V. Pugliesi",
+     "Adriana Pugliesi",
+     "PUGLIESI, A. V.",
+     "PUGLIESI, Adriana Valéria"
     ]
    },
    {
@@ -3702,6 +3871,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Tratado De Direito Empresarial / Recuperação Empresarial e Falência (Org. Modesto Carvalhosa). 2. ed. São Paulo.",
   "ano_obra": null,
@@ -3729,6 +3899,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Ana Bolzani comenta sobre o texto Saúde Mental Esgotamento Psicológico no Ambiente de Trabalho de Brenda Ebony França Melo Costa e Edilson Diniz. 2021.",
   "ano_obra": 2021,
@@ -3756,6 +3927,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Singularidades da Cooperativa Singular. Revista dos Tribunais, Thomson Reuters. 2024.",
   "ano_obra": 2024,
@@ -3792,6 +3964,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A APLICAÇÃO DA CLÁUSULA IPSO FACTO NO CASO DE DEFERIMENTO DO PROCESSAMENTO DA RECUPERAÇÃO JUDICIAL: ESTUDO DO TRATAMENTO LEGAL PELO CANADÁ.",
   "ano_obra": null,
@@ -3818,6 +3991,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "G. R. IATAROLA, A. J. Análise do instituto da consolidação substancial diante da teoria geral do direito societário. In: Emérson Alves Andena. (Org.). Direito Privado temas atuai.",
   "ano_obra": null,
@@ -3844,6 +4018,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos de colaboração e o direito da concorrência: critérios de legalidade da colaboração entre concorrentes. 1. ed. Rio de Janeiro: Lumen Juris, 2022. v. 1. 200p.",
   "ano_obra": 2022,
@@ -3870,6 +4045,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O Regime Jurídico da Empresa Rural - Da disciplina civil ao regramento empresarial das atividades agropecuárias no Brasil. 2024.",
   "ano_obra": 2024,
@@ -3898,6 +4074,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Recuperação de Empresas em Tabelas - Belo Horizonte - Editora Expert - 2024.",
   "ano_obra": 2024,
@@ -3920,12 +4097,12 @@
     "sobrenome": "Mamede",
     "citacao": "MAMEDE, Gladston",
     "variantes": [
-     "G. Mamede",
      "Gladson Mamede",
      "MAMEDE, Gladston"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Empresas e direitos humanos - Belo Horizonte - Editora Expert – 2024 562pág.",
   "ano_obra": 2024,
@@ -3964,6 +4141,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Nacionalismo jurídico e direito global: lições do caso inglês de Mariana. CONJUR, 05/12/2023; e SALOMÃO FILHO, Calixto, et al. Towards a Broader.",
   "ano_obra": 2023,
@@ -3982,6 +4160,17 @@
   "titulo": "EP#192: BAIRD, Douglas. Loss Distribution, Forum Shopping, and Bankruptcy: A Reply to Warren. 54 University of Chicago Law Review 815 (1987).",
   "convidados": [
    {
+    "nome": "Márcia Carla Pereira",
+    "sobrenome": "Pereira",
+    "citacao": "PEREIRA, Márcia Carla",
+    "variantes": [
+     "Márcia Pereira",
+     "PEREIRA, Márcia Carla"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Douglas Baird",
     "sobrenome": "Baird",
     "citacao": "BAIRD, Douglas",
@@ -3990,7 +4179,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Loss Distribution, Forum Shopping, and Bankruptcy: A Reply to Warren. 54 University of Chicago Law Review 815 (1987).",
   "ano_obra": 1987,
   "data": "2024-10-08",
@@ -4016,6 +4205,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "apresentadora",
   "obra": "Pós-Graduação em Prática do Direito da Concorrência.",
   "ano_obra": null,
@@ -4060,6 +4250,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Cláusula de não concorrência: interfaces entre antitruste e Direito do Trabalho no Brasil e EUA. Consultor Jurídico. 2024.",
   "ano_obra": 2024,
@@ -4103,6 +4294,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Fusões e aquisições em foco: uma abordagem multidisciplinar. 2020.",
   "ano_obra": 2020,
@@ -4138,6 +4330,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Corruption and Controlling Shareholders. In: European Corporate Governance Institute - Law Working Paper No. 698/2023.",
   "ano_obra": 2023,
@@ -4164,6 +4357,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A figura dos gatekeepers: aplicação às instituições intermediárias do mercado organizado de valores mobiliários brasileiro. São Paulo: Almedina, 2014.",
   "ano_obra": 2014,
@@ -4190,6 +4384,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Securitização. – 2º ed. rev. e atual. – São Paulo: Saraiva, 2007.",
   "ano_obra": 2007,
@@ -4217,6 +4412,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Governança corporativa e arbitragem no mercado de capitais.",
   "ano_obra": null,
@@ -4243,6 +4439,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Compliance: entre a teoria e a prática. Reflexões contemporâneas e análise dos programas de integridade das companhias listadas no Novo Mercado. 1. ed. São Paulo.",
   "ano_obra": null,
@@ -4269,6 +4466,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A institucionalização do Sistema de Pagamentos Brasileiro e os desafios de uma regulação financeira pró-competitiva. Tese de Doutorado, Universidade de São Paulo, 2023.",
   "ano_obra": 2023,
@@ -4295,6 +4493,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "Mecanismo de Ressarcimento de Prejuízos/ Comissão de Valores Mobiliários. Rio de Janeiro: Comissão de Valores Mobiliários, 2021.",
   "ano_obra": 2021,
@@ -4327,13 +4526,12 @@
     "variantes": [
      "CEREZETTI, Sheila Christina Neder",
      "CEREZETTI, Sheila Neder",
-     "NEDER CEREZETTI, Sheila C.",
-     "Sheila C. Neder Cerezetti",
      "Sheila Cerezetti",
      "Sheila Neder Cerezetti"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A silenciosa “consolidação” da consolidação substancial: Resultados de pesquisa empírica sobre recuperação judicial de grupos empresariais.",
   "ano_obra": null,
@@ -4352,15 +4550,16 @@
   "titulo": "EP#181: ROSADO, Maria do Céu M.. Sobre usufruto de ações. 2023. 205 f. Tese (Doutorado em Direito) – Universidade de São Paulo, São Paulo, 2023.",
   "convidados": [
    {
-    "nome": "Maria do Céu M. Rosado",
+    "nome": "Maria do Céu Rosado",
     "sobrenome": "Rosado",
-    "citacao": "ROSADO, Maria do Céu M.",
+    "citacao": "ROSADO, Maria do Céu",
     "variantes": [
      "Maria Rosado",
-     "ROSADO, Maria do Céu M."
+     "ROSADO, Maria do Céu"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sobre usufruto de ações. 2023. 205 f. Tese (Doutorado em Direito) – Universidade de São Paulo, São Paulo, 2023.",
   "ano_obra": 2023,
@@ -4387,6 +4586,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A cláusula de declarações e garantias nos contratos de compra e venda de participações societárias de controle. Dissertação (Mestrado em Direito) - USP, São Paulo, 2023.",
   "ano_obra": 2023,
@@ -4421,6 +4621,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "COMENTÁRIOS ACERCA DA RESPONSABILIDADE DOS ADMINISTRADORES ECOMPANHIAS POR ATOS DE CORRUPÇÃO. In Sistema Anticorrupção e Empresa – FÉRES, Marcelo Andrade.",
   "ano_obra": null,
@@ -4447,6 +4648,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Estudos em Direito da Concorrência, Editora Expert, 2024.",
   "ano_obra": 2024,
@@ -4470,14 +4672,17 @@
     "citacao": "CARVALHO, Ângelo Gamba Prata de",
     "variantes": [
      "Angelo G Prata de Carvalho",
+     "Angelo Gamba",
      "Angelo Prata de Carvalho",
      "CARVALHO, Ângelo Gamba",
      "CARVALHO, Ângelo Gamba Prata de",
      "Ângelo Carvalho",
+     "Ângelo Gamba",
      "Ângelo Gamba Carvalho"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos empresariais atípicos. 1. ed. São Paulo: Thomson Reuters Brasil, 2024.",
   "ano_obra": 2024,
@@ -4504,6 +4709,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Efetividade do Modelo Brasileiro de Cumprimento Forçado de Normas Civis no Mercado de Valores Mobiliários (Doutorado em Direito) - USP, São Paulo, 2017.",
   "ano_obra": 2017,
@@ -4531,6 +4737,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Novos Paradigmas de Apuração de Haveres na Ordem Jurídica. 2020.",
   "ano_obra": 2020,
@@ -4558,6 +4765,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contrato de Cessão de Quotas Sociais ‘in’ Luís de Moura Azevedo e Rodrigo Monteiro de Castro, Sociedade Limitada Contemporânea. 2013. p. 218-259.",
   "ano_obra": 2013,
@@ -4584,6 +4792,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Ação revocatória: análise doutrinária e jurisprudencial dos elementos do ato revogável / Thalita Almeida, Alexandre Ferreira de Assumpção Alves – Rio de Janeiro.",
   "ano_obra": null,
@@ -4601,6 +4810,16 @@
   "numero": 172,
   "titulo": "EP#172: MATOS, A. C. H. ; PEREIRA, J. L. . Outorga conjugal e aval no casamento. Revista brasileira de direito civil, v. 18, p. 103-123, 2018.",
   "convidados": [
+   {
+    "nome": "Fernanda Xará",
+    "sobrenome": "Xará",
+    "citacao": "XARÁ, Fernanda",
+    "variantes": [
+     "XARÁ, Fernanda"
+    ]
+   }
+  ],
+  "autores": [
    {
     "nome": "A. C. H. Matos",
     "sobrenome": "Matos",
@@ -4620,7 +4839,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Outorga conjugal e aval no casamento. Revista brasileira de direito civil, v. 18, p. 103-123, 2018.",
   "ano_obra": 2018,
   "data": "2024-05-01",
@@ -4638,15 +4857,15 @@
   "titulo": "EP#171: BRANCHER, Paulo M. R.. Sociedade em conta de participação. In: ULHOA COELHO, Fabio. Tratado de Direito Comercial. 1ed. São Paulo, 2015, v. 2, p. 29-44.",
   "convidados": [
    {
-    "nome": "Paulo M. R. Brancher",
+    "nome": "Paulo Brancher",
     "sobrenome": "Brancher",
-    "citacao": "BRANCHER, Paulo M. R.",
+    "citacao": "BRANCHER, Paulo",
     "variantes": [
-     "BRANCHER, Paulo M. R.",
-     "Paulo Brancher"
+     "BRANCHER, Paulo"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sociedade em conta de participação. In: ULHOA COELHO, Fabio. Tratado de Direito Comercial. 1ed. São Paulo, 2015, v. 2, p. 29-44.",
   "ano_obra": 2015,
@@ -4674,6 +4893,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Arbitrabilidade subjetiva, Capacidade da parte, Recuperação Judicial, Extrajudicial e Falência. In: MONTEIRO, André Luis; VERÇOSA, Fabiane; FONSECA, Geraldo. (Org.).",
   "ano_obra": null,
@@ -4700,6 +4920,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Recuperação Judicial: dos objetivos ao procedimento - Incentivos regulatórios do sistema de insolvência brasileiro.",
   "ano_obra": null,
@@ -4727,6 +4948,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito da concorrência das plataformas digitais: entre abuso de poder econômico e inovação. 1. ed. São Paulo: Thomson Reuters Brasil, 2022. v. 1. 408p.",
   "ano_obra": 2022,
@@ -4763,6 +4985,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contrato de Sociedade: Análise da Natureza Jurídica e Peculiaridades. In: ULHOA COELHO, Fabio; PRAZAK, Maurício.",
   "ano_obra": null,
@@ -4789,6 +5012,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Os Árbitros I: Quem pode ser árbitro, deveres, formação do Tribunal Arbitral, exercício da jurisdição, prestação de serviço, responsabilidades. In: Tratado de Arbitragem.",
   "ano_obra": null,
@@ -4828,6 +5052,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Empresa simples de inovação: é tão simples assim? Migalhas, 3.1.2024.",
   "ano_obra": 2024,
@@ -4856,6 +5081,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Lei de Recuperação e Falência: Lei 11.101/2005 - Comentada por artigo. 16ª edição.",
   "ano_obra": 2005,
@@ -4883,6 +5109,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Novas Perspectivas de Gerenciamento Judiciário.",
   "ano_obra": null,
@@ -4911,6 +5138,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Fundamentos do Antitruste. 2024.",
   "ano_obra": 2024,
@@ -4938,6 +5166,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Da ética geral à ética empresarial. 2009.",
   "ano_obra": 2009,
@@ -4956,6 +5185,16 @@
   "titulo": "EP#160: DE MELO VIEIRA, Maíra. Particularidades do regime informacional na alienação de participação acionária pelo controlador.",
   "convidados": [
    {
+    "nome": "Maíra Temple",
+    "sobrenome": "Temple",
+    "citacao": "TEMPLE, Maíra",
+    "variantes": [
+     "TEMPLE, Maíra"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Maíra de Melo Vieira",
     "sobrenome": "de Melo Vieira",
     "citacao": "DE MELO VIEIRA, Maíra",
@@ -4965,7 +5204,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Particularidades do regime informacional na alienação de participação acionária pelo controlador.",
   "ano_obra": null,
   "data": "2023-12-21",
@@ -5000,6 +5239,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Exercício do Direito de Retirada Imotivada e Critérios para Apuração de Haveres: Correlação Necessária? In Direito Empresarial Aplicado. Vol. 2. 2022.",
   "ano_obra": 2022,
@@ -5027,6 +5267,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Desconsideração Atributiva no Direito Privado: A imputação de fatos da pessoa jurídica aos seus membros e vice-versa. São Paulo: Quartier Latin, 2022.",
   "ano_obra": 2022,
@@ -5053,6 +5294,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Cláusula de Sandbagging em Contratos de M&A. 1ª Edição. Quartier Latin, jan. 2023.",
   "ano_obra": 2023,
@@ -5081,6 +5323,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Controle conjunto por acordo de acionistas e a dinâmica das reuniões prévias. 2023.",
   "ano_obra": 2023,
@@ -5108,6 +5351,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Conflito de interesse no ambiente societário. 2023.",
   "ano_obra": 2023,
@@ -5151,6 +5395,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O Regime Especial de Responsabilidade Civil da Lei nº 6.404/76. In: A evolução do Direito no século XXI. 2023.",
   "ano_obra": 2023,
@@ -5178,6 +5423,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Mecanismos privados e públicos dos acionistas minoritários para a reparação civil dos danos causados por administradores e controladores: uma análise societária.",
   "ano_obra": null,
@@ -5200,12 +5446,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sucessão na empresa: O problema das quotas de sociedades limitadas. In: Direito das Sucessões ? Problemas e Tendências. São Paulo: Editora Foco, 2023.",
   "ano_obra": 2023,
@@ -5230,10 +5475,12 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Conflito: a origem do direito. 2023.",
   "ano_obra": 2023,
@@ -5261,6 +5508,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Um Necessário Retorno ao Tema da Dissolução Parcial da Sociedade Anônima. In: Rodrigo Xavier Leonardo. Estudos em Homenagem a Carlos Eduardo Manfredini.",
   "ano_obra": null,
@@ -5288,6 +5536,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contrato de opção de compra e de venda de participação societária. 2021.",
   "ano_obra": 2021,
@@ -5310,6 +5559,7 @@
     "sobrenome": "Adamek",
     "citacao": "ADAMEK, Marcelo Vieira von",
     "variantes": [
+     "ADAMEK, Marcelo",
      "ADAMEK, Marcelo Vieira von",
      "Marcelo Adamek"
     ]
@@ -5324,6 +5574,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Vícios redibitórios na alienação de participações societárias. Revista de Direito Societário e M&A, v. 3, p. 1, 2023.",
   "ano_obra": 2023,
@@ -5352,6 +5603,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Subcapitalização societária: financiamento e responsabilidade. 1. ed. Belo Horizonte: Forum, 2012. v. 1. p. 315.",
   "ano_obra": 2012,
@@ -5379,6 +5631,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "“MOU” não é contrato... e nem pré-contrato. O que é, afinal? - Uma abordagem no plano da natureza jurídica: https://www.migalhas.com.br/depeso/365080.",
   "ano_obra": null,
@@ -5405,6 +5658,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "IBGC. POLÍTICAS DE PROPRIEDADE ESTATAL. Instituto Brasileiro de Governança Corporativa – IBGC. São Paulo, 2022.",
   "ano_obra": 2022,
@@ -5439,6 +5693,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito dos seguros: comentários aos Código Civil. 2023.",
   "ano_obra": 2023,
@@ -5466,6 +5721,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos de Aliança: Reflexões Sobre os Desafios Para o Mercado Brasileiro in O Direito da Construção no Ambiente Internacional. 2019.",
   "ano_obra": 2019,
@@ -5492,6 +5748,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Investimento-anjo no Brasil: uma análise sobre as vantagens e desvantagens de sua adoção no financiamento de atividades econômicas. In: Revista brasileira, 2020.",
   "ano_obra": 2020,
@@ -5514,7 +5771,6 @@
     "sobrenome": "Mamede",
     "citacao": "MAMEDE, Gladston",
     "variantes": [
-     "G. Mamede",
      "Gladson Mamede",
      "MAMEDE, Gladston"
     ]
@@ -5546,6 +5802,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Cláusulas Sucessórias em Contratos Sociais. 2023.",
   "ano_obra": 2023,
@@ -5572,6 +5829,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A alienação de estabelecimento empresarial, como meio de recuperação judicial, e a inexistência de sucessão empresarial do adquirente (art. 60, LRF). Dissertação- USP 2014.",
   "ano_obra": 2014,
@@ -5599,6 +5857,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Teoria da Empresa: na amplitude da atividade econômica. 2023.",
   "ano_obra": 2023,
@@ -5634,6 +5893,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Governança nos grupos societários: inovações. 2023.",
   "ano_obra": 2023,
@@ -5662,6 +5922,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contrato de Franquia. 2023.",
   "ano_obra": 2023,
@@ -5689,6 +5950,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O dogma do cartel e a seletividade do direito concorrencial brasileiro. 2022.",
   "ano_obra": 2022,
@@ -5717,6 +5979,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Histórias do Direito Comercial: as corporações de ofício, e a curiosa situação atual da \"city of london corporation\"",
   "ano_obra": null,
@@ -5744,6 +6007,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O Tribunal do Comércio: Magistrados e Negociantes na Corte do Império do Brasil. 1. ed. Rio de Janeiro: Editora e Livraria Jurídica do Rio de Janeiro, 2008.",
   "ano_obra": 2008,
@@ -5770,6 +6034,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Curso de Defesa Comercial e Interesse Público no Brasil - Teoria e Prática. Ed. Saraiva Jur, 2023. 706p.",
   "ano_obra": 2023,
@@ -5797,6 +6062,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito societário aplicado às fusões e aquisições: sociedades anônimas fechadas e empresárias limitadas. 2023.",
   "ano_obra": 2023,
@@ -5823,6 +6089,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O que esperar do Open Insurance no Brasil? 2023.",
   "ano_obra": 2023,
@@ -5851,6 +6118,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Subordinação de Interesses e Pagamento Compensatório nos Grupos Societários. 2023.",
   "ano_obra": 2023,
@@ -5877,6 +6145,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "The New Corporate Law of Corporate Groups.",
   "ano_obra": null,
@@ -5904,6 +6173,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Responsabilidade Societária. Danos Causados Pelos Administradores. Quartier Latin: São Paulo, 2019.",
   "ano_obra": 2019,
@@ -5930,6 +6200,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Lei das S/A Comentada: Volume II, arts. 80 a 137. 2021.",
   "ano_obra": 2021,
@@ -5948,6 +6219,19 @@
   "titulo": "EP#126: COMPARATO, Fabio Konder. Usufruto Acionário e Quase Usufruto: limites aos direitos do usufrutuário. In: Ensaios e Pareceres de Direito Empresarial. Rio de Janeiro, p. 68/97. 1978.",
   "convidados": [
    {
+    "nome": "Julia Lima Carmagnani",
+    "sobrenome": "Carmagnani",
+    "citacao": "CARMAGNANI, Julia Lima",
+    "variantes": [
+     "CARMAGNANI, Julia Lima",
+     "CARMAGNANI, Júlia",
+     "Julia Carmagnani",
+     "Júlia Carmagnani"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Fábio Konder Comparato",
     "sobrenome": "Comparato",
     "citacao": "COMPARATO, Fábio Konder",
@@ -5959,7 +6243,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Usufruto Acionário e Quase Usufruto: limites aos direitos do usufrutuário. In: Ensaios e Pareceres de Direito Empresarial. Rio de Janeiro, p. 68/97. 1978.",
   "ano_obra": 1978,
   "data": "2023-06-19",
@@ -5977,6 +6261,16 @@
   "titulo": "EP#125: LEME, ERNESTO DE MORAES. Acções preferenciaes nas sociedades anonymas (1933)",
   "convidados": [
    {
+    "nome": "Chico Mussnich",
+    "sobrenome": "Mussnich",
+    "citacao": "MUSSNICH, Chico",
+    "variantes": [
+     "MUSSNICH, Chico"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Ernesto de Moraes Leme",
     "sobrenome": "Leme",
     "citacao": "LEME, Ernesto de Moraes",
@@ -5986,7 +6280,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Acções preferenciaes nas sociedades anonymas (1933).",
   "ano_obra": 1933,
   "data": "2023-06-15",
@@ -6013,6 +6307,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Companhia Aberta: Objeto e estrutura da disciplina jurídica. São Paulo, 2022.",
   "ano_obra": 2022,
@@ -6045,7 +6340,6 @@
     "sobrenome": "Mamede",
     "citacao": "MAMEDE, Gladston",
     "variantes": [
-     "G. Mamede",
      "Gladson Mamede",
      "MAMEDE, Gladston"
     ]
@@ -6070,6 +6364,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Doação de quotas de sociedade limitada a empregado. 2023.",
   "ano_obra": 2023,
@@ -6098,6 +6393,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Dissolução parcial de sociedade profissional. 2017. Tese (Doutorado em Direito Comercial) – Pontifica Universidade Católica de São Paulo, São Paulo, 2017.",
   "ano_obra": 2017,
@@ -6124,6 +6420,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Avaliação para fins de apuração de haveres nas sociedades limitadas: apreciação de ativos intangíveis. 209 páginas. Doutorado em Direito Comercial. Faculdade de Direito, Univer.",
   "ano_obra": null,
@@ -6160,6 +6457,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "4 anos da permissão de sociedades limitadas “unipessoais”: Alguns apontamentos sobre o tema. In: Migalhas, 2023.",
   "ano_obra": 2023,
@@ -6182,7 +6480,6 @@
     "sobrenome": "Mamede",
     "citacao": "MAMEDE, Gladston",
     "variantes": [
-     "G. Mamede",
      "Gladson Mamede",
      "MAMEDE, Gladston"
     ]
@@ -6215,6 +6512,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Tertúlias sobre as sociedades em comandita. Migalhas, 09.05.2023.",
   "ano_obra": 2023,
@@ -6237,12 +6535,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O necessário encontro do direito contratual com o poder: repensando o alcance da presunção de simetria dos contratos empresariais. Jota, 12.4.2023.",
   "ano_obra": 2023,
@@ -6279,6 +6576,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O voto plural: problemas em governança corporativa. 2022.",
   "ano_obra": 2022,
@@ -6323,6 +6621,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Recuperação de empresas e falência: teoria e prática na Lei 11.101/2005. 1. ed. São Paulo: Almedina, 2023.",
   "ano_obra": 2023,
@@ -6350,6 +6649,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Plano de Recuperação Judicial, 2021. 2a ed.",
   "ano_obra": 2021,
@@ -6368,6 +6668,16 @@
   "titulo": "EP#113 WEBER, Max. Economia e Sociedade. Volume 1. Cap. VI. O mercado.",
   "convidados": [
    {
+    "nome": "Ruy Camilo",
+    "sobrenome": "Camilo",
+    "citacao": "CAMILO, Ruy",
+    "variantes": [
+     "CAMILO, Ruy"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Max Weber",
     "sobrenome": "Weber",
     "citacao": "WEBER, Max",
@@ -6376,7 +6686,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Economia e Sociedade. Volume 1. Cap. VI. O mercado.",
   "ano_obra": null,
   "data": "2023-04-18",
@@ -6402,6 +6712,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "As Ordenanças Francesas e o Código de Napoleão.",
   "ano_obra": null,
@@ -6428,6 +6739,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "SANÇÕES NÃO PECUNIÁRIAS NO ANTITRUSTE.",
   "ano_obra": null,
@@ -6454,6 +6766,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "The rise of international Corporate Law. Washington University Law Review. 2021.",
   "ano_obra": 2021,
@@ -6490,6 +6803,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Termo de Compromisso no mercado de capitais brasileiro. No prelo. 2022.",
   "ano_obra": 2022,
@@ -6516,6 +6830,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Responsabilidade civil pela falha informacional no mercado de valores mobiliários: pressupostos e análise crítica. 2022.",
   "ano_obra": 2022,
@@ -6544,6 +6859,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Grupos societários - da formação à falência. 2016.",
   "ano_obra": 2016,
@@ -6581,6 +6897,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O papel e a responsabilidade do Conselho de Administração no contexto de uma operação de M&A. 2022.",
   "ano_obra": 2022,
@@ -6599,6 +6916,16 @@
   "titulo": "EP#105: BORBA, Jose Edwaldo Tavares. Direito Societário. 18a Ed, 2021.",
   "convidados": [
    {
+    "nome": "Pedro Turra",
+    "sobrenome": "Turra",
+    "citacao": "TURRA, Pedro",
+    "variantes": [
+     "TURRA, Pedro"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Jose Edwaldo Tavares Borba",
     "sobrenome": "Borba",
     "citacao": "BORBA, Jose Edwaldo Tavares",
@@ -6608,7 +6935,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Direito Societário. 18a Ed, 2021.",
   "ano_obra": 2021,
   "data": "2023-01-23",
@@ -6644,6 +6971,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Dever de legalidade dos administradores de sociedades. RSDE, n. 30, 2022.",
   "ano_obra": 2022,
@@ -6670,6 +6998,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Seguros D&O. RT: São Paulo, 2019.",
   "ano_obra": 2019,
@@ -6696,6 +7025,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Business Judgment Rule. Tese de doutorado, 2022.",
   "ano_obra": 2022,
@@ -6720,10 +7050,12 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Apuração de haveres na ação de dissolução de sociedade. In. Direito Empresarial e CPC/2015. RIBEIRO, Marcia Carla Pereira. CARAMÊS, Guilherme Bonato Campos. (Coord). 2a ed.",
   "ano_obra": 2015,
@@ -6758,6 +7090,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Mudança de quórum nas deliberações da sociedade limitada. Migalhas, 04 Out. 2022.",
   "ano_obra": 2022,
@@ -6784,6 +7117,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "As multiplas faces do dever de diligência. In Direito Empresarial e suas interfaces. Vol II. Homenagem a Fábio Ulhoa Coelho. 2022.",
   "ano_obra": 2022,
@@ -6802,6 +7136,16 @@
   "titulo": "EP#98: EIZIRIK, Nelson. Notas sobre aumento de capital, direito de preferência e preço de emissão das ações. In CANTIDIANO, Maria Lucia. MUNIZ, Igor. CANTIDIANO, Isabel. Sociedades Anônimas,",
   "convidados": [
    {
+    "nome": "Pedro Castelar",
+    "sobrenome": "Castelar",
+    "citacao": "CASTELAR, Pedro",
+    "variantes": [
+     "CASTELAR, Pedro"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Nelson Eizirik",
     "sobrenome": "Eizirik",
     "citacao": "EIZIRIK, Nelson",
@@ -6810,7 +7154,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Notas sobre aumento de capital, direito de preferência e preço de emissão das ações. In CANTIDIANO, Maria Lucia. MUNIZ, Igor. CANTIDIANO, Isabel. Sociedades Anônimas,.",
   "ano_obra": null,
   "data": "2023-01-09",
@@ -6836,6 +7180,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O princípio da anticorrupção da empresa no direito brasileiro.",
   "ano_obra": null,
@@ -6862,6 +7207,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito, Tecnologia e Inovação. Vol I, II, III e IV.",
   "ano_obra": null,
@@ -6889,6 +7235,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Confusão patrimonial nas sociedades isoladas e nos grupos societários: caracterização, constatação e tutela de credores, 2014.",
   "ano_obra": 2014,
@@ -6915,6 +7262,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Intervenção Judicial em Conflitos Societários. 2019.",
   "ano_obra": 2019,
@@ -6941,6 +7289,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Commons empresariais: a aplicação do regime os bens comuns para determinados bens empresariais. 2020.",
   "ano_obra": 2020,
@@ -6968,6 +7317,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Curso de Redes contratuais. 2022.",
   "ano_obra": 2022,
@@ -6996,6 +7346,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos de distribuição. 2014.",
   "ano_obra": 2014,
@@ -7014,6 +7365,17 @@
   "titulo": "#EP90: POMERANZ, Kenneth. The Great Divergence: China, Europe, and the Making of the Modern World Economy.",
   "convidados": [
    {
+    "nome": "Marcelo Guedes Nunes",
+    "sobrenome": "Nunes",
+    "citacao": "NUNES, Marcelo Guedes",
+    "variantes": [
+     "Marcelo Nunes",
+     "NUNES, Marcelo Guedes"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Kenneth Pomeranz",
     "sobrenome": "Pomeranz",
     "citacao": "POMERANZ, Kenneth",
@@ -7022,7 +7384,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "The Great Divergence: China, Europe, and the Making of the Modern World Economy.",
   "ano_obra": null,
   "data": "2022-11-16",
@@ -7044,12 +7406,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Capitalismo de stakeholders e investimentos ESG. Jota, 19.5.2021. Função social da empresa. Repercussões sobre a responsabilidade civil dos controladores e administradores de S/As.",
   "ano_obra": 2021,
@@ -7076,6 +7437,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Manual dos Acordos de Leniência no Brasil: teoria e prática. Ed. Fórum, 2019.",
   "ano_obra": 2019,
@@ -7094,6 +7456,16 @@
   "titulo": "#EP87: RYMAROWICZ, Joanna. Considerations for Material Adverse Change Clauses Following the Pandemic. Tiago Eler comenta sobre a Cláusula “Material Adverse Effects” em operações de M&A.",
   "convidados": [
    {
+    "nome": "Tiago Eler",
+    "sobrenome": "Eler",
+    "citacao": "ELER, Tiago",
+    "variantes": [
+     "ELER, Tiago"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Joanna Rymarowicz",
     "sobrenome": "Rymarowicz",
     "citacao": "RYMAROWICZ, Joanna",
@@ -7102,7 +7474,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Considerations for Material Adverse Change Clauses Following the Pandemic. Tiago Eler comenta sobre a Cláusula “Material Adverse Effects” em operações de M&A.",
   "ano_obra": null,
   "data": "2022-09-16",
@@ -7129,6 +7501,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Conflito de interesses nos grupos societários, 2006.",
   "ano_obra": 2006,
@@ -7147,6 +7520,16 @@
   "titulo": "#EP85: FERNANDES, A. P.; NASCIMENTO, J. P. B. . Cláusulas de Proteção à Dispersão Acionária - Brazilian Poison Pill. In: Felipe Hanszman. (Org.). Atualidades em Direito Societário e Mercado de Capitai",
   "convidados": [
    {
+    "nome": "Amanda Peres",
+    "sobrenome": "Peres",
+    "citacao": "PERES, Amanda",
+    "variantes": [
+     "PERES, Amanda"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "A. P. Fernandes",
     "sobrenome": "Fernandes",
     "citacao": "FERNANDES, A. P.",
@@ -7156,16 +7539,19 @@
     ]
    },
    {
-    "nome": "J. P. B. Nascimento",
+    "nome": "João Pedro Nascimento",
     "sobrenome": "Nascimento",
-    "citacao": "NASCIMENTO, J. P. B.",
+    "citacao": "NASCIMENTO, João Pedro",
     "variantes": [
-     "J. Nascimento",
-     "NASCIMENTO, J. P. B."
+     "J. P. B. Nascimento",
+     "João Nascimento",
+     "NASCIMENTO, J. P. B.",
+     "NASCIMENTO, João",
+     "NASCIMENTO, João Pedro"
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Cláusulas de Proteção à Dispersão Acionária - Brazilian Poison Pill. In: Felipe Hanszman. (Org.). Atualidades em Direito Societário e Mercado de Capitai.",
   "ano_obra": null,
   "data": "2022-09-12",
@@ -7187,12 +7573,15 @@
     "sobrenome": "Nascimento",
     "citacao": "NASCIMENTO, João Pedro",
     "variantes": [
+     "J. P. B. Nascimento",
      "João Nascimento",
+     "NASCIMENTO, J. P. B.",
      "NASCIMENTO, João",
      "NASCIMENTO, João Pedro"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Medidas defensivas na tomada de controle de companhias. 2019.",
   "ano_obra": 2019,
@@ -7219,6 +7608,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Crimes de omissão imprópria. 1. ed. São Paulo: Marcial Pons, 2019. v. 1. 325p.",
   "ano_obra": 2019,
@@ -7247,6 +7637,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "correcao",
   "obra": "Responsabilidade do Acionista Controlador por Omissão. In: Rodrigo Rocha Monteiro de Castro, Luis Andre Azevedo, Marcus de Freitas Henriques. (Org.). Direito Societário, Mercado.",
   "ano_obra": null,
@@ -7270,6 +7661,7 @@
     "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
     "variantes": [
      "Erasmo França",
+     "Erasmo Valadao",
      "Erasmo Valladão A. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
@@ -7278,6 +7670,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Conflito de interesses nas assembléias de S.A. (e outros escritos sobre conflito de interesses). 2ª. ed. São Paulo: Malheiros Editores, 2014. v. 1. 322.",
   "ano_obra": 2014,
@@ -7296,15 +7689,15 @@
   "titulo": "#EP80: CAMILO JR, Ruy. A distribuição diferenciada dos dividendos por decisão assemblear em companhias. Revista do Advogado AASP, n 152 (dez 2021).",
   "convidados": [
    {
-    "nome": "Ruy Camilo Jr.",
-    "sobrenome": "Camilo Jr.",
-    "citacao": "CAMILO JR, Ruy",
+    "nome": "Ruy Camilo",
+    "sobrenome": "Camilo",
+    "citacao": "CAMILO, Ruy",
     "variantes": [
-     "CAMILO JR, Ruy",
-     "Ruy Jr."
+     "CAMILO, Ruy"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A distribuição diferenciada dos dividendos por decisão assemblear em companhias. Revista do Advogado AASP, n 152 (dez 2021).",
   "ano_obra": 2021,
@@ -7328,6 +7721,7 @@
     "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
     "variantes": [
      "Erasmo França",
+     "Erasmo Valadao",
      "Erasmo Valladão A. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
@@ -7336,6 +7730,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Invalidade das deliberações de assembleia das S/A: e outros escritos sobre o tema da invalidade das deliberações.",
   "ano_obra": null,
@@ -7360,13 +7755,12 @@
     "variantes": [
      "CEREZETTI, Sheila Christina Neder",
      "CEREZETTI, Sheila Neder",
-     "NEDER CEREZETTI, Sheila C.",
-     "Sheila C. Neder Cerezetti",
      "Sheila Cerezetti",
      "Sheila Neder Cerezetti"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Administradores independentes e independência dos administradores: regras societárias fundamentais ao estímulo do mercado de capitais brasileiro), in M. V. von Adamek (.",
   "ano_obra": null,
@@ -7385,15 +7779,16 @@
   "titulo": "#EP77: CUEVA, Ricardo V. B. A responsabilidade civil dos administradores de sociedades por ações na jurisprudência do Superior Tribunal de Justiça. In: Superior Tribunal de Justiça. (Org.). Superior T",
   "convidados": [
    {
-    "nome": "Ricardo V. B. Cueva",
+    "nome": "Ricardo Vilas Boas Cueva",
     "sobrenome": "Cueva",
-    "citacao": "CUEVA, Ricardo V. B.",
+    "citacao": "CUEVA, Ricardo Vilas Boas",
     "variantes": [
-     "CUEVA, Ricardo V. B.",
+     "CUEVA, Ricardo Vilas Boas",
      "Ricardo Cueva"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A responsabilidade civil dos administradores de sociedades por ações na jurisprudência do Superior Tribunal de Justiça. In: Superior Tribunal de Justiça. (Org.). Superior T.",
   "ano_obra": null,
@@ -7420,6 +7815,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Regulação do mercado financeiro e de capitais. CAMPUS: 2007.",
   "ano_obra": 2007,
@@ -7447,6 +7843,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "Lei 14.193/2021 Lei das Sociedades Anônimas do Futebol.",
   "ano_obra": 2021,
@@ -7473,6 +7870,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Marco Legal das Startups.",
   "ano_obra": null,
@@ -7490,6 +7888,16 @@
   "numero": 73,
   "titulo": "#EP73: LAMY FILHO, Alfredo. BULHÕES, José Luiz. Direito das Companhias. 2017.",
   "convidados": [
+   {
+    "nome": "Chico Mussnich",
+    "sobrenome": "Mussnich",
+    "citacao": "MUSSNICH, Chico",
+    "variantes": [
+     "MUSSNICH, Chico"
+    ]
+   }
+  ],
+  "autores": [
    {
     "nome": "Alfredo Lamy Filho",
     "sobrenome": "Lamy Filho",
@@ -7509,7 +7917,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Direito das Companhias. 2017.",
   "ano_obra": 2017,
   "data": "2022-08-24",
@@ -7535,6 +7943,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Direito de recesso e valor justo como proteção do investidor: a reforma necessária.",
   "ano_obra": null,
@@ -7569,6 +7978,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A sociedade limitada na perspectiva da sua dissolução.",
   "ano_obra": null,
@@ -7596,6 +8006,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Governança Corporativa e Diversidade Racial no Brasil: um Retrato das Companhias Abertas. 2022.",
   "ano_obra": 2022,
@@ -7625,6 +8036,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "Manual de Registro das Sociedades Limitadas. DREI. 2020.",
   "ano_obra": 2020,
@@ -7647,12 +8059,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Aspectos constitucionais da responsabilidade limitada e do capital social. A ADI 4637 e as discussões sobre a compatibilização entre a livre iniciativa e a proteção dos credores so.",
   "ano_obra": null,
@@ -7676,6 +8087,7 @@
     "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
     "variantes": [
      "Erasmo França",
+     "Erasmo Valadao",
      "Erasmo Valladão A. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
@@ -7684,6 +8096,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A sociedade em comum. 1. ed. São Paulo: Malheiros Editores, 2013. v. 1. 192p.",
   "ano_obra": 2013,
@@ -7711,6 +8124,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A Tipologia Societária e sua Função Econômica. dissolução Parcial da Sociedade Anônima Fechada, Princípio da Intangibilidade do Capital e Caráter Institucional da Empres.",
   "ano_obra": null,
@@ -7729,6 +8143,18 @@
   "titulo": "#EP65: MICKLETHWAIT, John. WOOLDRIDGE, Adrian. The company: a short story of a revolutionary idea.",
   "convidados": [
    {
+    "nome": "Paulo Cezar Aragão",
+    "sobrenome": "Aragão",
+    "citacao": "ARAGÃO, Paulo Cezar",
+    "variantes": [
+     "ARAGÃO, Paulo",
+     "ARAGÃO, Paulo Cezar",
+     "Paulo Aragão"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "John Micklethwait",
     "sobrenome": "Micklethwait",
     "citacao": "MICKLETHWAIT, John",
@@ -7745,7 +8171,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "The company: a short story of a revolutionary idea.",
   "ano_obra": null,
   "data": "2022-07-21",
@@ -7763,6 +8189,16 @@
   "titulo": "#EP64: GALGANO, Francesco. La forza del numero e la legge della ragione. Storia del principio di maggioranza. Bolonha (Italia): Il Mulino, 2007.",
   "convidados": [
    {
+    "nome": "Rafael Drews",
+    "sobrenome": "Drews",
+    "citacao": "DREWS, Rafael",
+    "variantes": [
+     "DREWS, Rafael"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Francesco Galgano",
     "sobrenome": "Galgano",
     "citacao": "GALGANO, Francesco",
@@ -7771,7 +8207,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "La forza del numero e la legge della ragione. Storia del principio di maggioranza. Bolonha (Italia): Il Mulino, 2007.",
   "ano_obra": 2007,
   "data": "2022-07-19",
@@ -7798,6 +8234,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Contratos entre sócios. Interpretação e Direito Societário. 2013.",
   "ano_obra": 2013,
@@ -7816,6 +8253,16 @@
   "titulo": "#EP62: BERLE e MEANS. The modern Corporation and private property. Transaction Publishers, 1937.",
   "convidados": [
    {
+    "nome": "Eduardo Pimenta",
+    "sobrenome": "Pimenta",
+    "citacao": "PIMENTA, Eduardo",
+    "variantes": [
+     "PIMENTA, Eduardo"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Berle",
     "sobrenome": "Berle",
     "citacao": "BERLE",
@@ -7832,7 +8279,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "The modern Corporation and private property. Transaction Publishers, 1937.",
   "ano_obra": 1937,
   "data": "2022-07-14",
@@ -7859,6 +8306,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A anatomia do direito societário.",
   "ano_obra": null,
@@ -7886,6 +8334,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Aviamento: a métrica do sucesso empresarial. Jus Navigandi (Online), v. 6506, p. 01-04, 2021.",
   "ano_obra": 2021,
@@ -7915,6 +8364,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Regulação da Atividade Econômica. 2021.",
   "ano_obra": 2021,
@@ -7932,6 +8382,17 @@
   "numero": 58,
   "titulo": "#EP58: JUSTINO, Manoel Justino. Parecer Igreja Metodista. 2021. CAVALLI, Cassio. Parecer ao Instituto Metodista de Serviços Educacionais. 2020.",
   "convidados": [
+   {
+    "nome": "Maria Fabiana Sant'Ana",
+    "sobrenome": "Sant'Ana",
+    "citacao": "SANT'ANA, Maria Fabiana",
+    "variantes": [
+     "Maria Sant'Ana",
+     "SANT'ANA, Maria Fabiana"
+    ]
+   }
+  ],
+  "autores": [
    {
     "nome": "Manoel Justino Bezerra Filho",
     "sobrenome": "Bezerra Filho",
@@ -7951,7 +8412,7 @@
     ]
    }
   ],
-  "origem_convidado": "correcao",
+  "origem_convidado": "comentador",
   "obra": "Parecer Igreja Metodista. 2021. CAVALLI, Cassio. Parecer ao Instituto Metodista de Serviços Educacionais. 2020.",
   "ano_obra": 2020,
   "data": "2022-07-05",
@@ -7974,15 +8435,18 @@
     "citacao": "CARVALHO, Ângelo Gamba Prata de",
     "variantes": [
      "Angelo G Prata de Carvalho",
+     "Angelo Gamba",
      "Angelo Prata de Carvalho",
      "CARVALHO, Ângelo Gamba",
      "CARVALHO, Ângelo Gamba Prata de",
      "Ângelo Carvalho",
+     "Ângelo Gamba",
      "Ângelo Gamba Carvalho"
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "autores": [],
+  "origem_convidado": "comentador",
   "obra": "Os contratos híbridos como categoria dogmática: características gerais de um conceito em construção. 2016.",
   "ano_obra": 2016,
   "data": "2022-06-28",
@@ -8000,6 +8464,18 @@
   "titulo": "#EP56: COASE, Ronald. The Nature of the Firm. 1937.",
   "convidados": [
    {
+    "nome": "Bruno Meyerhof Salama",
+    "sobrenome": "Salama",
+    "citacao": "SALAMA, Bruno Meyerhof",
+    "variantes": [
+     "Bruno Salama",
+     "SALAMA, Bruno",
+     "SALAMA, Bruno Meyerhof"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Ronald Coase",
     "sobrenome": "Coase",
     "citacao": "COASE, Ronald",
@@ -8008,7 +8484,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "The Nature of the Firm. 1937.",
   "ano_obra": 1937,
   "data": "2022-06-28",
@@ -8035,6 +8511,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Empresa, Direito e Economia: elaboração de um conceito jurídico de empresa no direito comercial brasileiro contemporâneo a partir do dado teórico econômico, Universidade.",
   "ano_obra": null,
@@ -8059,11 +8536,13 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "autores": [],
+  "origem_convidado": "comentador",
   "obra": "Os livres podem ser iguais? Liberalismo e direito. 2022.",
   "ano_obra": 2022,
   "data": "2022-06-23",
@@ -8089,6 +8568,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A boa-fé no direito privado. 2018.",
   "ano_obra": 2018,
@@ -8117,6 +8597,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Teoria Geral dos Contratos Empresariais. 2016.",
   "ano_obra": 2016,
@@ -8135,6 +8616,16 @@
   "titulo": "#EP51: SZTAJN, Rachel. Codificação, decodificação, recodificação. A empresa no código civil brasileiro. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 143, p. 11-20, j",
   "convidados": [
    {
+    "nome": "Uinie Caminha",
+    "sobrenome": "Caminha",
+    "citacao": "CAMINHA, Uinie",
+    "variantes": [
+     "CAMINHA, Uinie"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Rachel Sztajn",
     "sobrenome": "Sztajn",
     "citacao": "SZTAJN, Rachel",
@@ -8143,7 +8634,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Codificação, decodificação, recodificação. A empresa no código civil brasileiro. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 143, p. 11-20, j.",
   "ano_obra": null,
   "data": "2022-06-23",
@@ -8161,15 +8652,16 @@
   "titulo": "#EP50: MATTOS FILHO, A. O. O novo advogado. São Paulo - SP: CONJUR - Consultor Jurídico, 2006 (Entrevista). E AMBROSINI, Diego Rafael ; SALINAS, Natasha S. Caccia ; MATTOS FILHO, A. O. . A razão de se",
   "convidados": [
    {
-    "nome": "A. O. Mattos Filho",
+    "nome": "Ary Oswaldo Mattos Filho",
     "sobrenome": "Mattos Filho",
-    "citacao": "MATTOS FILHO, A. O.",
+    "citacao": "MATTOS FILHO, Ary Oswaldo",
     "variantes": [
-     "A. Filho",
-     "MATTOS FILHO, A. O."
+     "Ary Filho",
+     "MATTOS FILHO, Ary Oswaldo"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O novo advogado. São Paulo - SP: CONJUR - Consultor Jurídico, 2006 (Entrevista). E AMBROSINI, Diego Rafael ; SALINAS, Natasha S. Caccia ; MATTOS FILHO, A. O. . A razão de se.",
   "ano_obra": 2006,
@@ -8188,6 +8680,16 @@
   "titulo": "#EP49: GALGANO, Francesco. Lex mercatoria. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 129, p. 224-228, jan./mar. 2003. Tradução de Erasmo Valladão A. N. França. It",
   "convidados": [
    {
+    "nome": "Marlon Tomazette",
+    "sobrenome": "Tomazette",
+    "citacao": "TOMAZETTE, Marlon",
+    "variantes": [
+     "TOMAZETTE, Marlon"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Francesco Galgano",
     "sobrenome": "Galgano",
     "citacao": "GALGANO, Francesco",
@@ -8196,7 +8698,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Lex mercatoria. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 129, p. 224-228, jan./mar. 2003. Tradução de Erasmo Valladão A. N. França. It.",
   "ano_obra": 2003,
   "data": "2022-06-21",
@@ -8223,6 +8725,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sociologia do poder na sociedade anônima.",
   "ano_obra": null,
@@ -8259,6 +8762,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "The Mergers & Acquisitions Review: Brazil.",
   "ano_obra": null,
@@ -8286,6 +8790,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A cláusula de earn-out na aquisição de sociedades: solução ou postergação do problema?",
   "ano_obra": null,
@@ -8313,6 +8818,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O direito societário e a estruturação do poder econômico. São Paulo: Ed. Singular, 2016.",
   "ano_obra": 2016,
@@ -8336,14 +8842,17 @@
     "citacao": "CARVALHO, Ângelo Gamba Prata de",
     "variantes": [
      "Angelo G Prata de Carvalho",
+     "Angelo Gamba",
      "Angelo Prata de Carvalho",
      "CARVALHO, Ângelo Gamba",
      "CARVALHO, Ângelo Gamba Prata de",
      "Ângelo Carvalho",
+     "Ângelo Gamba",
      "Ângelo Gamba Carvalho"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Controle Empresarial Externo. Dissertação de Mestrado, UnB.",
   "ano_obra": null,
@@ -8372,6 +8881,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Algumas questões relativas à aplicação do Art. 256 da Lei das Sociedades por ações.",
   "ano_obra": null,
@@ -8399,6 +8909,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Estamos preparados para o voto plural? JOTA.",
   "ano_obra": null,
@@ -8421,12 +8932,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Função social da empresa: Repercussões sobre a responsabilidade civil de controladores e administradores de S/As. Rio de Janeiro: Renovar, 2011.",
   "ano_obra": 2011,
@@ -8463,6 +8973,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Reflexões sobre o regime jurídico de responsabilidade dos administradores fiduciários e gestores de recursos no âmbito dos fundos de invest.",
   "ano_obra": null,
@@ -8481,15 +8992,15 @@
   "titulo": "#EP 39: COPOLA, M. P.. Artigo 2o. In: Gabriela Codorniz e Laura Patella. (Org.). Comentários à Lei do Mercado de Capitais - Lei No. 6.385/76. e “Carta a um jovem advogado do mercado de capitais”",
   "convidados": [
    {
-    "nome": "M. P. Copola",
+    "nome": "Marina Copola",
     "sobrenome": "Copola",
-    "citacao": "COPOLA, M. P.",
+    "citacao": "COPOLA, Marina",
     "variantes": [
-     "COPOLA, M. P.",
-     "M. Copola"
+     "COPOLA, Marina"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Artigo 2o. In: Gabriela Codorniz e Laura Patella. (Org.). Comentários à Lei do Mercado de Capitais - Lei No. 6.385/76. e “Carta a um jovem advogado do mercado de capitais”",
   "ano_obra": null,
@@ -8544,6 +9055,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Determinantes estratégicas na escolha do tipo societário: ltda ou S.A.?",
   "ano_obra": null,
@@ -8568,10 +9080,12 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A ação de dissolução parcial da sociedade.",
   "ano_obra": null,
@@ -8598,6 +9112,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Alteração da relação obrigacional estabelecida em acordos societários por impossibilidade superveniente não imputável às partes contratantes em virtude do desapareciment.",
   "ano_obra": null,
@@ -8625,6 +9140,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "“O regime de responsabilidade dos sócios nas limitadas e a aplicação das regras das sociedades simples”, In RDM 166-167/35-44, 2013.",
   "ano_obra": 2013,
@@ -8661,6 +9177,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Sociedade em Conta de Participação.",
   "ano_obra": null,
@@ -8679,6 +9196,16 @@
   "titulo": "#EP 33: MARCONDES, Sylvio. “Qualificação e classificação de sociedades”. In Problemas de direito mercantil, São Paulo: Max Limonad, 1970, pp. 163-181.",
   "convidados": [
    {
+    "nome": "Adriano Ferraz",
+    "sobrenome": "Ferraz",
+    "citacao": "FERRAZ, Adriano",
+    "variantes": [
+     "FERRAZ, Adriano"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Sylvio Marcondes",
     "sobrenome": "Marcondes",
     "citacao": "MARCONDES, Sylvio",
@@ -8687,7 +9214,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "“Qualificação e classificação de sociedades”. In Problemas de direito mercantil, São Paulo: Max Limonad, 1970, pp. 163-181.",
   "ano_obra": 1970,
   "data": "2022-03-15",
@@ -8713,6 +9240,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "The fallacy of complete corporate separateness. FGV, 2021. & Veil peeking: the corporation as a nexus for regulation. FGV, 2020.",
   "ano_obra": 2020,
@@ -8735,7 +9263,6 @@
     "sobrenome": "Mamede",
     "citacao": "MAMEDE, Gladston",
     "variantes": [
-     "G. Mamede",
      "Gladson Mamede",
      "MAMEDE, Gladston"
     ]
@@ -8750,6 +9277,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Holding familiar e suas vantagens: Planejamento Jurídico e Econômico do Patrimônio e da Sucessão Familiar.",
   "ano_obra": null,
@@ -8779,6 +9307,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O novo Direito Societário. 4ª Ed. São Paulo: Malheiros, Cap. 2 – “Interesse Social: a nova concepção”",
   "ano_obra": null,
@@ -8797,6 +9326,16 @@
   "titulo": "#EP 29: GRAU, Eros Roberto. A ordem econômica na Constituição de 1988: interpretação e crítica. 13ª ed. São Paulo: Malheiros, 2007. Itens 84 a 109, p. 193-255.",
   "convidados": [
    {
+    "nome": "Lilian Cintra",
+    "sobrenome": "Cintra",
+    "citacao": "CINTRA, Lilian",
+    "variantes": [
+     "CINTRA, Lilian"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Eros Roberto Grau",
     "sobrenome": "Grau",
     "citacao": "GRAU, Eros Roberto",
@@ -8807,7 +9346,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "A ordem econômica na Constituição de 1988: interpretação e crítica. 13ª ed. São Paulo: Malheiros, 2007. Itens 84 a 109, p. 193-255.",
   "ano_obra": 2007,
   "data": "2022-02-22",
@@ -8825,15 +9364,16 @@
   "titulo": "#EP 28: FINKELSTEIN, M. E. Manual do Direito Empresarial.",
   "convidados": [
    {
-    "nome": "M. E. Finkelstein",
+    "nome": "Maria Eugênia Finkelstein",
     "sobrenome": "Finkelstein",
-    "citacao": "FINKELSTEIN, M. E.",
+    "citacao": "FINKELSTEIN, Maria Eugênia",
     "variantes": [
-     "FINKELSTEIN, M. E.",
-     "M. Finkelstein"
+     "FINKELSTEIN, Maria Eugênia",
+     "Maria Finkelstein"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Manual do Direito Empresarial.",
   "ano_obra": null,
@@ -8852,6 +9392,16 @@
   "titulo": "#EP 27: SALOMÃO FILHO, Calixto. A “fattispecie” empresário no Código Civil de 2002. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 144, p. 7-15, out/dez 2006",
   "convidados": [
    {
+    "nome": "Henrique Arake",
+    "sobrenome": "Arake",
+    "citacao": "ARAKE, Henrique",
+    "variantes": [
+     "ARAKE, Henrique"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Calixto Salomão Filho",
     "sobrenome": "Salomão Filho",
     "citacao": "SALOMÃO FILHO, Calixto",
@@ -8863,7 +9413,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "A “fattispecie” empresário no Código Civil de 2002. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 144, p. 7-15, out/dez 2006.",
   "ano_obra": 2006,
   "data": "2022-02-22",
@@ -8891,6 +9441,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Por que tenho medo dos juízes (a interpretação/aplicação do direito e os princípios). São Paulo: Malheiros, 2018.",
   "ano_obra": 2018,
@@ -8920,6 +9471,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "Lei da Melhoria do Ambiente de Negócios (Lei 14195/2021) e MP dos Cartórios (que alterou a Lei 6015/1973).",
   "ano_obra": 1973,
@@ -8944,10 +9496,12 @@
     "variantes": [
      "COELHO, Fábio",
      "COELHO, Fábio Ulhoa",
-     "Fábio Coelho"
+     "Fábio Coelho",
+     "Fábio Ulhoa"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "Projeto do Novo Código Comercial.",
   "ano_obra": null,
@@ -8966,6 +9520,18 @@
   "titulo": "#EP 23: IRTI, Natalino. A ordem jurídica do mercado. In. Revista de Direito Mercantil, Industrial, Econômico e Financeiro. São Paulo, n. 145, p. 44- 49, jan/mar 2007.",
   "convidados": [
    {
+    "nome": "Paula Andrea Forgioni",
+    "sobrenome": "Forgioni",
+    "citacao": "FORGIONI, Paula Andrea",
+    "variantes": [
+     "FORGIONI, Paula",
+     "FORGIONI, Paula Andrea",
+     "Paula Forgioni"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Natalino Irti",
     "sobrenome": "Irti",
     "citacao": "IRTI, Natalino",
@@ -8974,7 +9540,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "A ordem jurídica do mercado. In. Revista de Direito Mercantil, Industrial, Econômico e Financeiro. São Paulo, n. 145, p. 44- 49, jan/mar 2007.",
   "ano_obra": 2007,
   "data": "2022-02-01",
@@ -8992,6 +9558,17 @@
   "titulo": "EP #22: SZTAJN, Rachel. Fusão, incorporação e cisão de sociedades. Formas de reorganização da estrutura societária na Lei n. 9.457/97 in: GUAZZELLI, Roberto. Reforma da lei das sociedades por ações",
   "convidados": [
    {
+    "nome": "Marco Antônio Fonseca",
+    "sobrenome": "Fonseca",
+    "citacao": "FONSECA, Marco Antônio",
+    "variantes": [
+     "FONSECA, Marco Antônio",
+     "Marco Fonseca"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Rachel Sztajn",
     "sobrenome": "Sztajn",
     "citacao": "SZTAJN, Rachel",
@@ -9000,7 +9577,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Fusão, incorporação e cisão de sociedades. Formas de reorganização da estrutura societária na Lei n. 9.457/97 in: GUAZZELLI, Roberto. Reforma da lei das sociedades por ações.",
   "ano_obra": null,
   "data": "2021-10-20",
@@ -9022,12 +9599,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Grupos societários no direito do trabalho: critérios de configuração e consequências. Revista Semestral de Direito Empresarial. n. 16, pp. 113-151, jan./jun. 2015.",
   "ano_obra": 2015,
@@ -9045,6 +9621,16 @@
   "numero": 20,
   "titulo": "EP #20: COMPARATO, Fábio Konder e SALOMÃO FILHO, Calixto. O poder de controle nas sociedades anônimas. 5°. ed. Rio de Janeiro: Forense, 2008, p. 105-142 e p. 363-433.",
   "convidados": [
+   {
+    "nome": "Anna Binotto",
+    "sobrenome": "Binotto",
+    "citacao": "BINOTTO, Anna",
+    "variantes": [
+     "BINOTTO, Anna"
+    ]
+   }
+  ],
+  "autores": [
    {
     "nome": "Fábio Konder Comparato",
     "sobrenome": "Comparato",
@@ -9068,7 +9654,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "O poder de controle nas sociedades anônimas. 5°. ed. Rio de Janeiro: Forense, 2008, p. 105-142 e p. 363-433.",
   "ano_obra": 2008,
   "data": "2021-10-06",
@@ -9086,14 +9672,15 @@
   "titulo": "EP #19: PARGENDLER, M. Responsabilidade Civil dos Administradores e Business Judgement Rule no Direito Brasileiro. 2015.",
   "convidados": [
    {
-    "nome": "M. Pargendler",
+    "nome": "Mariana Pargendler",
     "sobrenome": "Pargendler",
-    "citacao": "PARGENDLER, M.",
+    "citacao": "PARGENDLER, Mariana",
     "variantes": [
-     "PARGENDLER, M."
+     "PARGENDLER, Mariana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Responsabilidade Civil dos Administradores e Business Judgement Rule no Direito Brasileiro. 2015.",
   "ano_obra": 2015,
@@ -9112,6 +9699,16 @@
   "titulo": "EP #18: EIZIRIK, Nelson. Lei das SAs Comentada.",
   "convidados": [
    {
+    "nome": "Matheus Rodrigues",
+    "sobrenome": "Rodrigues",
+    "citacao": "RODRIGUES, Matheus",
+    "variantes": [
+     "RODRIGUES, Matheus"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Nelson Eizirik",
     "sobrenome": "Eizirik",
     "citacao": "EIZIRIK, Nelson",
@@ -9120,7 +9717,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Lei das SAs Comentada.",
   "ano_obra": null,
   "data": "2021-09-29",
@@ -9146,6 +9743,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Cinco Mitos Sobre a História das Sociedades Anônimas no Brasil. 2006.",
   "ano_obra": 2006,
@@ -9172,6 +9770,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Massa Crítica Societária: estudo sobre a estabilidade das sociedades de pessoas. Revista de Direito Bancário e do mercado de capitais, Ano 24, 91. Jan-Mar. 2021.",
   "ano_obra": 2021,
@@ -9190,11 +9789,24 @@
   "titulo": "EP #15: FRANÇA, Erasmo Valladão A. e N.; VON ADAMEK, Marcelo Vieira. “Affectio societatis. Um conceito jurídico superado no moderno direito societário pelo conceito de fim social”, In RDM 149-150/108-",
   "convidados": [
    {
+    "nome": "Marcelo Vieira von Adamek",
+    "sobrenome": "Adamek",
+    "citacao": "ADAMEK, Marcelo Vieira von",
+    "variantes": [
+     "ADAMEK, Marcelo",
+     "ADAMEK, Marcelo Vieira von",
+     "Marcelo Adamek"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Erasmo Valladão Azevedo e Novaes França",
     "sobrenome": "França",
     "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
     "variantes": [
      "Erasmo França",
+     "Erasmo Valadao",
      "Erasmo Valladão A. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
@@ -9203,7 +9815,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "e N.; VON ADAMEK, Marcelo Vieira. “Affectio societatis. Um conceito jurídico superado no moderno direito societário pelo conceito de fim social”, In RDM 149-150/108.",
   "ano_obra": null,
   "data": "2021-09-21",
@@ -9221,6 +9833,16 @@
   "titulo": "EP #14: SANTA CRUZ, Andre. Manual de Direito Empresarial. São Paulo, Jus Podivm, 2021. Cap 4 (Sociedade Limitada)",
   "convidados": [
    {
+    "nome": "André Ramos",
+    "sobrenome": "Ramos",
+    "citacao": "RAMOS, André",
+    "variantes": [
+     "RAMOS, André"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "André Santa Cruz",
     "sobrenome": "Cruz",
     "citacao": "CRUZ, André Santa",
@@ -9232,7 +9854,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Manual de Direito Empresarial. São Paulo, Jus Podivm, 2021. Cap 4 (Sociedade Limitada).",
   "ano_obra": 2021,
   "data": "2021-09-14",
@@ -9258,6 +9880,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Curso de Direito Empresarial – 1 Teoria Geral e Direito Societário.",
   "ano_obra": null,
@@ -9281,10 +9904,12 @@
     "citacao": "SALAMA, Bruno Meyerhof",
     "variantes": [
      "Bruno Salama",
+     "SALAMA, Bruno",
      "SALAMA, Bruno Meyerhof"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "O Fim da Responsabilidade Limitada no Brasil: História, Direito e Economia, São Paulo: Malheiros, 2014.",
   "ano_obra": 2014,
@@ -9303,6 +9928,16 @@
   "titulo": "EP #11: SALOMÃO FILHO, Calixto. “A Teoria da Desconsideração da Personalidade Jurídica”, In O Novo Direito Societário, São Paulo: Malheiros, 4ª ed., pp. 232-274",
   "convidados": [
    {
+    "nome": "Amanda Barelli",
+    "sobrenome": "Barelli",
+    "citacao": "BARELLI, Amanda",
+    "variantes": [
+     "BARELLI, Amanda"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Calixto Salomão Filho",
     "sobrenome": "Salomão Filho",
     "citacao": "SALOMÃO FILHO, Calixto",
@@ -9314,7 +9949,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "“A Teoria da Desconsideração da Personalidade Jurídica”, In O Novo Direito Societário, São Paulo: Malheiros, 4ª ed., pp. 232-274.",
   "ano_obra": null,
   "data": "2021-08-25",
@@ -9332,6 +9967,16 @@
   "titulo": "EP #10: ASCARELLI, Tulio. “O contrato plurilateral”. In Problemas das sociedades anônimas e direito comparado, Ed. Saraiva, 1945. pp. 272-332",
   "convidados": [
    {
+    "nome": "Mônica Fujimoto",
+    "sobrenome": "Fujimoto",
+    "citacao": "FUJIMOTO, Mônica",
+    "variantes": [
+     "FUJIMOTO, Mônica"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Tulio Ascarelli",
     "sobrenome": "Ascarelli",
     "citacao": "ASCARELLI, Tulio",
@@ -9340,7 +9985,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "“O contrato plurilateral”. In Problemas das sociedades anônimas e direito comparado, Ed. Saraiva, 1945. pp. 272-332.",
   "ano_obra": 1945,
   "data": "2021-08-25",
@@ -9364,13 +10009,12 @@
     "variantes": [
      "CEREZETTI, Sheila Christina Neder",
      "CEREZETTI, Sheila Neder",
-     "NEDER CEREZETTI, Sheila C.",
-     "Sheila C. Neder Cerezetti",
      "Sheila Cerezetti",
      "Sheila Neder Cerezetti"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A lei de recuperação e falência e o princípio da preservação da empresa: Uma análise da proteção aos interesses envolvidos pela sociedade por ações em recuperação jud.",
   "ano_obra": null,
@@ -9389,6 +10033,16 @@
   "titulo": "EP #8: COMPARATO, Fabio Konder. Função social da propriedade dos bens de produção. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 63. p. 71-79. jul./set. 1986.",
   "convidados": [
    {
+    "nome": "Eric Jasper",
+    "sobrenome": "Jasper",
+    "citacao": "JASPER, Eric",
+    "variantes": [
+     "JASPER, Eric"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Fábio Konder Comparato",
     "sobrenome": "Comparato",
     "citacao": "COMPARATO, Fábio Konder",
@@ -9400,7 +10054,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Função social da propriedade dos bens de produção. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 63. p. 71-79. jul./set. 1986.",
   "ano_obra": 1986,
   "data": "2021-08-18",
@@ -9418,11 +10072,22 @@
   "titulo": "EP #7: FRANÇA, Erasmo Valladão. Empresa, empresário e estabelecimento. A nova disciplina das sociedades. In: Temas de direito societário, falimentar e teoria da empresa. São Paulo: Malheiros, 2009",
   "convidados": [
    {
+    "nome": "Henrique Arake",
+    "sobrenome": "Arake",
+    "citacao": "ARAKE, Henrique",
+    "variantes": [
+     "ARAKE, Henrique"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Erasmo Valladão Azevedo e Novaes França",
     "sobrenome": "França",
     "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
     "variantes": [
      "Erasmo França",
+     "Erasmo Valadao",
      "Erasmo Valladão A. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
@@ -9431,7 +10096,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Empresa, empresário e estabelecimento. A nova disciplina das sociedades. In: Temas de direito societário, falimentar e teoria da empresa. São Paulo: Malheiros, 2009.",
   "ano_obra": 2009,
   "data": "2021-08-18",
@@ -9449,6 +10114,16 @@
   "titulo": "EP #6: ASCARELLI, Tulio. O empresário. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 109, p. 183-189, jan/mar 1998.",
   "convidados": [
    {
+    "nome": "Marcelo Rivera",
+    "sobrenome": "Rivera",
+    "citacao": "RIVERA, Marcelo",
+    "variantes": [
+     "RIVERA, Marcelo"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Tulio Ascarelli",
     "sobrenome": "Ascarelli",
     "citacao": "ASCARELLI, Tulio",
@@ -9457,7 +10132,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "O empresário. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 109, p. 183-189, jan/mar 1998.",
   "ano_obra": 1998,
   "data": "2021-08-18",
@@ -9475,6 +10150,16 @@
   "titulo": "EP #5: ASQUINI, Alberto. Perfis da empresa. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 104, p. 109-126, out/dez 1996",
   "convidados": [
    {
+    "nome": "Vinícius Carvalho",
+    "sobrenome": "Carvalho",
+    "citacao": "CARVALHO, Vinícius",
+    "variantes": [
+     "CARVALHO, Vinícius"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Alberto Asquini",
     "sobrenome": "Asquini",
     "citacao": "ASQUINI, Alberto",
@@ -9483,7 +10168,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Perfis da empresa. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 104, p. 109-126, out/dez 1996.",
   "ano_obra": 1996,
   "data": "2021-08-18",
@@ -9505,12 +10190,11 @@
     "sobrenome": "Frazão",
     "citacao": "FRAZÃO, Ana",
     "variantes": [
-     "Ana de O. Frazão",
-     "FRAZÃO, Ana",
-     "FRAZÃO, Ana de O."
+     "FRAZÃO, Ana"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "Joint Ventures Contratuais. In: RIL Brasília a. 52 n. 207 jul./set. 2015.",
   "ano_obra": 2015,
@@ -9537,6 +10221,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "descricao",
   "obra": "Lei da Liberdade Econômica, Lei 13.874/2019.",
   "ano_obra": 2019,
@@ -9555,6 +10240,23 @@
   "titulo": "EP #2: VIVANTE, Cesare. Introdução ao tratado de Direito Comercial. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 102, p. 134-138, abr./jun. 1996.",
   "convidados": [
    {
+    "nome": "Ângelo Gamba Prata de Carvalho",
+    "sobrenome": "Carvalho",
+    "citacao": "CARVALHO, Ângelo Gamba Prata de",
+    "variantes": [
+     "Angelo G Prata de Carvalho",
+     "Angelo Gamba",
+     "Angelo Prata de Carvalho",
+     "CARVALHO, Ângelo Gamba",
+     "CARVALHO, Ângelo Gamba Prata de",
+     "Ângelo Carvalho",
+     "Ângelo Gamba",
+     "Ângelo Gamba Carvalho"
+    ]
+   }
+  ],
+  "autores": [
+   {
     "nome": "Cesare Vivante",
     "sobrenome": "Vivante",
     "citacao": "VIVANTE, Cesare",
@@ -9563,7 +10265,7 @@
     ]
    }
   ],
-  "origem_convidado": "titulo",
+  "origem_convidado": "comentador",
   "obra": "Introdução ao tratado de Direito Comercial. Revista de direito mercantil, industrial, econômico e financeiro. São Paulo, n. 102, p. 134-138, abr./jun. 1996.",
   "ano_obra": 1996,
   "data": "2021-08-04",
@@ -9591,6 +10293,7 @@
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "titulo",
   "obra": "A evolução do direito comercial brasileiro: da mercancia ao mercado. São Paulo: RT, 2009.",
   "ano_obra": 2009,

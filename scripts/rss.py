@@ -12,7 +12,7 @@ from titulos import interpretar, limpar_titulo
 ITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
 
 # Rodapé repetido nas descrições: tudo a partir daqui é removido.
-_RODAPE = re.compile(r"👩‍?⚖️?\s*Profa\.?\s*Amanda Athayde.*$", re.DOTALL)
+_RODAPE = re.compile(r"(?:👩‍?⚖️?\s*)?Profa\.?\s*Amanda Athayde\s*⚖.*$", re.DOTALL)
 
 
 def baixar(url, tentativas=4):
@@ -70,6 +70,7 @@ def ler_feed(xml_bytes):
             "numero": info["numero"],
             "titulo": titulo,
             "convidados": info["convidados"],
+            "autores": info["autores"],
             "origem_convidado": info["origem_convidado"],
             "obra": info["obra"],
             "ano_obra": info["ano_obra"],

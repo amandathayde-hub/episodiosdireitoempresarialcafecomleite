@@ -32,7 +32,7 @@ _NUMERO = re.compile(
 _MAI = "A-ZÀ-ÖØ-Þ"
 _MIN = "a-zß-öø-ÿ"
 _PART = r"(?:de|da|do|dos|das|del|di|van|von|e)"
-_PALAVRA = rf"[{_MAI}][{_MIN}'’\-]+"
+_PALAVRA = rf"[{_MAI}][{_MIN}]+(?:['’\-][{_MAI}]?[{_MIN}]+)*"
 _INICIAL = rf"[{_MAI}]\."
 _LETRA = rf"[{_MAI}](?=\s)"  # inicial sem ponto: "Angelo G Prata"
 _ITEM = rf"(?:{_PALAVRA}|{_LETRA})"
@@ -109,12 +109,15 @@ def pessoa(sobrenome, prenome=""):
 
 
 def pessoa_natural(nome):
-    """'Ivo Waisberg' -> {nome, sobrenome, citacao}."""
-    partes = nome.split()
+    """'Ivo Waisberg' -> {nome, sobrenome, citacao}, mantendo a grafia."""
+    partes = re.sub(r"\s+", " ", nome).strip().split()
     corte = len(partes) - 1
-    if corte > 1 and partes[-1].upper() in _SUFIXOS:
+    if corte > 1 and partes[-1].upper().rstrip(".") in {k.rstrip(".") for k in _SUFIXOS}:
         corte -= 1
-    return pessoa(" ".join(partes[corte:]).upper(), " ".join(partes[:corte]))
+    sobrenome = " ".join(partes[corte:])
+    prenome = " ".join(partes[:corte])
+    citacao = f"{sobrenome.upper()}, {prenome}" if prenome else sobrenome.upper()
+    return {"nome": " ".join(partes), "sobrenome": sobrenome, "citacao": citacao}
 
 
 def chave_pessoa(p):
@@ -125,6 +128,25 @@ def chave_pessoa(p):
     prenome = p["nome"][: len(p["nome"]) - len(p["sobrenome"])].split()
     primeiro = prenome[0] if prenome else ""
     return sem_acentos(f"{sob[-1]}|{primeiro}").lower().replace(".", "")
+
+
+def _palavras(p):
+    return [w for w in sem_acentos(p["nome"]).lower().replace(".", "").split()
+            if w not in _PARTICULAS]
+
+
+def mesma_pessoa(a, b):
+    """Diz se duas grafias são da mesma pessoa. Exemplos: "Fábio Ulhoa" e
+    "Fábio Ulhoa Coelho"; "Pedro Turra" e "P. G. R. Turra"."""
+    pa, pb = _palavras(a), _palavras(b)
+    if not pa or not pb:
+        return False
+    if set(pa) <= set(pb) or set(pb) <= set(pa):
+        return True
+    if pa[0] == pb[0] and set(pa[1:]) & set(pb[1:]):
+        return True
+    sobrenome_a, sobrenome_b = chave_pessoa(a).split("|")[0], chave_pessoa(b).split("|")[0]
+    return sobrenome_a == sobrenome_b and pa[0][0] == pb[0][0] and (len(pa[0]) == 1 or len(pb[0]) == 1)
 
 
 def limpar_titulo(titulo):
@@ -169,8 +191,9 @@ def convidado_da_descricao(descricao_texto):
 
 
 def interpretar(titulo, descricao_texto=""):
-    """Devolve dict com numero, convidados, obra, ano_obra e origem
-    ('titulo', 'descricao' ou 'apresentadora')."""
+    """Devolve dict com numero, convidados, autores (da obra, quando não são
+    os convidados), obra, ano_obra e origem do convidado ('titulo',
+    'comentador', 'descricao' ou 'apresentadora')."""
     numero, resto = separar_numero(titulo)
     convidados, pos, origem = [], 0, "titulo"
 
@@ -204,12 +227,26 @@ def interpretar(titulo, descricao_texto=""):
         else:
             convidados, origem = [pessoa_natural(APRESENTADORA)], "apresentadora"
 
+    # Quem comenta a obra pode não ser o autor: "Fulana comenta sobre ..."
+    # na descrição faz dela a convidada, e os nomes do título viram autores.
+    autores = []
+    if origem == "titulo":
+        comentador = convidado_da_descricao(descricao_texto)
+        if comentador:
+            # Mesma pessoa, mas com o nome por extenso na descrição: usa o mais completo.
+            for i, p in enumerate(convidados):
+                if mesma_pessoa(comentador, p) and "." in p["nome"] and "." not in comentador["nome"]:
+                    convidados[i] = comentador
+        if comentador and not any(mesma_pessoa(comentador, p) for p in convidados):
+            autores, convidados, origem = convidados, [comentador], "comentador"
+
     anos = re.findall(r"\b(1[89]\d{2}|20\d{2})\b", obra)
     if obra and not obra.endswith((".", "?", "!", "”", '"')):
         obra += "."
     return {
         "numero": numero,
         "convidados": convidados,
+        "autores": autores,
         "obra": obra,
         "ano_obra": int(anos[-1]) if anos else None,
         "origem_convidado": origem,

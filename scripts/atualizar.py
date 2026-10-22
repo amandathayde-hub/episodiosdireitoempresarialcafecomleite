@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 import rss  # noqa: E402
 import youtube  # noqa: E402
-from titulos import chave_pessoa, pessoa_natural  # noqa: E402
+from titulos import chave_pessoa, pessoa_natural, sem_acentos  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "data"
@@ -49,6 +49,8 @@ def aplicar_overrides(episodios, overrides):
         if "convidados" in o:
             ep["convidados"] = [pessoa_natural(n) for n in o["convidados"]]
             ep["origem_convidado"] = "correcao"
+        if "autores" in o:
+            ep["autores"] = [pessoa_natural(n) for n in o["autores"]]
         if "temas" in o:
             ep["temas_manual"] = list(o["temas"])
         if "youtube" in o:
@@ -60,18 +62,30 @@ def aplicar_overrides(episodios, overrides):
 
 def unificar_pessoas(episodios, apelidos):
     """Junta grafias da mesma pessoa e guarda todas as variantes para a busca."""
-    apelidos = {k.strip(): v.strip() for k, v in (apelidos or {}).items()}
+    apelidos = {sem_acentos(k).strip().lower(): v.strip() for k, v in (apelidos or {}).items()}
     for ep in episodios:
-        for p in ep["convidados"]:
-            if p["nome"] in apelidos:
+        for p in ep["convidados"] + ep["autores"]:
+            novo = apelidos.get(sem_acentos(p["nome"]).lower())
+            if novo:
                 original = p["nome"]
-                p.update(pessoa_natural(apelidos[original]))
+                p.update(pessoa_natural(novo))
                 p["variantes_extra"] = [original]
 
     grupos = {}
     for ep in episodios:
-        for p in ep["convidados"]:
+        for p in ep["convidados"] + ep["autores"]:
             grupos.setdefault(chave_pessoa(p), []).append(p)
+
+    # Junta grupos em que um só tem iniciais ("A. O. Mattos Filho") com o
+    # único grupo de mesmo sobrenome e mesma inicial ("Ary Oswaldo Mattos Filho").
+    for chave in list(grupos):
+        sobrenome, primeiro = chave.split("|")
+        if len(primeiro) != 1 or chave not in grupos:
+            continue
+        alvos = [c for c in grupos if c != chave and c.split("|")[0] == sobrenome
+                 and c.split("|")[1][:1] == primeiro and len(c.split("|")[1]) > 1]
+        if len(alvos) == 1:
+            grupos[alvos[0]].extend(grupos.pop(chave))
 
     for membros in grupos.values():
         # Forma preferida: a que tem menos iniciais e, depois, a mais completa.
@@ -90,6 +104,11 @@ def unificar_pessoas(episodios, apelidos):
             variantes.add(curto)
             p["variantes"] = sorted(v for v in variantes if v != canonico["nome"])
             p.pop("variantes_extra", None)
+
+    # Autor que, depois de unificado, é o próprio convidado não precisa aparecer duas vezes.
+    for ep in episodios:
+        nomes = {p["nome"] for p in ep["convidados"]}
+        ep["autores"] = [p for p in ep["autores"] if p["nome"] not in nomes]
 
 
 def gravar_json(caminho, dados):
@@ -153,6 +172,9 @@ def main():
         "convidado_pela_descricao": [{"id": e["id"], "titulo": e["titulo"],
                                       "convidados": [p["nome"] for p in e["convidados"]]}
                                      for e in episodios if e["origem_convidado"] == "descricao"],
+        "comentador_diferente_do_autor": [{"id": e["id"], "convidados": [p["nome"] for p in e["convidados"]],
+                                           "autores": [p["nome"] for p in e["autores"]]}
+                                          for e in episodios if e["origem_convidado"] == "comentador" and e["autores"]],
         "atribuidos_a_apresentadora": [{"id": e["id"], "titulo": e["titulo"]}
                                        for e in episodios if e["origem_convidado"] == "apresentadora"],
         "sem_numero": [{"id": e["id"], "titulo": e["titulo"]} for e in episodios if e["numero"] is None],

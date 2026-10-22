@@ -17,10 +17,6 @@
    "titulo": "Aula Ao Vivo - Cláusulas de não concorrência em contratos empresariais e em contratos de trabalho"
   },
   {
-   "id": "314",
-   "titulo": "#314: COELHO, Fábio Ulhoa. A primeira lei. Editora WMF Martins Fontes: São Paulo, 1ª edição, 2026."
-  },
-  {
    "id": "312",
    "titulo": "#312: CUSTÓDIO, Beatriz Rabelo. A ação derivada de responsabilidade contra o controlador: a instrumentalidade do processo e a tutela jurisdicional plena do patrimônio social da companhia. 2025."
   },
@@ -257,18 +253,6 @@
  ],
  "por_semelhanca": [
   {
-   "id": "extra-2026-06-02",
-   "video": "LNIc7_VK4gU",
-   "titulo_video": "TRATADO DE DIREITO DOS ACORDOS SANCIONADORES NO BRASIL - Teoria geral, acordos em espécie e guia...",
-   "semelhanca": 1.0
-  },
-  {
-   "id": "296",
-   "video": "p8Aeld3uDKg",
-   "titulo_video": "#SALTON,296: Rodrigo. O dever de informar na fase pré-contratual e as operações de M&A.",
-   "semelhanca": 0.89
-  },
-  {
    "id": "extra-2026-04-14",
    "video": "mxa6dZrlukY",
    "titulo_video": "#287: WILLCOX, Victor. A cláusula resolutiva expressa ipso facto e a crise da empresa...",
@@ -282,10 +266,5 @@
    "semelhanca": 1.0
   }
  ],
- "videos_sobrando": [
-  {
-   "id": "4ekEghNHt1k",
-   "titulo": "#114: COELHO, Fábio Ulhoa. A primeira lei. Editora WMF Martins Fontes: São Paulo, 1ª edição,..."
-  }
- ]
+ "videos_sobrando": []
 }

@@ -7,7 +7,8 @@
 #   - Use sempre aspas no identificador.
 #   - Campos possíveis em cada episódio:
 #       numero:      número correto do episódio
-#       convidados:  lista de nomes, na forma "Nome Sobrenome"
+#       convidados:  quem participa do episódio, na forma "Nome Sobrenome"
+#       autores:     autores da obra comentada, quando não são os convidados
 #       temas:       lista de temas (substitui a classificação automática)
 #       youtube:     código do vídeo (o que vem depois de "watch?v=" no link)
 #       ocultar:     true  (esconde o episódio do site)
@@ -18,8 +19,10 @@ episodios:
     numero: 60
   "82":             # título traz só as iniciais "PATELLA, L. A."
     convidados: ["Laura Amaral Patella"]
-  "58":             # título diz "JUSTINO, Manoel Justino" (confira)
-    convidados: ["Manoel Justino Bezerra Filho", "Cassio Cavalli"]
+  "58":             # título diz "JUSTINO, Manoel Justino"; quem comenta é Maria Fabiana Sant'Ana
+    autores: ["Manoel Justino Bezerra Filho", "Cassio Cavalli"]
+  "266":            # artigo de Bertrand Wanderer
+    convidados: ["Bertrand Wanderer"]
   "285":            # título escrito "MARTINS. Guilherme V."
     convidados: ["Guilherme V. Martins"]
   "314":            # no YouTube este episódio foi publicado como "#114"
@@ -31,5 +34,11 @@ pessoas:
   "G. Mamede": "Gladston Mamede"
   "L. A. Patella": "Laura Amaral Patella"
   "M. J. Bezerra Filho": "Manoel Justino Bezerra Filho"
-  "Angelo G Prata de Carvalho": "Ângelo Gamba Prata de Carvalho"   # confira
-  "Angelo Prata de Carvalho": "Ângelo Gamba Prata de Carvalho"     # confira
+  "Manoel Justino Justino": "Manoel Justino Bezerra Filho"
+  "Ângelo Gamba": "Ângelo Gamba Prata de Carvalho"
+  "Renator Berger": "Renato Berger"
+  "Fábio Ulhoa": "Fábio Ulhoa Coelho"
+  "Erasmo Valadao": "Erasmo Valladão Azevedo e Novaes França"
+  "Erasmo Valladão": "Erasmo Valladão Azevedo e Novaes França"
+  "Angelo G Prata de Carvalho": "Ângelo Gamba Prata de Carvalho"
+  "Angelo Prata de Carvalho": "Ângelo Gamba Prata de Carvalho"  
