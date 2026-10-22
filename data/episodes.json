@@ -440,7 +440,8 @@
     "sobrenome": "Mafra",
     "citacao": "MAFRA, Ricardo",
     "variantes": [
-     "MAFRA, Ricardo"
+     "MAFRA, Ricardo",
+     "Ricardo Silva"
     ]
    }
   ],
@@ -2394,7 +2395,7 @@
  {
   "guid": "45223cfd-8330-4a79-a51f-6ed1536907d0",
   "numero": 249,
-  "titulo": "EP#249: CARNIO, Daniel - A Reforma do Código Civil. Revista Senado Federal. 2024.",
+  "titulo": "#249: CARNIO, Daniel - A Reforma do Código Civil. Revista Senado Federal. 2024.",
   "convidados": [
    {
     "nome": "Daniel Carnio",
@@ -2412,7 +2413,7 @@
   "data": "2025-08-26",
   "duracao_seg": 1917,
   "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar do livro A Reforma do Código Civil., especificamente o debate voltado ao direito empresarial. \n\nE para isso teremos a alegria de contar com a participação do próprio autor para comentá-lo.",
-  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/EP249-CARNIO--Daniel---A-Reforma-do-Cdigo-Civil--Revista-Senado-Federal--2024---Direito-Empresarial-Caf-com-Leite-e37a2di",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/249-CARNIO--Daniel---A-Reforma-do-Cdigo-Civil--Revista-Senado-Federal--2024---Direito-Empresarial-Caf-com-Leite-e37a2di",
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107333490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-25%2F406262929-44100-2-beceaf67831cc.mp3",
   "id": "249",
   "youtube": "8RIQATlxIy0",
@@ -3193,24 +3194,16 @@
   "titulo": "EP#222: MAFRA, Ricardo. O acionista de referência e sua qualificação jurídica para fins da lei nº 6.404/1976: reflexões iniciais.",
   "convidados": [
    {
-    "nome": "Ricardo Silva",
-    "sobrenome": "Silva",
-    "citacao": "SILVA, Ricardo",
-    "variantes": [
-     "SILVA, Ricardo"
-    ]
-   }
-  ],
-  "autores": [
-   {
     "nome": "Ricardo Mafra",
     "sobrenome": "Mafra",
     "citacao": "MAFRA, Ricardo",
     "variantes": [
-     "MAFRA, Ricardo"
+     "MAFRA, Ricardo",
+     "Ricardo Silva"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "comentador",
   "obra": "O acionista de referência e sua qualificação jurídica para fins da lei nº 6.404/1976: reflexões iniciais.",
   "ano_obra": 1976,
@@ -4014,7 +4007,8 @@
     "sobrenome": "Mafra",
     "citacao": "MAFRA, Ricardo",
     "variantes": [
-     "MAFRA, Ricardo"
+     "MAFRA, Ricardo",
+     "Ricardo Silva"
     ]
    }
   ],
@@ -5185,25 +5179,18 @@
   "titulo": "EP#160: DE MELO VIEIRA, Maíra. Particularidades do regime informacional na alienação de participação acionária pelo controlador.",
   "convidados": [
    {
-    "nome": "Maíra Temple",
-    "sobrenome": "Temple",
-    "citacao": "TEMPLE, Maíra",
-    "variantes": [
-     "TEMPLE, Maíra"
-    ]
-   }
-  ],
-  "autores": [
-   {
     "nome": "Maíra de Melo Vieira",
-    "sobrenome": "de Melo Vieira",
-    "citacao": "DE MELO VIEIRA, Maíra",
+    "sobrenome": "Vieira",
+    "citacao": "VIEIRA, Maíra de Melo",
     "variantes": [
      "DE MELO VIEIRA, Maíra",
-     "Maíra Vieira"
+     "Maíra Temple",
+     "Maíra Vieira",
+     "VIEIRA, Maíra de Melo"
     ]
    }
   ],
+  "autores": [],
   "origem_convidado": "comentador",
   "obra": "Particularidades do regime informacional na alienação de participação acionária pelo controlador.",
   "ano_obra": null,
@@ -6261,11 +6248,13 @@
   "titulo": "EP#125: LEME, ERNESTO DE MORAES. Acções preferenciaes nas sociedades anonymas (1933)",
   "convidados": [
    {
-    "nome": "Chico Mussnich",
-    "sobrenome": "Mussnich",
-    "citacao": "MUSSNICH, Chico",
+    "nome": "Francisco Antunes Maciel Müssnich",
+    "sobrenome": "Müssnich",
+    "citacao": "MÜSSNICH, Francisco Antunes Maciel",
     "variantes": [
-     "MUSSNICH, Chico"
+     "Chico Mussnich",
+     "Francisco Müssnich",
+     "MÜSSNICH, Francisco Antunes Maciel"
     ]
    }
   ],
@@ -7889,11 +7878,13 @@
   "titulo": "#EP73: LAMY FILHO, Alfredo. BULHÕES, José Luiz. Direito das Companhias. 2017.",
   "convidados": [
    {
-    "nome": "Chico Mussnich",
-    "sobrenome": "Mussnich",
-    "citacao": "MUSSNICH, Chico",
+    "nome": "Francisco Antunes Maciel Müssnich",
+    "sobrenome": "Müssnich",
+    "citacao": "MÜSSNICH, Francisco Antunes Maciel",
     "variantes": [
-     "MUSSNICH, Chico"
+     "Chico Mussnich",
+     "Francisco Müssnich",
+     "MÜSSNICH, Francisco Antunes Maciel"
     ]
    }
   ],
@@ -8785,6 +8776,7 @@
     "sobrenome": "Müssnich",
     "citacao": "MÜSSNICH, Francisco Antunes Maciel",
     "variantes": [
+     "Chico Mussnich",
      "Francisco Müssnich",
      "MÜSSNICH, Francisco Antunes Maciel"
     ]

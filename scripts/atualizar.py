@@ -15,6 +15,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 
 import rss  # noqa: E402
+import transcricao  # noqa: E402
 import youtube  # noqa: E402
 from titulos import chave_pessoa, pessoa_natural, sem_acentos  # noqa: E402
 
@@ -120,6 +121,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rss", help="arquivo XML local em vez de baixar o feed")
     ap.add_argument("--playlist", help="arquivo JSON local com [{id, titulo}]")
+    ap.add_argument("--transcrever", action="store_true",
+                    help="transcreve os episódios pendentes (precisa de GROQ_API_KEY)")
     args = ap.parse_args()
 
     config = carregar_yaml("config.yaml")
@@ -164,6 +167,19 @@ def main():
     for ep in episodios:
         ep["transcricao"] = "ok" if (TRANSCRICOES / f"{ep['id']}.txt").exists() else "pendente"
 
+    erro_chave = None
+    if args.transcrever:
+        print("3) Transcrevendo episódios pendentes...")
+        TRANSCRICOES.mkdir(exist_ok=True)
+        try:
+            rel_tr = transcricao.transcrever_pendentes(episodios, TRANSCRICOES, config.get("transcricao", {}))
+        except transcricao.ChaveInvalida as e:
+            erro_chave = str(e)
+            rel_tr = {"transcritos": [], "falhas": [], "parou_por": erro_chave}
+        gravar_json(RELATORIOS / "transcricao.json", rel_tr)
+        print(f"   {len(rel_tr['transcritos'])} transcritos, {len(rel_tr['falhas'])} falhas."
+              + (f" Parou: {rel_tr['parou_por']}" if rel_tr["parou_por"] else ""))
+
     ids = [e["id"] for e in episodios]
     repetidos = sorted({i for i in ids if ids.count(i) > 1})
 
@@ -183,10 +199,12 @@ def main():
     })
 
     pendentes = sum(e["transcricao"] == "pendente" for e in episodios)
-    print(f"3) Pronto: {len(episodios)} episódios em data/episodes.json "
+    print(f"4) Pronto: {len(episodios)} episódios em data/episodes.json "
           f"({pendentes} com transcrição pendente).")
     if repetidos:
         print(f"   ATENÇÃO: identificadores repetidos: {repetidos}")
+    if erro_chave:
+        sys.exit(f"ERRO: {erro_chave}")
 
 
 if __name__ == "__main__":
