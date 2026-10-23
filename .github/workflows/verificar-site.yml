@@ -23,5 +23,7 @@ jobs:
           echo "::notice title=HTTPS::$r"
           cors=$(curl -sSI -m 20 http://$d/static/episodios.json | grep -i "access-control-allow-origin" | tr -d '\r')
           echo "::notice title=CORS::${cors:-sem cabeçalho}"
+          caa=$(dig +short CAA direitoempresarialcafecomleite.com | tr '\n' ' '); caa2=$(dig +short CAA $d | tr '\n' ' ')
+          echo "::notice title=CAA::domínio: ${caa:-nenhum} | subdomínio: ${caa2:-nenhum}"
           p=$(dig +short A podcast.direitoempresarialcafecomleite.com | tr '\n' ' ')
           echo "::notice title=Servidor do WordPress::$p"
