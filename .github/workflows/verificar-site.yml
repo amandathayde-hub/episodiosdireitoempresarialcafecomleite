@@ -1,0 +1,28 @@
+name: Verificar site publicado (uso técnico)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/verificar-site.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Conferir endereços, HTTPS e páginas
+        run: |
+          for u in https://episodios.direitoempresarialcafecomleite.com/ http://episodios.direitoempresarialcafecomleite.com/ \
+                   https://amandathayde-hub.github.io/episodiosdireitoempresarialcafecomleite/ \
+                   https://episodios.direitoempresarialcafecomleite.com/episodio/1/ \
+                   https://episodios.direitoempresarialcafecomleite.com/sitemap.xml \
+                   https://episodios.direitoempresarialcafecomleite.com/pagefind/pagefind.js; do
+            r=$(curl -sS -o /tmp/p -m 20 -w "%{http_code} -> %{redirect_url}" "$u" 2>&1 | tail -1)
+            echo "::notice title=$u::$r | $(head -c 120 /tmp/p | tr '\n' ' ' | tr -d '<>')"
+          done
+          cert=$(echo | openssl s_client -connect episodios.direitoempresarialcafecomleite.com:443 -servername episodios.direitoempresarialcafecomleite.com 2>/dev/null | openssl x509 -noout -subject -issuer -enddate 2>&1 | tr '\n' ' ')
+          echo "::notice title=Certificado::$cert"
