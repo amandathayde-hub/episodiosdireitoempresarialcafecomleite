@@ -7,7 +7,8 @@ Uso (no GitHub Actions, dia 1º de cada mês):
 
 Precisa do segredo GOATCOUNTER_TOKEN (chave só de leitura) e, para publicar,
 de GITHUB_TOKEN e GITHUB_REPOSITORY (o GitHub Actions fornece os dois).
-Os sites medidos ficam em config.yaml, em "relatorio_visitas".
+Os sites medidos ficam em config.yaml, em "relatorio_visitas". Quando este
+arquivo muda, o GitHub faz um teste que só lê as estatísticas (não publica).
 """
 
 import argparse
