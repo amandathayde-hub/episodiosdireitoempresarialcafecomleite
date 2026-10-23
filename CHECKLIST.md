@@ -63,8 +63,9 @@ Documentação: https://docs.github.com/pt/pages/configuring-a-custom-domain-for
 
 ## G. Depois da versão 1 aprovada
 
-- [ ] **Estatísticas de visitas sem cookies** (GoatCounter): criar a conta em
-      https://www.goatcounter.com/signup e pedir para incluir o código no site.
+- [x] **Estatísticas de visitas sem cookies** (GoatCounter): ativado em todas as
+      páginas do site de episódios. Painel: https://direitoempresarialcafecomleite.goatcounter.com
+      (para desligar, apague o endereço em `goatcounter:` no `config.yaml`).
 - [ ] Revisar os temas adicionais propostos a partir das transcrições completas.
 
 ## Limites e custos (conferir antes de divulgar)
