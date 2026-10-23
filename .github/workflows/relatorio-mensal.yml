@@ -1,0 +1,43 @@
+name: Relatório mensal de visitas
+
+on:
+  schedule:
+    # Dia 1º de cada mês, 11:23 UTC (08:23 em Brasília).
+    - cron: "23 11 1 * *"
+  # Teste técnico: quando o script muda, só lê as estatísticas (não publica).
+  push:
+    branches: [main]
+    paths:
+      - "scripts/relatorio_visitas.py"
+      - ".github/workflows/relatorio-mensal.yml"
+  # Para gerar na hora (Actions > Relatório mensal de visitas > Run workflow).
+  workflow_dispatch:
+    inputs:
+      mes:
+        description: "Mês no formato AAAA-MM (vazio = mês anterior)"
+        required: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q pyyaml
+      - name: Montar e publicar o relatório
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python scripts/relatorio_visitas.py --mes "$(date +%Y-%m)" --so-mostrar
+          else
+            python scripts/relatorio_visitas.py ${{ inputs.mes && format('--mes {0}', inputs.mes) || '' }}
+          fi
