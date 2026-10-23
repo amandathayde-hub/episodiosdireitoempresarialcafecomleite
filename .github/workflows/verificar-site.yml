@@ -14,16 +14,11 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
-      - name: Conferir HTTPS do domínio e acesso entre sites (CORS)
+      - name: Conferir a versão publicada do bloco da página inicial
         run: |
-          d=episodios.direitoempresarialcafecomleite.com
-          cert=$(echo | openssl s_client -connect $d:443 -servername $d 2>/dev/null | openssl x509 -noout -subject -enddate 2>&1 | tr '\n' ' ')
-          echo "::notice title=Certificado::$cert"
-          r=$(curl -sS -o /dev/null -m 20 -w "%{http_code}" https://$d/ 2>&1 | tail -1)
-          echo "::notice title=HTTPS::$r"
-          cors=$(curl -sSI -m 20 http://$d/static/episodios.json | grep -i "access-control-allow-origin" | tr -d '\r')
-          echo "::notice title=CORS::${cors:-sem cabeçalho}"
-          caa=$(dig +short CAA direitoempresarialcafecomleite.com | tr '\n' ' '); caa2=$(dig +short CAA $d | tr '\n' ' ')
-          echo "::notice title=CAA::domínio: ${caa:-nenhum} | subdomínio: ${caa2:-nenhum}"
-          p=$(dig +short A podcast.direitoempresarialcafecomleite.com | tr '\n' ' ')
-          echo "::notice title=Servidor do WordPress::$p"
+          u=https://episodios.direitoempresarialcafecomleite.com/static/lista-embed.js
+          h=$(curl -sSI -m 20 $u | grep -iE "^(cache-control|last-modified|age|x-cache):" | tr -d '\r' | tr '\n' ' ')
+          n=$(curl -sS -m 20 $u | grep -c "Como navegar pelos")
+          echo "::notice title=lista-embed.js::versão nova presente: $n | $h"
+          w=$(curl -sS -m 30 -A "Mozilla/5.0" https://podcast.direitoempresarialcafecomleite.com/ | grep -oE '<script[^>]*lista-embed[^>]*>' | head -2 | tr -d '<>')
+          echo "::notice title=WordPress carrega::${w:-não encontrado}"
