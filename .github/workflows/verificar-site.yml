@@ -14,13 +14,14 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
-      - name: Procurar o código do episódio no Spotify
+      - name: Conferir HTTPS do domínio e acesso entre sites (CORS)
         run: |
-          link="https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/328-GUTINIEKI--Joo-Otvio-Bacchi--A-tutela-do-Direito-da-Concorrncia-no-Poder-Judicirio-o-private-enforcement-do-antitruste-no-Brasil--Londrina-Thoth--2025-e3qoj36"
-          final=$(curl -sSL -o /tmp/p -m 30 -w "%{http_code} %{url_effective}" -A "Mozilla/5.0" "$link")
-          ids=$(grep -oE 'open\.spotify\.com/(embed/)?episode/[A-Za-z0-9]{22}' /tmp/p | sort -u | head -3 | tr '\n' ' ')
-          echo "::notice title=Página do episódio::$final | ids: ${ids:-nenhum} | tamanho $(wc -c < /tmp/p)"
-          for id in $(grep -oE 'open\.spotify\.com/(embed/)?episode/[A-Za-z0-9]{22}' /tmp/p | grep -oE '[A-Za-z0-9]{22}$' | sort -u); do
-            ctx=$(grep -oE ".{0,160}$id.{0,60}" /tmp/p | head -2 | tr '\n' ' ' | tr -d '<>')
-            echo "::notice title=Contexto $id::$ctx"
-          done
+          d=episodios.direitoempresarialcafecomleite.com
+          cert=$(echo | openssl s_client -connect $d:443 -servername $d 2>/dev/null | openssl x509 -noout -subject -enddate 2>&1 | tr '\n' ' ')
+          echo "::notice title=Certificado::$cert"
+          r=$(curl -sS -o /dev/null -m 20 -w "%{http_code}" https://$d/ 2>&1 | tail -1)
+          echo "::notice title=HTTPS::$r"
+          cors=$(curl -sSI -m 20 http://$d/static/episodios.json | grep -i "access-control-allow-origin" | tr -d '\r')
+          echo "::notice title=CORS::${cors:-sem cabeçalho}"
+          p=$(dig +short A podcast.direitoempresarialcafecomleite.com | tr '\n' ' ')
+          echo "::notice title=Servidor do WordPress::$p"
