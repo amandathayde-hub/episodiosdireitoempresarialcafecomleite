@@ -18,6 +18,8 @@ site:
   site_principal: https://podcast.direitoempresarialcafecomleite.com/
   spotify_programa: https://open.spotify.com/show/3rgLXFIScTgCGHqidktCG1
   youtube_canal: https://www.youtube.com/@AmandaAthayde/videos
+  # Estatísticas de visitas sem cookies (GoatCounter). Deixe vazio para desligar.
+  goatcounter: https://direitoempresarialcafecomleite.goatcounter.com/count
   # Imagem usada ao compartilhar no WhatsApp/LinkedIn (capa do podcast no feed).
   capa: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/16894400/16894400-1627131207535-00d258608c1d3.jpg
 

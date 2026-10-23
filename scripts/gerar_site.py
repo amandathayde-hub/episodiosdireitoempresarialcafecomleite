@@ -102,6 +102,15 @@ def resumo(ep, limite=155):
 
 # ---------------------------------------------------------------- moldura
 
+def estatisticas(cfg):
+    """Contador de visitas do GoatCounter (não usa cookies)."""
+    endereco = (cfg.get("goatcounter") or "").strip()
+    if not endereco:
+        return ""
+    return (f'<script data-goatcounter="{e(endereco)}" async '
+            f'src="https://gc.zgo.at/count.js"></script>')
+
+
 def pagina(cfg, *, titulo, descricao, caminho, raiz, corpo, extra_head="", tipo_og="website", busca_ativa=False,
            convidados_ativa=False):
     url = cfg["url"].rstrip("/") + "/" + caminho
@@ -127,6 +136,7 @@ def pagina(cfg, *, titulo, descricao, caminho, raiz, corpo, extra_head="", tipo_
 <link rel="preload" href="{raiz}static/fontes/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{raiz}static/estilo.css">
 {extra_head}
+{estatisticas(cfg)}
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
