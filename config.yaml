@@ -34,3 +34,12 @@ transcricao:
   idioma: pt
   # Só para a fonte groq: quantos episódios por execução.
   maximo_por_execucao: 60
+
+# Relatório mensal de visitas (GoatCounter), enviado por e-mail pelo GitHub
+# no dia 1º de cada mês. "codigo" é o começo do endereço do painel
+# (codigo.goatcounter.com).
+relatorio_visitas:
+  avisar: amandathayde-hub
+  sites:
+    - nome: Site de episódios (busca)
+      codigo: direitoempresarialcafecomleite

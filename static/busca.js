@@ -165,11 +165,25 @@
       }
       if (minha !== rodada) return;
       atual.itens = busca.map(function (r) { return { resultado: r }; });
+      registrarBusca(termo);
       contagem.textContent = atual.itens.length
         ? texto(atual.itens.length, "episódio encontrado", "episódios encontrados") + " para “" + termo + "”"
         : "Nenhum episódio encontrado para “" + termo + "”. Tente outra palavra ou tire os filtros.";
     }
     await mostrarMais();
+  }
+
+  // Registra no GoatCounter (sem cookies) o termo buscado, para o relatório
+  // mensal mostrar o que o público procura. Só conta quando a pessoa para de
+  // digitar por alguns segundos, para não registrar palavras pela metade.
+  var esperaRegistro = null;
+  function registrarBusca(termo) {
+    clearTimeout(esperaRegistro);
+    esperaRegistro = setTimeout(function () {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: "busca/" + termo.toLowerCase().slice(0, 80), title: termo, event: true });
+      }
+    }, 3000);
   }
 
   function agendar() {
