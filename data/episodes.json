@@ -25,7 +25,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/127732262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F434515587-44100-2-491c57e9129b6.mp3",
   "id": "328",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste"
   ]
@@ -65,7 +65,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/127731958/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F434514911-44100-2-708c624863b31.mp3",
   "id": "327",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Recuperação judicial e falência"
@@ -96,9 +96,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/127490935/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-14%2F434191267-44100-2-214bd3bfc12cc.mp3",
   "id": "326",
   "youtube": "x2q8oyHXYj4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -127,10 +130,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/127377535/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434039548-44100-2-9faaef7c2b23c.mp3",
   "id": "325",
   "youtube": "ThJLIm9KI1A",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Mercado de capitais",
    "Governança corporativa",
-   "Fundos de investimento"
+   "Fundos de investimento",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -159,9 +166,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/126889086/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433413234-44100-2-4d70656236b59.mp3",
   "id": "324",
   "youtube": "tJ3VFnV-0IU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -190,8 +198,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/126888785/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433412854-44100-2-768e819b93717.mp3",
   "id": "323",
   "youtube": "1EqHrhWGuRw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Recuperação judicial e falência"
   ]
  },
@@ -220,7 +229,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124400472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430084188-44100-2-1c8ab4c86af09.mp3",
   "id": "extra-2026-10-05",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste",
    "Arbitragem e solução de conflitos",
@@ -253,9 +262,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/126419081/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2F432816092-44100-2-37ec9c6507f2f.mp3",
   "id": "322",
   "youtube": "UfGmuhYVQEM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
   ]
  },
  {
@@ -285,8 +295,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/126418736/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2F432815647-44100-2-cae32f6f42647.mp3",
   "id": "321",
   "youtube": "ECv0X5uSvA4",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "616748bd-5e46-4962-967e-813f1d7a2797",
@@ -313,10 +325,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/126093138/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F432374373-44100-2-8486f15fa44be.mp3",
   "id": "320",
   "youtube": "Z1sH0qoZdmw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
    "Concorrência e antitruste",
-   "Governança corporativa"
+   "Governança corporativa",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -344,10 +360,15 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125825420/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-16%2F432016531-44100-2-2092b282c552b.mp3",
   "id": "319",
   "youtube": "RZNcRmKQR_I",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Contratos empresariais"
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Concorrência e antitruste",
+   "Mercado de capitais",
+   "Arbitragem e solução de conflitos"
   ]
  },
  {
@@ -375,9 +396,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125824833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-16%2F432015641-44100-2-942ef90d78c19.mp3",
   "id": "318",
   "youtube": "93xX-55lGc8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Contratos empresariais"
+   "Contratos empresariais",
+   "Arbitragem e solução de conflitos"
   ]
  },
  {
@@ -405,9 +427,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125739049/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-14%2F431895255-44100-2-cc35b888b077b.mp3",
   "id": "317",
   "youtube": "HpzCZdTgaLo",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Governança corporativa"
   ]
  },
  {
@@ -435,8 +458,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124400352/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430084025-44100-2-c8e8b628ad8f.mp3",
   "id": "extra-2026-09-14",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Contratos empresariais",
    "Concorrência e antitruste",
    "Arbitragem e solução de conflitos",
@@ -479,7 +503,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125355723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2F431387755-44100-2-b5d63b1d94689.mp3",
   "id": "316",
   "youtube": "DTu0NQ8hhlk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -508,9 +532,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125355381/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2F431387374-44100-2-60479e6419b38.mp3",
   "id": "315",
   "youtube": "CuStQbW5vig",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Mercado de capitais"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Fundos de investimento",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -541,7 +569,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125123807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-2%2F431073318-44100-2-a75bff4e92162.mp3",
   "id": "314",
   "youtube": "4ekEghNHt1k",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -570,8 +598,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/125031735/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-1%2F430951545-44100-2-3fdc7d37d0b88.mp3",
   "id": "313",
   "youtube": "Qp4wakhb-Ck",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Propriedade intelectual"
+  ]
  },
  {
   "guid": "ed475d79-322e-4608-a90e-a10721a45289",
@@ -599,9 +630,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124550112/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-21%2F430287971-44100-2-a06f6f0f52566.mp3",
   "id": "312",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Arbitragem e solução de conflitos",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -630,8 +665,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124549671/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-21%2F430287446-44100-2-515e7f6b7cb8e.mp3",
   "id": "311",
   "youtube": null,
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Startups, tecnologia e inovação",
+   "Direito do futebol e esporte"
+  ]
  },
  {
   "guid": "7a9a16fc-d1f3-450c-b108-2dd37210f21f",
@@ -661,8 +701,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124399542/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430082881-44100-2-4df3f9a03c723.mp3",
   "id": "310",
   "youtube": "05grEKrtSQg",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Arbitragem e solução de conflitos",
+   "Governança corporativa",
+   "Startups, tecnologia e inovação"
+  ]
  },
  {
   "guid": "f132d00a-946c-46ec-8657-82ecbeab49b0",
@@ -689,7 +733,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124400141/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430083722-44100-2-b1679bdab2d13.mp3",
   "id": "extra-2026-08-18",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste",
    "Arbitragem e solução de conflitos",
@@ -723,8 +767,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/124367024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430038489-44100-2-b9599520c0709.mp3",
   "id": "309",
   "youtube": "m9y9zLQWJ4Y",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais"
   ]
  },
@@ -753,7 +798,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/122481208/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-6%2F427482780-44100-2-a1f334b3205f3.mp3",
   "id": "extra-2026-07-07",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -782,9 +827,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/122259823/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-1%2F427185520-44100-2-8b460c8fd1d93.mp3",
   "id": "308",
   "youtube": "_3ME0nS2fdY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Direito do futebol e esporte"
   ]
  },
@@ -816,9 +862,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/122149376/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-29%2F427037999-44100-2-4980e3704e345.mp3",
   "id": "307",
   "youtube": "7pd32EyxIu8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -847,11 +895,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/121961527/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-25%2F426787384-44100-2-b92237386a2c9.mp3",
   "id": "306",
   "youtube": "scCQ5QT5b6I",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades limitadas",
-   "Governança corporativa"
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Governança corporativa",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -879,10 +930,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/121872797/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F426667281-44100-2-33f58fce36958.mp3",
   "id": "305",
   "youtube": "kdic5z_p0Fk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Mercado de capitais",
    "Títulos de crédito",
-   "Startups, tecnologia e inovação"
+   "Startups, tecnologia e inovação",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -910,8 +963,15 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/121639418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-18%2F426357027-44100-2-a70eb8dc9733f.mp3",
   "id": "304",
   "youtube": "LUy27zF2tT0",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Concorrência e antitruste",
+   "Mercado de capitais",
+   "Governança corporativa",
+   "Direito do futebol e esporte"
+  ]
  },
  {
   "guid": "e59aa466-13a3-406f-8021-d1da2c4e9119",
@@ -938,8 +998,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/121531643/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-15%2F1e20d48f-55c2-2b56-c5d1-0038b6d9b41a.mp3",
   "id": "303",
   "youtube": "8G5-LHfHCz8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais"
   ]
  },
@@ -969,9 +1030,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/121318001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-11%2F425925777-44100-2-e0f76012fb036.mp3",
   "id": "302",
   "youtube": "YOkpZEtddt4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Mercado de capitais",
    "Fundos de investimento"
   ]
  },
@@ -1001,10 +1063,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/121209134/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-9%2F425781365-44100-2-533a855c6735a.mp3",
   "id": "301",
   "youtube": "6iOVtbgFaf0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
    "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -1033,8 +1097,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120846636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-1%2F425295244-44100-2-6d4c167fa92b3.mp3",
   "id": "300",
   "youtube": "LNIc7_VK4gU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Concorrência e antitruste",
+   "Mercado de capitais",
    "Acordos sancionadores e leniência"
   ]
  },
@@ -1064,8 +1130,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120523840/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424864620-44100-2-0fa166663f71f.mp3",
   "id": "299",
   "youtube": "1KezJ-ck3Ns",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Contratos empresariais",
+   "Propriedade intelectual"
+  ]
  },
  {
   "guid": "0b85b7a4-ebca-404f-a013-20bce51f13f3",
@@ -1102,9 +1171,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120523412/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424864004-44100-2-f8949dc00be3d.mp3",
   "id": "298",
   "youtube": "BNE34gYBhwI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1133,8 +1203,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120166362/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424388682-44100-2-75b365940fd5d.mp3",
   "id": "297",
   "youtube": "pghh9SfAl-A",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Recuperação judicial e falência",
+   "Governança corporativa",
+   "Direito do futebol e esporte"
+  ]
  },
  {
   "guid": "3b7aa391-0574-48bf-a251-ef506693ef9c",
@@ -1161,7 +1236,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/120165986/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424388103-44100-2-e51f4176bb451.mp3",
   "id": "296",
   "youtube": "p8Aeld3uDKg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -1191,8 +1266,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/119847970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423962497-44100-2-28d3bd95bd8d1.mp3",
   "id": "295",
   "youtube": "z8XAFZD-UPI",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "2d05bd49-3656-4764-97d4-d8968156c0c5",
@@ -1220,10 +1300,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/119847347/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423961544-44100-2-da62ea68acc04.mp3",
   "id": "294",
   "youtube": "_wht8l3QW1Q",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Contratos empresariais"
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1252,10 +1334,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/119596968/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-6%2F423625832-44100-2-aebfe64f233b4.mp3",
   "id": "293",
   "youtube": "MwvA7zl3fR8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Recuperação judicial e falência"
   ]
  },
  {
@@ -1284,8 +1368,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/119166204/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F423030325-44100-2-8a751e604b96a.mp3",
   "id": "292",
   "youtube": "sPqN7GCPcZA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Recuperação judicial e falência"
   ]
  },
@@ -1323,8 +1409,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/119232492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-30%2F423193844-44100-2-73344a8a41944.mp3",
   "id": "291",
   "youtube": "q8Rp8yIy5mM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Contratos empresariais",
    "Acordos sancionadores e leniência"
   ]
  },
@@ -1355,9 +1442,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/119113047/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-27%2F422959066-44100-2-d6fdcb48b5faf.mp3",
   "id": "290",
   "youtube": "z8BGbifqdSM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Recuperação judicial e falência",
+   "Mercado de capitais",
+   "Governança corporativa"
   ]
  },
  {
@@ -1386,8 +1477,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/118915943/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-23%2F422688553-44100-2-fa79a9eff1ea7.mp3",
   "id": "289",
   "youtube": "qbusJyaCvA0",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Recuperação judicial e falência",
+   "Contratos empresariais"
+  ]
  },
  {
   "guid": "87044fb4-22f1-4e39-b564-694ddb63f845",
@@ -1415,7 +1510,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/118396565/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-13%2F421989543-44100-2-8d86a320fb50a.mp3",
   "id": "288",
   "youtube": "o-pd3AGUsq0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -1445,10 +1540,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/118393307/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-13%2F421985347-44100-2-0a0fb19d6f96.mp3",
   "id": "287",
   "youtube": "mxa6dZrlukY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Recuperação judicial e falência",
-   "Contratos empresariais"
+   "Contratos empresariais",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1476,9 +1573,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/118038552/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-6%2F421514997-44100-2-c8a53b6f04c11.mp3",
   "id": "286",
   "youtube": "CVbY-aYy8jg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Concorrência e antitruste"
+   "Concorrência e antitruste",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1507,9 +1605,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/118037684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-6%2F421513652-44100-2-5d74f611aa24d.mp3",
   "id": "285",
   "youtube": "veZMZ2jqo5U",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades limitadas"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Contratos empresariais",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1538,9 +1640,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/117757495/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421143887-44100-2-eaf73ad02fb96.mp3",
   "id": "284",
   "youtube": "OjG82SfXeRs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa"
   ]
  },
  {
@@ -1569,9 +1673,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/117651602/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421123931-44100-2-6ca5aca3ac148.mp3",
   "id": "283",
   "youtube": "6SDu5jWsFTk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Teoria da empresa e da atividade negocial",
+   "Recuperação judicial e falência",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1600,9 +1706,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/117381616/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420637622-44100-2-1c6c8851c09e9.mp3",
   "id": "282",
   "youtube": "1hYe8QOccIo",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1631,8 +1740,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/117367145/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-23%2F420617520-44100-2-f651318ab289f.mp3",
   "id": "281",
   "youtube": "ZuPufusXguc",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Startups, tecnologia e inovação",
+   "Direito do futebol e esporte"
+  ]
  },
  {
   "guid": "1025e3c2-077a-4078-98f2-dad056272a5e",
@@ -1660,7 +1772,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/116977844/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-16%2F420088604-44100-2-fd3a4bfdce34f.mp3",
   "id": "280",
   "youtube": "g-YAlcUet6o",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Contratos empresariais"
@@ -1693,9 +1805,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/116977492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-16%2F420088130-44100-2-78d0d1ad0ddf9.mp3",
   "id": "279",
   "youtube": "q-_Yy8l4xNc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Teoria da empresa e da atividade negocial",
+   "Recuperação judicial e falência",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -1723,9 +1837,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/116649225/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-9%2F419641472-44100-2-1cdf48e896954.mp3",
   "id": "278",
   "youtube": "IMdCaUpx1tE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Teoria da empresa e da atividade negocial",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Governança corporativa"
   ]
  },
  {
@@ -1757,8 +1874,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/116640205/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-9%2F419629316-44100-2-1329f26f36401.mp3",
   "id": "277",
   "youtube": "VSV-31YPgak",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
    "Governança corporativa"
   ]
@@ -1788,7 +1907,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/112334817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-8%2F2bfd0de0-9512-746a-9c1c-bcf2eaf1a91c.mp3",
   "id": "276",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Propriedade intelectual"
   ]
@@ -1836,8 +1955,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/111769980/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-27%2F413251368-44100-2-a55fc19fb618f.mp3",
   "id": "275",
   "youtube": "fRvslKZ8OTY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais",
    "Concorrência e antitruste"
   ]
@@ -1869,7 +1989,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/111644216/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-24%2F413082400-44100-2-1c1a3bc40a674.mp3",
   "id": "274",
   "youtube": "323n3vboSNc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral",
@@ -1902,7 +2022,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/111323142/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-17%2F412662608-44100-2-dce5c4238e724.mp3",
   "id": "273",
   "youtube": "nU9l9_yic20",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Contratos empresariais"
@@ -1935,7 +2055,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/111089437/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-12%2F412356772-44100-2-50d84e669f7d5.mp3",
   "id": "272",
   "youtube": "o7MUyInT-3A",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -1963,7 +2083,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110975303/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-10%2F412206966-44100-2-5340bb2b7e038.mp3",
   "id": "271",
   "youtube": "WeUNQy7Digc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -1993,9 +2113,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110750837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-5%2F410676821-44100-2-67b79e5fcfb53.mp3",
   "id": "270",
   "youtube": "TkMYiaCGjBY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
+   "Contratos empresariais",
+   "Arbitragem e solução de conflitos",
    "Governança corporativa"
   ]
  },
@@ -2026,8 +2149,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110637289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-4%2F410586188-44100-2-f8228d62e8cf9.mp3",
   "id": "269",
   "youtube": "sWFXUyYFayc",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "5d667622-30a1-4393-a8db-da62cbe2fae9",
@@ -2057,8 +2182,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110386642/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-29%2F410197001-44100-2-df5879792d934.mp3",
   "id": "268",
   "youtube": "lkSdX1Sir2k",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Propriedade intelectual"
+  ]
  },
  {
   "guid": "2770462b-024f-4b42-a442-f06e4a257f7b",
@@ -2089,8 +2216,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110325152/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-28%2F410116713-44100-2-bf078d8455849.mp3",
   "id": "267",
   "youtube": "qMy8kaub8Og",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
    "Startups, tecnologia e inovação"
   ]
@@ -2120,7 +2248,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/110059885/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-22%2F409768472-44100-2-b1ec0b567b347.mp3",
   "id": "266",
   "youtube": "h_KEKxibnkE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -2152,10 +2280,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109955378/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-20%2F409629534-44100-2-fea2d431780c3.mp3",
   "id": "265",
   "youtube": "8_iPvhuZ9Iw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Sociedades anônimas (S.A.)",
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Contratos empresariais"
   ]
  },
  {
@@ -2183,7 +2312,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109718813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-15%2F409322532-44100-2-b6794e6532e0c.mp3",
   "id": "264",
   "youtube": "hnfMgd0AUf4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -2211,9 +2340,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109607039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-13%2F409198673-44100-2-32aa3963001c4.mp3",
   "id": "263",
   "youtube": "mZ6sxtITFs8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Contratos empresariais",
    "Startups, tecnologia e inovação"
   ]
@@ -2252,8 +2382,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109394356/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-8%2F408898382-44100-2-69ca7dc79fd36.mp3",
   "id": "262",
   "youtube": "oDkHvC-Td8Y",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -2282,7 +2414,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109290342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-6%2F408762946-44100-2-e48ecb1b6975c.mp3",
   "id": "261",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
@@ -2315,14 +2447,15 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/109077124/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-1%2F408485380-44100-2-cd85f6033973c.mp3",
   "id": "260",
   "youtube": "ePZ5CrWKy8w",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral",
    "Recuperação judicial e falência",
    "Contratos empresariais",
    "Concorrência e antitruste",
-   "Propriedade intelectual"
+   "Propriedade intelectual",
+   "Startups, tecnologia e inovação"
   ]
  },
  {
@@ -2350,7 +2483,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108964287/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-29%2F408338984-44100-2-945e90c40ff36.mp3",
   "id": "259",
   "youtube": "s9_glvhI6GM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -2381,7 +2514,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108658956/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-22%2F407942613-44100-2-7a286f74e390f.mp3",
   "id": "258",
   "youtube": "s7VmzVVDQr0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Governança corporativa"
   ]
@@ -2411,8 +2544,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108658638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-22%2F407942137-44100-2-51b1cc0005412.mp3",
   "id": "257",
   "youtube": "4-B2s1EqUjo",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais"
   ]
  },
@@ -2441,9 +2575,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108434825/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-17%2F407654026-44100-2-5da66b342e6de.mp3",
   "id": "256",
   "youtube": "N7vKkKcVTe8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
+   "Concorrência e antitruste",
    "Propriedade intelectual"
   ]
  },
@@ -2473,9 +2608,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108343487/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-15%2F407536363-44100-2-fa04f1dd262a5.mp3",
   "id": "255",
   "youtube": "3gsz4pYtpEU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Arbitragem e solução de conflitos"
   ]
  },
  {
@@ -2512,9 +2652,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108131126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-10%2F407266696-44100-2-4c5d61f200ae6.mp3",
   "id": "254",
   "youtube": "l_gu1Jih4oY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Governança corporativa",
    "Acordos sancionadores e leniência"
   ]
  },
@@ -2553,7 +2694,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/108035087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-8%2F407144873-44100-2-2ae920edb6b84.mp3",
   "id": "253",
   "youtube": "1z-6f8dgMuk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Arbitragem e solução de conflitos",
@@ -2586,7 +2727,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107753042/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-3%2F406797762-44100-2-ceb75c699323e.mp3",
   "id": "252",
   "youtube": "FyK-BLrQGW0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Governança corporativa",
    "Startups, tecnologia e inovação"
@@ -2617,8 +2758,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107670129/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-1%2F406692036-44100-2-65f8aba1cfb41.mp3",
   "id": "251",
   "youtube": "2kpPMYxFkr4",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Recuperação judicial e falência",
+   "Contratos empresariais"
+  ]
  },
  {
   "guid": "7675baa3-5eb9-47a3-bb32-7fa7dbf1fe14",
@@ -2646,9 +2792,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107443938/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-27%2F406405668-44100-2-e7ff5cb01489d.mp3",
   "id": "250",
   "youtube": "oV8CstbaIxY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Contratos empresariais"
   ]
  },
  {
@@ -2676,8 +2823,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107333490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-25%2F406262929-44100-2-beceaf67831cc.mp3",
   "id": "249",
   "youtube": "8RIQATlxIy0",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Contratos empresariais"
+  ]
  },
  {
   "guid": "003794a5-1b47-4c26-84bd-7b5401c7b5ba",
@@ -2704,8 +2853,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107152595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-21%2F406057219-44100-2-29ba2a77d09d4.mp3",
   "id": "248",
   "youtube": "hkugHH8AEGo",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Mercado de capitais",
+   "Startups, tecnologia e inovação"
+  ]
  },
  {
   "guid": "c5c3bd6e-ce9c-4411-86f8-a1851633c143",
@@ -2733,9 +2887,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/107029498/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-18%2F405872543-44100-2-ed002c8facf84.mp3",
   "id": "247",
   "youtube": "rYra7mGYp6A",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Contratos empresariais",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -2764,7 +2919,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/106818280/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-13%2F405601036-44100-2-f0f122cf52fc8.mp3",
   "id": "246",
   "youtube": "XA1jLjg3HFI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -2796,8 +2951,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/106749206/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-12%2F405511540-44100-2-77dbfa448f21.mp3",
   "id": "245",
   "youtube": "Pp5bXAf7LlU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
    "Propriedade intelectual"
   ]
  },
@@ -2826,7 +2984,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/104854540/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-30%2F4bb6478d-8478-f7ef-9f66-0f0b91c69d4a.mp3",
   "id": "244",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Propriedade intelectual"
   ]
@@ -2871,9 +3029,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103698479/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-5%2F8fa36ad9-e011-4e06-c8ce-e0af904bf1a1.mp3",
   "id": "243",
   "youtube": "mWRzcv7YPtc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Recuperação judicial e falência",
+   "Governança corporativa"
   ]
  },
  {
@@ -2902,8 +3064,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103698420/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-5%2Fdb2e4eef-afc5-ad19-d7af-e94f71b4d41a.mp3",
   "id": "242",
   "youtube": "04rvFkvwy3o",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Contratos empresariais",
+   "Concorrência e antitruste",
+   "Propriedade intelectual"
+  ]
  },
  {
   "guid": "35f4bd0e-f5f7-45df-adbe-4863ea8eae89",
@@ -2930,8 +3096,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103698315/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-5%2F2acaba91-229d-4017-d612-c7e2e5ad7219.mp3",
   "id": "241",
   "youtube": "v6VMyMvopWo",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Contratos empresariais",
+   "Concorrência e antitruste"
+  ]
  },
  {
   "guid": "afca6ab4-5fb8-4d82-aa14-c834325cbc68",
@@ -2959,8 +3128,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103698156/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-5%2Fc4ea6e71-d432-c6eb-8f33-8f62ecaad31b.mp3",
   "id": "240",
   "youtube": "njiuhM0qNf0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)"
   ]
  },
@@ -2989,9 +3159,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103698100/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-5%2F18c4aa17-413f-35b3-f621-f71bedd950b4.mp3",
   "id": "239",
   "youtube": "OCs0RGMtRhA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -3020,9 +3192,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103697800/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-5%2F6dc4da4a-f8f1-f256-5b49-f2a12bc9a21c.mp3",
   "id": "238",
   "youtube": "cph5cb-56cQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Contratos empresariais"
   ]
  },
  {
@@ -3051,9 +3224,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103590700/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-3%2F25bfa9ff-ea7c-3094-c3f0-205c15156be0.mp3",
   "id": "237",
   "youtube": "pK4bxT3ZNZc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
   ]
  },
  {
@@ -3091,8 +3265,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103041767/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-22%2Fb7a49cd8-5253-3b56-39fb-69415cae176a.mp3",
   "id": "236",
   "youtube": "RKf7OxJc-ps",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Propriedade intelectual"
+  ]
  },
  {
   "guid": "a66dde88-cfc8-4032-8d3a-8352b0b2edfe",
@@ -3119,7 +3295,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/103041222/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-22%2Fa3044db0-4fdd-5a36-8616-f63c7ce72f46.mp3",
   "id": "235",
   "youtube": "N-IJCJA9en8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Recuperação judicial e falência"
@@ -3150,8 +3326,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99588271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F291cf84b-6ef7-ccc7-e92b-a89f702f296f.mp3",
   "id": "234",
   "youtube": "8Tv9VqYY-Ho",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Startups, tecnologia e inovação"
+  ]
  },
  {
   "guid": "c97001be-acdf-401d-baff-eced2992df3f",
@@ -3179,7 +3357,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99588213/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F5f057e25-983b-3cde-63dd-94b3c63517d9.mp3",
   "id": "233",
   "youtube": "pJCpu-h79o4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -3210,9 +3388,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99588134/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F0dae6995-235e-3ae6-cead-f6d3f5add343.mp3",
   "id": "232",
   "youtube": "6ovja_Zk-7k",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Concorrência e antitruste"
   ]
  },
  {
@@ -3241,8 +3422,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99588053/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F71af352b-4e0a-2e53-279e-991495d80e71.mp3",
   "id": "231",
   "youtube": "5NSlS6u6JjY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Contratos empresariais",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -3273,7 +3455,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587617/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Ff0918f81-b9c0-1e6e-54bf-c58c18c5aac2.mp3",
   "id": "230",
   "youtube": "GoMwfUondFY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral"
   ]
@@ -3304,9 +3486,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587554/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F1bf82264-49ba-c527-4e49-fcda39236844.mp3",
   "id": "229",
   "youtube": "dSZ10uwfgJU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa"
   ]
  },
  {
@@ -3342,8 +3526,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587498/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Ff8af695f-9a62-cd21-7508-649d447677c1.mp3",
   "id": "228",
   "youtube": "2FarRjaV55M",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Governança corporativa"
   ]
@@ -3374,8 +3559,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-24%2Fa2f906ed-2a5f-5fbd-be3e-5d295183a255.mp3",
   "id": "227",
   "youtube": "z8L8xfBKU-I",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
    "Mercado de capitais"
   ]
  },
@@ -3405,8 +3593,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587358/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Fe7cdb826-122d-af01-dafe-49e2179e5414.mp3",
   "id": "226",
   "youtube": "ll6ZQIp1qU0",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa",
+   "Acordos sancionadores e leniência"
+  ]
  },
  {
   "guid": "3e6b3b08-7d34-407a-8055-08395b5193b6",
@@ -3433,8 +3626,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587267/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F2bf5c288-5d12-1c79-67c5-56d00b3e0177.mp3",
   "id": "225",
   "youtube": "dDdRwJmepZA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
    "Governança corporativa"
@@ -3474,7 +3668,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587184/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F96a5cd75-be50-9966-7aac-c4f82cacf98a.mp3",
   "id": "224",
   "youtube": "MxXWIm11snk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Defesa comercial e comércio internacional"
   ]
@@ -3514,7 +3708,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587106/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Fda115bcf-1107-cd86-9c25-5bae6680c39b.mp3",
   "id": "223",
   "youtube": "1iz1FpCD1XA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais",
    "Títulos de crédito"
@@ -3546,9 +3740,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99587034/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Fe407fb38-b3d0-4ec8-d1c3-1400b950203a.mp3",
   "id": "222",
   "youtube": "D8teARqR2fg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
   ]
  },
  {
@@ -3577,7 +3774,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99586948/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Fb2b95690-ebf5-2ede-da5a-214399913e24.mp3",
   "id": "221",
   "youtube": "sW2AHr4oROY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste"
   ]
@@ -3617,8 +3814,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99586810/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F82aaae95-e56b-3404-817f-7c13a1d548bf.mp3",
   "id": "220",
   "youtube": "gW4ZGSrt7Sw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Contratos empresariais",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -3648,9 +3846,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99586716/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-27%2F66c8a6a2-826a-2fcf-06a5-67a17eb4975f.mp3",
   "id": "219",
   "youtube": "vacUhg6mHI8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Contratos empresariais"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Contratos empresariais",
+   "Concorrência e antitruste"
   ]
  },
  {
@@ -3678,8 +3879,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99586528/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Feca80790-fe57-0d45-5246-baa4ae2a74a8.mp3",
   "id": "218",
   "youtube": "2_84m3nbDk8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais"
   ]
  },
@@ -3718,8 +3920,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99586200/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Fe9685243-2b08-b987-1356-355813059ed2.mp3",
   "id": "217",
   "youtube": "cIpHtNckMp8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Títulos de crédito"
   ]
  },
@@ -3748,7 +3951,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99586094/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2F6ba2d8e7-eb9f-134f-3562-2ce5f5b35afd.mp3",
   "id": "216",
   "youtube": "p1r6zYPUqAA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Acordos sancionadores e leniência"
   ]
@@ -3780,7 +3983,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99585976/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-9%2Fd3b1498d-03c8-3336-f480-1405c03cc518.mp3",
   "id": "215",
   "youtube": "r7GksKqFHhE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -3809,7 +4012,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/99585593/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-11%2Fe6eda798-8d42-2002-202f-75180cf082e2.mp3",
   "id": "214",
   "youtube": "lOaX3-tK_pA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral"
   ]
@@ -3849,9 +4052,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/95933206/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-17%2Ff3ed5618-8d86-c8c9-d5df-05da5a797093.mp3",
   "id": "213",
   "youtube": "2k1DssAN5L4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Recuperação judicial e falência",
+   "Concorrência e antitruste"
   ]
  },
  {
@@ -3880,9 +4086,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/95933156/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-17%2F64e8376d-76a5-a355-a135-752d1824c7f6.mp3",
   "id": "212",
   "youtube": "sBABDojfnhA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -3911,8 +4119,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94981780/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-26%2F3184783e-673e-f049-a943-9f6a0943ef63.mp3",
   "id": "211",
   "youtube": "V8coclbadss",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Recuperação judicial e falência"
   ]
  },
@@ -3941,9 +4150,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/95399612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-5%2Fe9685ff2-68fd-5076-e42a-b6313e7154a2.mp3",
   "id": "210",
   "youtube": "U9FHoAB2GKs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
    "Arbitragem e solução de conflitos",
    "Governança corporativa"
@@ -3977,7 +4187,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/95394043/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-5%2Fae3b33f0-fa24-e431-6491-b64c6ff6b2a6.mp3",
   "id": "209",
   "youtube": "vGMdlXbGotY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -4006,10 +4216,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/95286269/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-3%2Fe0c1ea48-2387-c5e5-7681-773854b4e6f3.mp3",
   "id": "208",
   "youtube": "CY22HOk6hKk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Governança corporativa"
   ]
  },
  {
@@ -4046,10 +4259,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94982786/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-29%2F7f74d594-46a7-4e3b-59ff-48d8726e0fa2.mp3",
   "id": "207",
   "youtube": "6tau5BY_mgk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
-   "Sociedades limitadas"
+   "Sociedades limitadas",
+   "Contratos empresariais",
+   "Concorrência e antitruste",
+   "Propriedade intelectual"
   ]
  },
  {
@@ -4080,10 +4297,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94982524/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-26%2Ff9bf32dd-363b-848a-a453-2fce29582f6a.mp3",
   "id": "206",
   "youtube": "GbXEfPlivr8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
    "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
    "Mercado de capitais"
   ]
  },
@@ -4115,8 +4335,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94750029/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-21%2F3d025946-d0f6-2324-627e-d6a62d806baf.mp3",
   "id": "205",
   "youtube": "-5dCZXjYAD8",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Mercado de capitais",
+   "Startups, tecnologia e inovação"
+  ]
  },
  {
   "guid": "23813cd6-919f-4d31-8ede-3cb21a8cef8a",
@@ -4177,7 +4400,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94617767/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-19%2Ffc1467f0-1b52-89ca-fcc2-752683281c47.mp3",
   "id": "204",
   "youtube": "4kFKiuEsMd8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades limitadas"
@@ -4209,7 +4432,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94296897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-14%2F7a1c063a-7720-c881-5b57-2b9de737d2be.mp3",
   "id": "203",
   "youtube": "-U1cS7cDczQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -4269,7 +4492,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94296850/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-12%2Ff1ef3e0a-bc43-15f3-4dd7-01a3b8d350df.mp3",
   "id": "202",
   "youtube": "PcGunHUGarg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -4300,7 +4523,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94087337/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-7%2F8d4ac826-dd8b-a0cd-68f3-365cf69fc88f.mp3",
   "id": "201",
   "youtube": "o222p_tBicc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -4329,7 +4552,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/94000220/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-5%2F89f98cc2-c58c-72cd-56db-d9718cc39af2.mp3",
   "id": "200",
   "youtube": "XMj5rpVWia8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral"
   ]
@@ -4369,8 +4592,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/93681297/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F76a6eb1c-b2b4-1286-8007-f411b785fa60.mp3",
   "id": "199",
   "youtube": "wsDy3atSAd4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Recuperação judicial e falência",
    "Contratos empresariais"
   ]
@@ -4400,9 +4624,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/93681163/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2Fb72403cf-ea7e-d840-184a-a9f3f7d7d6a8.mp3",
   "id": "198",
   "youtube": "M_8ZUDeUGro",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Recuperação judicial e falência"
   ]
  },
  {
@@ -4431,8 +4657,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/93469984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-24%2F1063fa91-100b-0ef9-45b8-c7127f1425eb.mp3",
   "id": "197",
   "youtube": "oFDVyUsFhkM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais",
    "Concorrência e antitruste"
   ]
@@ -4462,8 +4689,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/93374654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-22%2F0afb86c7-75aa-e4f8-7c70-3cb1bac786fb.mp3",
   "id": "196",
   "youtube": "eN3jhYXsN9c",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Recuperação judicial e falência"
+  ]
  },
  {
   "guid": "9103bb51-3a1f-489b-bc2b-56b315ba935d",
@@ -4492,7 +4722,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/93060251/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-15%2F76532b17-4dc2-c0a5-4469-b8d526be22a9.mp3",
   "id": "195",
   "youtube": "3rE6FVvRPKE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -4523,8 +4753,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/93060152/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-15%2Ff7d1e3ce-fdb4-5d3a-292e-6a998e747640.mp3",
   "id": "194",
   "youtube": "hnFc4ErxMpE",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "54051973-d808-4b00-a2fa-4fde36634805",
@@ -4563,8 +4795,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/92728014/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-8%2F109f997d-b757-8111-e2d9-edb8fff847b3.mp3",
   "id": "193",
   "youtube": "_sL50NQlOSo",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Concorrência e antitruste"
+  ]
  },
  {
   "guid": "c2ad77dd-d961-474d-a952-54d115eb7bf9",
@@ -4601,7 +4836,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/92727780/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-8%2F36495a2a-146e-1bab-a3a5-032d46dc8950.mp3",
   "id": "192",
   "youtube": "aYP4MZhhR2U",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -4631,7 +4866,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/90960864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-27%2Fe182fd97-ce7a-424c-d90c-f5e8477760ac.mp3",
   "id": "extra-2024-08-27",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste"
   ]
@@ -4679,7 +4914,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/89529016/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-22%2F39050a31-b90d-64ec-089e-1dba02cb34a6.mp3",
   "id": "191",
   "youtube": "X0XreHcALHs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais",
    "Concorrência e antitruste"
@@ -4727,8 +4962,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/89239345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-16%2F12f72cfa-6b32-868e-13ac-123746892734.mp3",
   "id": "190",
   "youtube": "u0ZyRkNmT3c",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Contratos empresariais",
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "89d2079e-b1ef-4467-af95-5f2075432adb",
@@ -4764,9 +5002,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/89007538/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-15%2Fccde99dc-db67-6fef-8b63-597e3c192e21.mp3",
   "id": "189",
   "youtube": "Aaq2j0_w97k",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa"
   ]
  },
  {
@@ -4794,7 +5034,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/88712522/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-1%2F779a7ded-5fee-1992-5427-c99517719c96.mp3",
   "id": "188",
   "youtube": "q2p6u46AORc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Mercado de capitais"
   ]
@@ -4824,8 +5064,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/88712476/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-1%2F423b2d29-e968-d0c3-dac3-f813496d9bad.mp3",
   "id": "187",
   "youtube": "NXOePgK5XFg",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Mercado de capitais"
+  ]
  },
  {
   "guid": "f8cef6be-63af-4c77-acb8-fcfd00b9e6e2",
@@ -4853,8 +5097,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/88574456/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-28%2Fd5776d50-686e-5dc9-e3de-933171e7b996.mp3",
   "id": "186",
   "youtube": "w9UBXeJp6F4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
    "Arbitragem e solução de conflitos",
    "Governança corporativa"
@@ -4885,9 +5130,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/88442518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-25%2Fb058a470-d3dd-5712-53e8-79baabbed8df.mp3",
   "id": "185",
   "youtube": "UbvsxNI2A-0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
    "Governança corporativa"
   ]
  },
@@ -4916,8 +5162,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/88241675/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-20%2F087f9ee1-7045-2b75-83a5-a5c5de883741.mp3",
   "id": "184",
   "youtube": "ppCbcu8IJrI",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Concorrência e antitruste"
+  ]
  },
  {
   "guid": "3b84a166-69da-48ec-9d8e-8671214853f9",
@@ -4944,7 +5192,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/88143184/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-17%2F65b63979-b1af-e385-59f3-9a66651c904a.mp3",
   "id": "183",
   "youtube": "odFooYZ340k",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Mercado de capitais"
   ]
@@ -4985,8 +5233,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87887173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-11%2Fc30c95ac-6b6a-92d2-2517-90a843dea744.mp3",
   "id": "182",
   "youtube": "Hnm2HwHJAsk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Recuperação judicial e falência"
   ]
  },
@@ -5016,8 +5265,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87887015/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-11%2F0e858c53-1c5f-9862-b333-b568639770cb.mp3",
   "id": "181",
   "youtube": "SSOHOEgu_I8",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "972b199e-5253-48c8-bd73-7f4e5b94765e",
@@ -5044,7 +5296,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87580743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-3%2Fe2957cf5-0859-63c9-361f-890d9137f161.mp3",
   "id": "180",
   "youtube": "bA0i8EHUGJI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -5082,7 +5334,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87580681/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-3%2F18af20f3-cca4-7eda-919b-eefa57424865.mp3",
   "id": "179",
   "youtube": "ubGS-uQFOik",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Sociedades anônimas (S.A.)",
    "Governança corporativa",
@@ -5114,9 +5366,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87335112/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-28%2F97744b04-9057-0195-7f4f-cf89c7580359.mp3",
   "id": "178",
   "youtube": "jFZ69fh7Rrk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Concorrência e antitruste"
+   "Societário geral",
+   "Concorrência e antitruste",
+   "Governança corporativa",
+   "Acordos sancionadores e leniência"
   ]
  },
  {
@@ -5151,7 +5406,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87273926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-27%2F32462b05-5918-4fd9-0221-b447e61eb11f.mp3",
   "id": "177",
   "youtube": "owEwYYvqn1Q",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -5181,8 +5436,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87001681/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-20%2F51c4b7ec-63b1-9c4f-8b8f-8f50f00db78a.mp3",
   "id": "176",
   "youtube": "0O4i0521RFg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais"
   ]
  },
@@ -5212,7 +5469,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/87001552/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-20%2F00bdb38b-4c4e-d3a9-2c6f-2d5e16134021.mp3",
   "id": "175",
   "youtube": "Gj0_F7tAv-I",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral"
   ]
@@ -5243,9 +5500,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85774457/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-22%2F37435425-9387-a387-416e-ef7bca8ea932.mp3",
   "id": "174",
   "youtube": "DCVLBnB15QU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
  },
@@ -5274,9 +5534,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85774413/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-22%2Ff36937ae-9875-fbd4-d37a-b1aaebb2a05b.mp3",
   "id": "173",
   "youtube": "AbS6Rcy03vk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Contratos empresariais"
   ]
  },
  {
@@ -5323,8 +5584,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85774358/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-22%2F30fe99a4-a7fe-c1af-1653-5ce0a25230ed.mp3",
   "id": "172",
   "youtube": "vLfze2MKVF0",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Títulos de crédito"
+  ]
  },
  {
   "guid": "39487d2d-fb85-43e2-b46b-e35740a89906",
@@ -5351,10 +5614,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85774323/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-22%2Ffc918830-7fd1-35e9-0316-197af51e201b.mp3",
   "id": "171",
   "youtube": "rPaqQ3JB0Nw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
-   "Societário geral"
+   "Societário geral",
+   "Contratos empresariais"
   ]
  },
  {
@@ -5383,9 +5647,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85774246/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-22%2F61c98152-3bb1-51e3-51b7-0e7c7b326c90.mp3",
   "id": "170",
   "youtube": "niDxif0DTmY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência",
+   "Contratos empresariais",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -5414,7 +5679,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85774184/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-22%2Fa4689912-3e05-b04a-0a8a-a18c65a2c6ed.mp3",
   "id": "169",
   "youtube": "NWgG50_I17k",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -5445,7 +5710,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85565147/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-17%2F3738269f-7a78-8805-0dc9-f8556ffe78a3.mp3",
   "id": "168",
   "youtube": "D5vMtL2OCEk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste",
    "Startups, tecnologia e inovação"
@@ -5486,9 +5751,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/84938371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-3%2F9d465350-e6b5-c95b-d7e6-87a585c52011.mp3",
   "id": "167",
   "youtube": "cG8CLYiwz_8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
    "Contratos empresariais",
    "Concorrência e antitruste"
   ]
@@ -5518,8 +5785,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/85259860/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-11%2Ff1c2f365-8802-47d1-af52-b1b586b8974b.mp3",
   "id": "166",
   "youtube": "e6jGg_Gv93E",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Contratos empresariais",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -5561,8 +5829,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/84938304/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-3%2Fcb77f341-e9bc-8c61-a553-ea8f09b79995.mp3",
   "id": "165",
   "youtube": "CjP3F7LGmVc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Startups, tecnologia e inovação"
   ]
  },
@@ -5593,7 +5863,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/84938203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-3%2F60ae4467-d1d6-f2b3-664e-6508fa3eb7dd.mp3",
   "id": "164",
   "youtube": "JBrKaaYPDxA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Recuperação judicial e falência"
   ]
@@ -5624,9 +5894,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/84836994/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-1%2F02ce0115-85a3-0756-c122-d34c4bbeb420.mp3",
   "id": "163",
   "youtube": "StNhgeG6lo4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Startups, tecnologia e inovação"
   ]
  },
  {
@@ -5656,7 +5927,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/84657292/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-1%2Fc5237a0f-69a5-7851-7057-3f57af2e832c.mp3",
   "id": "162",
   "youtube": "iHHFojRBZzw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Concorrência e antitruste"
   ]
@@ -5687,8 +5958,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/84537594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-25%2F294cf359-64e5-d62c-dfd9-941fd1d3560c.mp3",
   "id": "161",
   "youtube": "pQkPMurPavM",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Governança corporativa",
+   "Startups, tecnologia e inovação"
+  ]
  },
  {
   "guid": "03d221eb-0e80-4559-9255-09fa9b49b26c",
@@ -5718,8 +5993,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/80329327/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-21%2F249951cf-baec-01f2-0069-163dbb15843b.mp3",
   "id": "160",
   "youtube": "ewy84uyKpR0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
  },
@@ -5757,9 +6033,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/80209397/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-19%2F4112445e-8855-bed5-b868-63d44797d8d7.mp3",
   "id": "159",
   "youtube": "0HJvES4O_fw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -5788,8 +6067,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/79690746/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-7%2F531a318d-fbd9-634c-217a-cb8745e8dd46.mp3",
   "id": "158",
   "youtube": "1VmAruU50VA",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "112acb14-e66e-4097-95e9-facb1840a71a",
@@ -5816,7 +6099,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76967483/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-12%2Fc57cf846-93b6-36b1-f923-0a2ecb066b48.mp3",
   "id": "157",
   "youtube": "jAFq5Q2ITp0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -5848,9 +6131,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76967357/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-9%2Feb40156a-9ef2-a438-7ee4-a8092e59e9df.mp3",
   "id": "156",
   "youtube": "ePqdUotnyug",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -5879,9 +6164,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/78284367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-7%2F68a335bd-44f5-adf7-91bb-2a6016ec486e.mp3",
   "id": "155",
   "youtube": "BTm68Wql_-4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
   ]
  },
  {
@@ -5926,8 +6214,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76967653/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-9%2F447093dc-9912-c7e4-788d-f5614ad12165.mp3",
   "id": "154",
   "youtube": "zz_vpUml90o",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "933f80c3-c033-4db7-8d28-7fe249fd6e56",
@@ -5955,7 +6248,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/78285728/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-7%2F0de08bb1-e5e9-8699-b342-0465d050183e.mp3",
   "id": "153",
   "youtube": "Bt5KM5zX80Y",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades anônimas (S.A.)",
@@ -5987,9 +6280,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/78560166/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-13%2Fa4ff32a3-e93d-f105-6002-5fb421a67bae.mp3",
   "id": "152",
   "youtube": "pvs6b5WYqNE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades limitadas"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -6020,7 +6316,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76967226/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-9%2F4e4bf636-f6a1-7222-e8ff-4ada620010eb.mp3",
   "id": "151",
   "youtube": "2OUyYwzTlcw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -6049,9 +6345,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/78282772/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-7%2Fc4b47099-06da-b8b1-cb00-c67bc609608f.mp3",
   "id": "150",
   "youtube": "Jznh_nFQl9s",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
+   "Sociedades limitadas",
    "Sociedades anônimas (S.A.)"
   ]
  },
@@ -6081,9 +6379,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/78127292/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-3%2Fe364aaf7-02c8-d5c6-4c4f-44da68f6ce43.mp3",
   "id": "149",
   "youtube": "rxiQjTJNQdk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
  },
@@ -6123,9 +6422,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/77966512/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-31%2F239d8145-a849-21e3-638e-464c9685dac1.mp3",
   "id": "148",
   "youtube": "IDoff8C5Or0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Contratos empresariais"
   ]
  },
  {
@@ -6155,9 +6455,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76967290/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-9%2F82e671c1-9903-4f9c-73d2-6381d6e885d4.mp3",
   "id": "147",
   "youtube": "eRH068XNBTI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Recuperação judicial e falência"
   ]
  },
  {
@@ -6186,7 +6488,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/77473954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-20%2F0011512e-e9c8-f622-8430-0a6fc6f78be3.mp3",
   "id": "146",
   "youtube": "4dK63ovNI6g",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -6216,9 +6518,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/77309117/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-16%2F68c41193-74b5-9a8b-f71f-7e5cf3dd6f5b.mp3",
   "id": "145",
   "youtube": "7YkJfJ2NNYE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Governança corporativa"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa",
+   "Defesa comercial e comércio internacional"
   ]
  },
  {
@@ -6254,8 +6559,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/77164515/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-13%2Fa822d83b-28f3-f3d7-f8f3-cc6be5647134.mp3",
   "id": "144",
   "youtube": "xbBsM52Coxg",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais"
+  ]
  },
  {
   "guid": "d6c1931d-7237-4f38-8920-9a95c1188f7b",
@@ -6283,7 +6591,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76967562/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-9%2Fe9e36f48-7a87-0acc-1ce5-eee62d6d1dce.mp3",
   "id": "143",
   "youtube": "QooDV5z302E",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -6313,8 +6621,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76802489/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-5%2Fd0a15c22-80d0-557f-a908-5505d4b3089d.mp3",
   "id": "142",
   "youtube": "JrdAAMvY2VI",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Contratos empresariais"
+  ]
  },
  {
   "guid": "3265a2af-a52f-4ee3-a02e-c2aa8e3342fa",
@@ -6368,8 +6680,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76725584/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-3%2F7a26eaa4-bebf-346a-4be9-29ff45a5775a.mp3",
   "id": "141",
   "youtube": "Vr98N8tklYQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais"
   ]
  },
@@ -6398,7 +6711,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76396834/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-26%2Fe04271b3-694e-e252-5c01-b89d0415890b.mp3",
   "id": "140",
   "youtube": "MV-XDlJgQOQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Recuperação judicial e falência"
@@ -6430,7 +6743,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76183725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-21%2F63bf71c4-58d3-60a1-6409-e666d81bcafa.mp3",
   "id": "139",
   "youtube": "Yw5P3XvWHok",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
@@ -6469,7 +6782,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/76088703/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-19%2Fe013f52d-1d72-d389-d856-b8ee9275aa09.mp3",
   "id": "138",
   "youtube": "Ms2GY40R2Qw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Governança corporativa"
@@ -6502,9 +6815,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/75899369/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-14%2Fd4e076ce-4e7b-6196-ec80-c705dede83e0.mp3",
   "id": "137",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Contratos empresariais"
+   "Contratos empresariais",
+   "Propriedade intelectual"
   ]
  },
  {
@@ -6533,8 +6847,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/75803408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-12%2F966e759d-b30d-6a79-eb76-b631f7161953.mp3",
   "id": "136",
   "youtube": "pYn16mwq2zs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Concorrência e antitruste"
   ]
  },
@@ -6565,7 +6881,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/75590130/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-7%2Ff3580570-f01d-9a7a-e224-7adf707053b3.mp3",
   "id": "135",
   "youtube": "D-PYHgQ2Lfg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
@@ -6596,8 +6912,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/75496700/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-6%2F217ddb6a-6ff3-85ff-e567-431810b383d2.mp3",
   "id": "134",
   "youtube": "x2Gar8b1Rr4",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial"
+  ]
  },
  {
   "guid": "d2f84757-7845-4a88-9ea9-59bb31f7fc8c",
@@ -6624,7 +6942,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/75256775/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-4%2F34a2253e-983c-330b-2550-6706d0a02803.mp3",
   "id": "133",
   "youtube": "GxwyuFRxbEc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Defesa comercial e comércio internacional"
   ]
@@ -6655,7 +6973,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69952687/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-7%2F46fe3377-4ddd-433b-e260-9a247f018970.mp3",
   "id": "131",
   "youtube": "IGkzhCmD384",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades limitadas",
@@ -6687,8 +7005,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/73547802/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-18%2F34c91799-7bd1-4a2b-7c02-c2852587363e.mp3",
   "id": "132",
   "youtube": "VIrHFDVvIIA",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Startups, tecnologia e inovação"
+  ]
  },
  {
   "guid": "7aee3ddd-e00f-478c-89bd-9a06e9aab6f9",
@@ -6717,9 +7037,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/73337827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-12%2F72b74226-7cf0-26cd-c981-ac137bee0165.mp3",
   "id": "130",
   "youtube": "gclS0gJFcLU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
   ]
  },
  {
@@ -6747,9 +7068,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/73070367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-6%2Fb1c34007-1fa2-6796-d20e-d2a4b3ce05ce.mp3",
   "id": "129",
   "youtube": "eHNPApqt7mc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa"
   ]
  },
  {
@@ -6778,10 +7101,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/72677215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-27%2F42be4114-4f80-089f-bdcb-c5d50ed67ffa.mp3",
   "id": "128",
   "youtube": "9-dDCKLya68",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Arbitragem e solução de conflitos",
    "Governança corporativa"
   ]
  },
@@ -6810,9 +7135,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/72393661/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-20%2Feb0ec41c-5f8a-6d8a-2e04-f232a6119ad9.mp3",
   "id": "127",
   "youtube": "i8pPXuuLPV8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Arbitragem e solução de conflitos"
   ]
  },
  {
@@ -6855,9 +7182,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69952765/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-7%2F664cffec-0ab9-b8e5-753a-69568c8f9a8d.mp3",
   "id": "126",
   "youtube": "5-wBbuUnzHE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
    "Governança corporativa"
   ]
  },
@@ -6898,8 +7226,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69952039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-15%2Fc198ae32-e591-b565-1ed7-0ac5a61c9c3f.mp3",
   "id": "125",
   "youtube": "-fc4qWLRitc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)"
   ]
  },
@@ -6929,8 +7258,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/72065873/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-13%2F2fd91773-a63b-a3e8-0094-0798a5732e51.mp3",
   "id": "124",
   "youtube": "YHZH7c03-Hs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Mercado de capitais"
   ]
@@ -6990,9 +7320,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/71886480/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-9%2F94a60942-b91f-34c0-f3da-d1f8f8645b52.mp3",
   "id": "123",
   "youtube": "95okKkjk0Pc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades limitadas"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -7022,10 +7355,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/71767948/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-7%2Fd2d57137-ea6f-ebbe-b13d-ea502dbb1cfd.mp3",
   "id": "122",
   "youtube": "_EPX-5mYfTY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
-   "Societário geral"
+   "Societário geral",
+   "Contratos empresariais"
   ]
  },
  {
@@ -7053,7 +7387,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69952305/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-7%2Fdc33ebaa-5dc7-459c-b6f0-fa789e02eadf.mp3",
   "id": "120",
   "youtube": "pJA76pIamEg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral",
@@ -7096,8 +7430,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/70912221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-24%2F394fa853-aa14-e3fc-6d75-fe9ee52b5f1b.mp3",
   "id": "119",
   "youtube": "zNgR0M68im4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades limitadas"
   ]
  },
@@ -7154,8 +7489,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/70479354/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-16%2Fb726e6e4-baef-b0f3-9124-231c76bc6c88.mp3",
   "id": "118",
   "youtube": "gI0NopNx76k",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "647c5004-df7b-41e6-b92b-02c7596ce112",
@@ -7182,8 +7521,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/70185477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-11%2F8ffa645c-dfb3-7eef-e6be-1fda33adc8bc.mp3",
   "id": "117",
   "youtube": "OULpsG3Ef8I",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
  },
@@ -7222,8 +7563,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69951847/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-7%2F8b3b9574-e9d0-536a-d1ff-571dae26ec85.mp3",
   "id": "116",
   "youtube": "JX2dzaKZL2o",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Governança corporativa"
   ]
@@ -7271,8 +7613,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69396199/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-27%2F44ec2a51-8bee-ef60-c3ef-76dd6b8a0857.mp3",
   "id": "115",
   "youtube": "iIbf1l4cTzw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Recuperação judicial e falência"
   ]
  },
@@ -7302,9 +7645,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/69233288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-24%2Fbada7cd2-6b3c-7e27-1cb0-5ba85ed31ede.mp3",
   "id": "114",
   "youtube": "lcBv0ANNFeI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Recuperação judicial e falência"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Recuperação judicial e falência",
+   "Contratos empresariais"
   ]
  },
  {
@@ -7341,7 +7688,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/68876157/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-18%2Fcda63c74-0f56-e6a1-c023-c1c36621d99c.mp3",
   "id": "113",
   "youtube": "qXsOH2ioWxY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -7369,8 +7716,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/68503151/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-13%2F2083ccdd-367a-8bcb-6cd4-049cc265905e.mp3",
   "id": "112",
   "youtube": "d19om_vK9cQ",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial"
+  ]
  },
  {
   "guid": "f35cd72b-ab5a-4b85-826f-372c3e4290d7",
@@ -7397,9 +7746,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/64816995/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-23%2F0eab9d62-5484-5cb4-15e3-384572ce1d47.mp3",
   "id": "111",
   "youtube": null,
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Concorrência e antitruste"
+   "Societário geral",
+   "Concorrência e antitruste",
+   "Propriedade intelectual",
+   "Acordos sancionadores e leniência",
+   "Defesa comercial e comércio internacional"
   ]
  },
  {
@@ -7427,9 +7780,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/65028610/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-14%2F1c1b1c17-b3a8-39c4-11d1-aab568f8ab51.mp3",
   "id": "110",
   "youtube": "kfk9Viiw7ps",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Governança corporativa"
   ]
  },
  {
@@ -7467,7 +7821,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/64763771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-9%2F8d39771c-6c41-1c1a-43c1-39f60c694ef5.mp3",
   "id": "109",
   "youtube": "wk4XBGMWfMQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Mercado de capitais",
    "Acordos sancionadores e leniência"
@@ -7498,8 +7852,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/64415794/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-2%2F5c4d7686-8a1c-c97a-a17c-d25a0466f584.mp3",
   "id": "108",
   "youtube": "T9ydcj58wlU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais"
   ]
  },
@@ -7530,7 +7885,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/61138952/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2F32332b5b-0c8b-1a58-be7e-c6d70d89d08f.mp3",
   "id": "107",
   "youtube": "gNU3jCC8azg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Recuperação judicial e falência"
@@ -7572,8 +7927,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/64063936/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-26%2F21cf78c9-5b3e-fb8a-73d5-b9fdf26d18f7.mp3",
   "id": "106",
   "youtube": "-379_IekiEM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
    "Governança corporativa"
   ]
  },
@@ -7612,7 +7970,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63913160/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-23%2F2f42bbac-cd27-9f6f-6792-c7e5297b3ac0.mp3",
   "id": "105",
   "youtube": "Cz-8fsE4G7Y",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades anônimas (S.A.)"
@@ -7653,8 +8011,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63909661/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-24%2F628ed4db-15eb-cf62-11e1-0a4369f2eed1.mp3",
   "id": "104",
   "youtube": "w8K_RQP2Lp8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
    "Governança corporativa"
   ]
  },
@@ -7683,8 +8044,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63682031/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-20%2F49520272-221b-ae85-46c6-0594ac45721e.mp3",
   "id": "103",
   "youtube": "I4BulkuYG8o",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Governança corporativa",
+   "Acordos sancionadores e leniência"
+  ]
  },
  {
   "guid": "e8abadcb-6dfb-40b8-841b-f95ea1d9856e",
@@ -7711,9 +8077,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63447466/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-13%2F03b53688-ddb1-23fb-3cab-c5920216c330.mp3",
   "id": "102",
   "youtube": "7et19kYeZPg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Governança corporativa"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -7744,9 +8114,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63445910/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-13%2Ff7410df9-4deb-2e87-76ff-e546453255d3.mp3",
   "id": "101",
   "youtube": "z_dOK50piEs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -7782,9 +8154,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63362033/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-11%2F46813cfe-e581-266f-0b5f-4866c0a36ef5.mp3",
   "id": "100",
   "youtube": "01V2tEubaAc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades limitadas"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -7812,7 +8186,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63361623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-11%2Fa74c6770-cc9e-8496-a1d3-07d60d52893a.mp3",
   "id": "99",
   "youtube": "YxnCqbLDqlw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Governança corporativa"
   ]
@@ -7851,9 +8225,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63251708/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-9%2Fabc28129-411d-a384-5e5f-425428ffc6e1.mp3",
   "id": "98",
   "youtube": "wk7Awkiu9yg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
   ]
  },
  {
@@ -7881,8 +8258,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/63246061/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-9%2F39909e39-b321-c396-a670-ff81d1fea234.mp3",
   "id": "97",
   "youtube": "a6kYNcKqXJY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Acordos sancionadores e leniência"
   ]
  },
@@ -7911,7 +8289,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/62242786/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-15%2Fef1151f4-054a-4f54-b83e-97df02f9b8e4.mp3",
   "id": "96",
   "youtube": "iDFlnbMxodU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Startups, tecnologia e inovação"
@@ -7943,7 +8321,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/62211702/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-14%2Fa7af18de-818f-3ca3-a578-aea5af60bf73.mp3",
   "id": "95",
   "youtube": "DHlb1vgZ0R0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Recuperação judicial e falência"
@@ -7974,8 +8352,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/61137367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2F2364e8ce-0e23-0a62-4ae7-0caf8ea3f265.mp3",
   "id": "94",
   "youtube": "9s4pJDAJNWE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
+   "Sociedades limitadas",
    "Arbitragem e solução de conflitos"
   ]
  },
@@ -8004,8 +8384,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/61137815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2Fe4d2f5f2-1301-3ef0-85bc-2c935040a708.mp3",
   "id": "93",
   "youtube": "0H8AOh0KVBU",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral"
+  ]
  },
  {
   "guid": "6e128c9f-07c1-48a2-aa22-bad4abc134fd",
@@ -8033,7 +8416,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/61137077/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2F1927cc2d-026a-614c-25ef-66a5039f1882.mp3",
   "id": "92",
   "youtube": "Q5TY-99JC8w",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Contratos empresariais"
   ]
@@ -8065,9 +8448,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/61136788/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2F2c98c14b-cf46-cff0-1360-6df733a7b473.mp3",
   "id": "91",
   "youtube": "qkeGMNWTmio",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Contratos empresariais"
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais",
+   "Concorrência e antitruste",
+   "Propriedade intelectual"
   ]
  },
  {
@@ -8105,7 +8491,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/60692748/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2F58404e65-3b3a-f637-dd07-2ba711444632.mp3",
   "id": "90",
   "youtube": "idFxtm8MSQM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
@@ -8135,9 +8521,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/60692630/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2F63e605e9-d588-94e1-471d-49e29321a582.mp3",
   "id": "89",
   "youtube": "WTaEh6qkzuU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
    "Governança corporativa"
   ]
  },
@@ -8166,8 +8555,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/58546883/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-4%2F84477ae5-76fc-133a-3fb0-70552f73a476.mp3",
   "id": "88",
   "youtube": "_xnkBCRymjk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Concorrência e antitruste",
+   "Mercado de capitais",
    "Acordos sancionadores e leniência"
   ]
  },
@@ -8205,8 +8596,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57659935/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-16%2F3b4f57d4-8cee-d343-eb35-8ac07bf8be53.mp3",
   "id": "87",
   "youtube": "MD7CC40KVTQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
  },
@@ -8236,9 +8628,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57609713/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-15%2F71a7d199-8b43-7414-dd62-9cc22f3da9e9.mp3",
   "id": "86",
   "youtube": "8G-exN77zk4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Governança corporativa"
   ]
  },
@@ -8289,10 +8682,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57259705/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-12%2Fc557221f-ffa8-6663-e68d-2e40852c9567.mp3",
   "id": "85",
   "youtube": "plyEE6nV7bg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Mercado de capitais"
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
   ]
  },
  {
@@ -8324,9 +8719,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57258830/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2Fff9f8217-c9ee-f830-d8dd-2d4b6d0465d8.mp3",
   "id": "84",
   "youtube": "O0QCgWy12Os",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
    "Mercado de capitais"
   ]
  },
@@ -8355,8 +8752,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57258393/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2F3e92b962-e3bc-123d-c7f7-b5a65fedc968.mp3",
   "id": "83",
   "youtube": "zArF7Oq4Tug",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Concorrência e antitruste",
    "Governança corporativa"
   ]
  },
@@ -8387,10 +8786,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57258340/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2F1c220397-ec33-7ae5-59e4-31c3e51fd92a.mp3",
   "id": "82",
   "youtube": "smaCoF3gt28",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
   ]
  },
  {
@@ -8424,7 +8825,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57258136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-13%2F8baec3d0-0355-75ee-23c9-bc1abc81605c.mp3",
   "id": "81",
   "youtube": "gcOoxFIkryk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Sociedades anônimas (S.A.)",
    "Governança corporativa"
@@ -8455,9 +8856,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57257959/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2Fa3a1d0e8-7859-e797-819d-c1b80f7e13f1.mp3",
   "id": "80",
   "youtube": "xvtr5EA6pnw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Startups, tecnologia e inovação"
   ]
  },
  {
@@ -8491,8 +8896,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57257857/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-13%2Fd4851cdf-5dbf-631b-9c73-f66ef3b078fd.mp3",
   "id": "79",
   "youtube": "bm0NoFAsq-Y",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Sociedades anônimas (S.A.)"
   ]
  },
@@ -8524,8 +8931,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57257820/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2F19c80104-0c77-7cda-4d23-555c20a28208.mp3",
   "id": "78",
   "youtube": "naIg3nvjiBc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
    "Governança corporativa"
   ]
@@ -8556,9 +8964,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/57257494/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2Fa33f5cf4-ba9f-579c-4f7c-cb1c56b6482e.mp3",
   "id": "77",
   "youtube": "uCsTNL8CJVM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
+   "Arbitragem e solução de conflitos",
    "Governança corporativa"
   ]
  },
@@ -8587,8 +8997,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/56533164/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-23%2Ff3723b77-de30-b4be-5984-9e423f610ba1.mp3",
   "id": "76",
   "youtube": "WgQwntG3R0I",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "4f188654-1e74-4419-9196-9b2f794d3703",
@@ -8616,8 +9031,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/56533764/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-23%2Fbce6c719-a249-c175-810a-c388665369fa.mp3",
   "id": "75",
   "youtube": "yPVV35dwkhc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Direito do futebol e esporte"
   ]
@@ -8647,9 +9063,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/56533104/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-23%2F4c637b27-3477-6025-f372-9aa87bf900c4.mp3",
   "id": "74",
   "youtube": "uXRDMUs48Jg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
    "Startups, tecnologia e inovação"
   ]
  },
@@ -8699,8 +9117,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/56596914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-24%2Fb633b5e4-dd42-7240-7d1b-c1ac49e9c548.mp3",
   "id": "73",
   "youtube": "x94jNUnFHPM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)"
   ]
  },
@@ -8729,8 +9148,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/56233157/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-16%2F9b2e7b44-8444-fa2b-fd38-5d89728f6285.mp3",
   "id": "72",
   "youtube": "du4vI9ga0dg",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "e3a1b68d-a741-4502-bf8e-121090c2bd96",
@@ -8765,9 +9187,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/56233076/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-16%2F9ee6a870-8417-1da1-2bab-d6ba1fc31467.mp3",
   "id": "71",
   "youtube": "tNqTmUWDxME",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades limitadas"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Arbitragem e solução de conflitos"
   ]
  },
  {
@@ -8796,11 +9223,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55943794/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-9%2F87f10537-7c77-ee3d-9a7d-66d7f08d5379.mp3",
   "id": "70",
   "youtube": "cmlAnv7r77s",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Mercado de capitais",
-   "Governança corporativa"
+   "Governança corporativa",
+   "Startups, tecnologia e inovação"
   ]
  },
  {
@@ -8831,10 +9261,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55727701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-4%2F0b5e5682-10d5-6fa1-d1c2-12b61b5a725f.mp3",
   "id": "69",
   "youtube": "0DEYoBlcw7c",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
-   "Sociedades limitadas"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Governança corporativa"
   ]
  },
  {
@@ -8862,9 +9296,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55350617/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-26%2F26d60190-8198-31ca-c24d-d3d13b95a6c3.mp3",
   "id": "68",
   "youtube": "MkStFHGGRqE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Sociedades limitadas",
    "Recuperação judicial e falência"
   ]
@@ -8900,9 +9335,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55338529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-26%2Fcbbb9dbf-4dfd-fef3-d034-e75702b2a0d9.mp3",
   "id": "67",
   "youtube": "D0y44eljcRI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -8931,10 +9369,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55332718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-26%2Fb95fb8a1-21f0-abb6-6d34-db73103d8a26.mp3",
   "id": "66",
   "youtube": "mzUUZ1HD83w",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
-   "Sociedades anônimas (S.A.)"
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais"
   ]
  },
  {
@@ -8981,8 +9422,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55153883/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-21%2Ffbf74239-dad2-e598-9ade-a6b6481f546c.mp3",
   "id": "65",
   "youtube": "twp0pTXaSMY",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais"
+  ]
  },
  {
   "guid": "bbb4e5fb-8105-4fb9-9704-c13c522a4e54",
@@ -9018,8 +9462,14 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55027525/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-19%2F9ab1d6b6-418c-0b2e-2b29-ec89e9d82038.mp3",
   "id": "64",
   "youtube": "XbZLGJdGRB8",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "e7670ccb-e321-4479-b76f-d3f27d6c3f0c",
@@ -9047,9 +9497,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/55027039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-19%2Fe223a432-bcfd-a97a-ea5e-590b078cf2f6.mp3",
   "id": "63",
   "youtube": "gJzNoJYSMXU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
  },
@@ -9095,8 +9546,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54815339/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-14%2F6eaf5749-d7cf-1a3f-57b4-4094c66376f0.mp3",
   "id": "62",
   "youtube": "cA182KGTLD0",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "ce1947c5-eeba-4481-a934-ed70a57643c5",
@@ -9124,9 +9578,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54815307/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-14%2F845c546d-1a41-c9f6-f558-e427a64cfaae.mp3",
   "id": "61",
   "youtube": "OO4gVKYdiTw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
   ]
  },
  {
@@ -9155,9 +9610,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54506992/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-7%2F8640adcf-36ba-3f57-c728-e1be52ba3b92.mp3",
   "id": "60",
   "youtube": "YfzwYpR7Z8M",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais"
   ]
  },
  {
@@ -9188,8 +9644,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54506855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-7%2F704f4a4f-db96-dbb0-8b32-8a6ded575173.mp3",
   "id": "59",
   "youtube": "ypqFT8TCmAY",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Concorrência e antitruste"
+  ]
  },
  {
   "guid": "90f6a31f-72c6-4f98-ac22-517a4aaf2e75",
@@ -9236,10 +9695,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54411903/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-5%2Fe9838597-6642-13c4-2d11-7e0e47da9a2e.mp3",
   "id": "58",
   "youtube": "Ti1zBboC_u4",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
-   "Recuperação judicial e falência"
+   "Recuperação judicial e falência",
+   "Direito do futebol e esporte"
   ]
  },
  {
@@ -9274,8 +9734,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54094366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-28%2F2937bd19-6acd-1682-6f9e-5ba53d07cc4e.mp3",
   "id": "57",
   "youtube": "QcnJO7DzJBw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais"
   ]
  },
@@ -9315,8 +9776,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54093422/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-28%2F0902a5d0-e4f3-e34e-43ea-038307a1e029.mp3",
   "id": "56",
   "youtube": "PZ4xPaaeUJQ",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Governança corporativa"
+  ]
  },
  {
   "guid": "91857bf2-b53f-4389-9c6c-ca25168b14de",
@@ -9344,9 +9808,15 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/54093335/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-28%2F9b756f5e-3beb-6f03-4c2a-147759ce1de7.mp3",
   "id": "55",
   "youtube": "Jul94q78vNE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Recuperação judicial e falência",
+   "Contratos empresariais",
+   "Propriedade intelectual",
+   "Governança corporativa"
   ]
  },
  {
@@ -9377,7 +9847,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53894386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-23%2F62096f4f-f3c3-f6da-af6d-342236be1062.mp3",
   "id": "54",
   "youtube": "DjflZdZLyqA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -9405,8 +9875,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53894092/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-23%2F468e2e66-ed13-e0a4-abc6-5cab69ae5317.mp3",
   "id": "53",
   "youtube": "blXYUbPZCQ0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Contratos empresariais"
   ]
  },
@@ -9437,8 +9908,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53893253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-23%2F2c8f814e-b8a5-d2df-0dc0-1bf1912b4192.mp3",
   "id": "52",
   "youtube": "sjPYFkz0xbo",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Contratos empresariais"
   ]
  },
@@ -9476,8 +9948,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53879072/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-23%2F06f732c4-d2fb-3b94-3d28-b179cd6fbfb5.mp3",
   "id": "51",
   "youtube": "ISgCRJu3jKM",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial"
+  ]
  },
  {
   "guid": "a33eb9fc-19c1-4dc4-b2a8-378d51000d70",
@@ -9505,7 +9979,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53790619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-21%2Fe5548186-18bd-3721-f957-27e32d234143.mp3",
   "id": "50",
   "youtube": "rUJNfa9wUgE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -9542,7 +10016,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53791387/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-7%2F600c5d86-36a0-0902-a8ae-852a1488f7bb.mp3",
   "id": "49",
   "youtube": "bCLSa3yRiZE",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
@@ -9573,9 +10047,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/53791036/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-21%2F272814535-44100-2-388c7f5279ef7.m4a",
   "id": "48",
   "youtube": "e9r53YsxsYM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
+   "Arbitragem e solução de conflitos",
+   "Governança corporativa"
   ]
  },
  {
@@ -9613,8 +10090,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50773743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-19%2F7eb35308-155a-4dfc-9d0e-efa529cb1ecc.mp3",
   "id": "47",
   "youtube": "RZWEy2OsGZo",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais"
+  ]
  },
  {
   "guid": "76be6bc1-6200-4749-98b9-977c38acc3e1",
@@ -9643,9 +10124,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50773692/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-19%2F845fef4b-2b63-d19c-b9ad-920ee8fb24b8.mp3",
   "id": "46",
   "youtube": "vgOLS8ZXkKs",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Contratos empresariais"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Arbitragem e solução de conflitos"
   ]
  },
  {
@@ -9674,9 +10158,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50773653/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-19%2Fbab1a7cd-4fdb-659d-57ce-3b6839eee75f.mp3",
   "id": "45",
   "youtube": "xT63fAkjxGY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Concorrência e antitruste"
   ]
  },
@@ -9712,9 +10197,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50773582/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-19%2F8a1a8d7c-2c56-6305-fc7e-636c58d05538.mp3",
   "id": "44",
   "youtube": "ZDBJrwa9k7I",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -9744,9 +10231,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50476831/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-12%2F76c5777f-110a-d054-2fda-689aff98043e.mp3",
   "id": "43",
   "youtube": "lOOKhQkJRLk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais"
   ]
  },
  {
@@ -9775,9 +10264,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50476807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-12%2Fd3e5a97a-38b7-5cb4-1808-8d37f1af90c8.mp3",
   "id": "42",
   "youtube": "F0RIXEo77nQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais"
   ]
  },
  {
@@ -9805,9 +10295,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50476724/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-12%2F076a6aaf-3fe1-cfca-3df4-8dd8e2314b53.mp3",
   "id": "41",
   "youtube": "YMfFFLGAiGg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
    "Governança corporativa"
   ]
  },
@@ -9846,8 +10338,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50476623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-12%2Fe0f97c73-20af-2c87-5a95-c4e6ebc18e24.mp3",
   "id": "40",
   "youtube": "479g7gK2k5M",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais",
    "Governança corporativa",
    "Fundos de investimento"
   ]
@@ -9877,9 +10371,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50097083/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-4%2F3fc06bec-8ae0-8613-52ee-17c703f3e6df.mp3",
   "id": "39",
   "youtube": "BTJHzSXJQMk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Mercado de capitais"
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais",
+   "Mercado de capitais",
+   "Fundos de investimento"
   ]
  },
  {
@@ -9935,7 +10432,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/50095594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-4%2F1944f8d4-bc24-ec95-59fd-42b2402257d8.mp3",
   "id": "38",
   "youtube": "M0BYeclJweQ",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades limitadas",
@@ -9970,10 +10467,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/49761889/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-28%2F9ca0d677-bff5-29e2-4f98-b485e77ccf87.mp3",
   "id": "37",
   "youtube": "s2Dj0DW1a5E",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
-   "Sociedades limitadas"
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10001,8 +10500,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/49761750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-28%2F26780130-9f6b-fe52-742d-1b09fa1b6a80.mp3",
   "id": "36",
   "youtube": "lHXB_-LvA9U",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
+  ]
  },
  {
   "guid": "de0427d1-2d6a-42a0-a67a-71afbf9570e8",
@@ -10030,10 +10533,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/49401722/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-21%2F682c3aed-ecc1-71d7-9f44-22856b79c21e.mp3",
   "id": "35",
   "youtube": "h8Lyb9GpuKY",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Sociedades limitadas"
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10071,9 +10576,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/49072568/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-15%2Fab88963d-f506-2acc-f836-211c964af888.mp3",
   "id": "34",
   "youtube": "yzzal5pgeeg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Contratos empresariais",
+   "Mercado de capitais"
   ]
  },
  {
@@ -10110,8 +10618,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/49073116/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-4%2F84091cf2-ba4d-5b78-6823-e2bdf3d92ef6.mp3",
   "id": "33",
   "youtube": "nQyk3VTZDsQ",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "136c0339-3fb4-4768-9274-e6e29cbc6761",
@@ -10138,9 +10651,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/48698958/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-7%2Fc8f81c2b-cfc1-ce4c-4a81-339bb90302f9.mp3",
   "id": "32",
   "youtube": "zZmNHlCkmZo",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10178,9 +10693,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/48698594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-7%2Fb0aec68c-ad6c-0f00-5989-67325874ae73.mp3",
   "id": "31",
   "youtube": "RnOWgAGNySA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10211,9 +10727,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/48698456/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-8%2F5d41b5ea-1ffd-d77c-8def-88e084c8029c.mp3",
   "id": "30",
   "youtube": "Lg-korWkxhA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Governança corporativa"
   ]
  },
  {
@@ -10252,8 +10770,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/48009864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-21%2Ff603e31d-700a-cbea-acd6-9fea774f2b3e.mp3",
   "id": "29",
   "youtube": "MGjS8XUWJWE",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Concorrência e antitruste"
+  ]
  },
  {
   "guid": "b37048fd-debf-48fa-8005-7f95fdbe6c0a",
@@ -10281,8 +10802,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/48008062/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-21%2Fa70b7463-a30a-7b3a-52c9-857af899a7e4.mp3",
   "id": "28",
   "youtube": "MfOuSNdlvAc",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais",
+   "Concorrência e antitruste",
+   "Propriedade intelectual"
+  ]
  },
  {
   "guid": "0f3fdd21-592d-4d9f-9f2d-f923cf0bf802",
@@ -10321,9 +10847,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/48004607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-21%2F5829a8f5-efa5-30cb-94d5-80729378fd97.mp3",
   "id": "27",
   "youtube": "zh1s4igtFdI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Recuperação judicial e falência"
   ]
  },
  {
@@ -10353,7 +10882,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/47667407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-14%2F876ae565-983b-8dab-9a38-b240cba78f36.mp3",
   "id": "26",
   "youtube": "Kt-WpjI9Ug8",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": []
  },
  {
@@ -10384,8 +10913,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/46975344/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-31%2Fa4f0978e-c5d4-c652-6909-d5818bf45290.mp3",
   "id": "25",
   "youtube": "6E_1Ab57XmQ",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)"
+  ]
  },
  {
   "guid": "88fcb62f-6f6d-4b51-a8a6-f8b569ec0074",
@@ -10415,9 +10949,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/47338112/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-7%2F47e62261-0660-6541-647d-d3b566880c6d.mp3",
   "id": "24",
   "youtube": "JN5zCdvQQyc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10456,9 +10991,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/46975138/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-31%2Fa6a9761d-402f-6ba9-d32b-82c8356839f0.mp3",
   "id": "23",
   "youtube": "F-h9kFzlR3M",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10496,10 +11032,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39625773/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-31%2F189348e2-5086-91e6-19e6-d0b10cab2e9c.mp3",
   "id": "22",
   "youtube": "-25FZ2er58s",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Concorrência e antitruste"
   ]
  },
  {
@@ -10527,7 +11064,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39625666/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-31%2F314c3007-9024-2a53-3e46-969b156c56a6.mp3",
   "id": "21",
   "youtube": "-dVeauwYwvw",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades anônimas (S.A.)"
@@ -10581,9 +11118,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/41339865/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-5%2F32b97f31-fa80-fa5f-be87-2e51e1877149.mp3",
   "id": "20",
   "youtube": "rdO3Cjao_dU",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Societário geral",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10611,8 +11150,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/41338672/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-5%2Fd06b0586-70fc-43d7-35f5-31aa770e892d.mp3",
   "id": "19",
   "youtube": "vKkjDh8PdhM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Governança corporativa"
   ]
@@ -10651,9 +11191,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39625553/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-31%2Fd77c05a6-6b21-f898-6e9f-bcc9d3703abd.mp3",
   "id": "18",
   "youtube": "-lYjrxoQPno",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Sociedades anônimas (S.A.)"
+   "Sociedades anônimas (S.A.)",
+   "Mercado de capitais"
   ]
  },
  {
@@ -10681,8 +11222,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/40987407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-4%2F668537e6-c783-a136-2092-9953f8ce3405.mp3",
   "id": "17",
   "youtube": "7CTARYHtoFg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Societário geral",
    "Sociedades anônimas (S.A.)"
   ]
  },
@@ -10711,8 +11253,9 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39625318/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-31%2Fe346cf49-a97c-fc24-a0f0-b40d99cbd590.mp3",
   "id": "16",
   "youtube": "HPoZrZH69yM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
    "Societário geral",
    "Sociedades limitadas",
    "Mercado de capitais"
@@ -10760,10 +11303,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/40632845/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-21%2Fc20be511-5dca-b98c-09db-39b273b8195e.mp3",
   "id": "15",
   "youtube": "dmu9UqjTcvA",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
-   "Sociedades limitadas"
+   "Sociedades limitadas",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10803,10 +11347,12 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/40293871/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-14%2F3f00a2b4-bade-7a41-25b4-7d4d8603effa.mp3",
   "id": "14",
   "youtube": "CmClQ-tFzr0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
-   "Sociedades limitadas"
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)"
   ]
  },
  {
@@ -10834,9 +11380,13 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39625166/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-31%2Ff18690a7-16a0-69e7-9f95-2d269e529a82.mp3",
   "id": "13",
   "youtube": "W9MmV0uOAlk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Sociedades limitadas",
+   "Sociedades anônimas (S.A.)",
+   "Contratos empresariais"
   ]
  },
  {
@@ -10866,7 +11416,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39229563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-23%2F87b77731-c425-ffa2-1dd4-dfd8c710b1d5.mp3",
   "id": "12",
   "youtube": "kuUYdE8eqcM",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Societário geral",
    "Sociedades limitadas"
@@ -10909,9 +11459,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39277193/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-24%2Fadebb8a6-009c-0142-6db1-f32a8d8cfe69.mp3",
   "id": "11",
   "youtube": "pQoDIXYBBsk",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Societário geral"
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
+   "Concorrência e antitruste"
   ]
  },
  {
@@ -10948,8 +11500,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39228113/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-23%2F70570678-9413-98d8-6937-047966141dcf.mp3",
   "id": "10",
   "youtube": "ut0UWCJhlXg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral",
    "Sociedades anônimas (S.A.)",
    "Contratos empresariais"
   ]
@@ -10982,7 +11536,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/39226131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-23%2F183da5fd-b281-484a-a18f-97491bd82d74.mp3",
   "id": "9",
   "youtube": "ySzfxFk-dAc",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral",
@@ -11027,8 +11581,11 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/38924219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-17%2Fc510dc17-b425-7592-3d41-9c1510968ee1.mp3",
   "id": "8",
   "youtube": "bJtn_B-shvk",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial",
+   "Societário geral"
+  ]
  },
  {
   "guid": "2c2514bc-810e-44e8-8f8d-fb744f5786d9",
@@ -11070,7 +11627,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/37753053/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-24%2F2a952242-f955-b9c6-fbdb-6e4bc34f356e.mp3",
   "id": "7",
   "youtube": "IyI2redaGOI",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral"
@@ -11110,7 +11667,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/38923952/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-17%2F75204efd-672d-8bba-7d9a-e0565bcf02ae.mp3",
   "id": "6",
   "youtube": "16rxT-BY--0",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral"
@@ -11150,8 +11707,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/38923066/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-17%2F91581190-fd0f-a6aa-029e-720d7bfbe135.mp3",
   "id": "5",
   "youtube": "cm1gQxvmruU",
-  "transcricao": "pendente",
-  "temas": []
+  "transcricao": "ok",
+  "temas": [
+   "Teoria da empresa e da atividade negocial"
+  ]
  },
  {
   "guid": "60e31094-edff-4c2e-a823-98686c64373e",
@@ -11178,7 +11737,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/37752990/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-24%2F4b3ef68c-cfce-d000-40e6-51df4bab8155.mp3",
   "id": "4",
   "youtube": "he2zbQVpD1A",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial",
    "Societário geral",
@@ -11210,7 +11769,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/37752735/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-24%2Fd38a3b29-f47e-4a09-4dbb-47bac5a62aea.mp3",
   "id": "3",
   "youtube": "hPEFAEbn98k",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
@@ -11256,9 +11815,10 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/37752243/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-24%2F16406250-442a-7747-a88b-7f010e9c0300.mp3",
   "id": "2",
   "youtube": "vip3Vfm7qRg",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
-   "Teoria da empresa e da atividade negocial"
+   "Teoria da empresa e da atividade negocial",
+   "Contratos empresariais"
   ]
  },
  {
@@ -11288,7 +11848,7 @@
   "mp3": "https://anchor.fm/s/654b6580/podcast/play/37922248/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-27%2F712bf34b-660c-218f-387e-856046cc3d1c.mp3",
   "id": "1",
   "youtube": "M8XwJnXWvTo",
-  "transcricao": "pendente",
+  "transcricao": "ok",
   "temas": [
    "Teoria da empresa e da atividade negocial"
   ]
