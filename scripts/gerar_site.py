@@ -73,6 +73,21 @@ def rotulo(ep):
     return f"#{ep['numero']}" if ep["numero"] is not None else "Especial"
 
 
+def rotulo_lista(ep, limite=55):
+    """'#88' para episódios numerados; para os especiais, o assunto resumido."""
+    if ep["numero"] is not None:
+        return rotulo(ep)
+    assunto = titulo_curto(ep)
+    prefixo = ""
+    m = re.match(r"\s*Aula ao vivo\s*[-–:]\s*", assunto, flags=re.IGNORECASE)
+    if m:
+        prefixo, assunto = "Aula ao vivo: ", assunto[m.end():]
+    if len(prefixo + assunto) > limite and ":" in assunto:
+        assunto = assunto.split(":")[0]
+    texto = prefixo + assunto
+    return texto if len(texto) <= limite else texto[: limite - 1].rsplit(" ", 1)[0] + "…"
+
+
 def nomes(pessoas):
     return ", ".join(p["nome"] for p in pessoas)
 
@@ -350,9 +365,12 @@ def pagina_convidados(cfg, episodios):
                 blocos.append(f'<h3 id="{prefixo}-{letra}">{letra}</h3><ul class="pessoas">')
                 letras.append(letra)
                 atual = letra
-            links = ", ".join(
-                f'<a href="{raiz}episodio/{x["id"]}/" title="{e(titulo_curto(x))}">{e(rotulo(x))}</a>'
-                for x in sorted(item["eps"], key=lambda x: x["data"]))
+            # Primeiro os episódios numerados, em ordem; depois os especiais,
+            # identificados pelo assunto (e não só por "Especial").
+            ordenados = sorted(item["eps"], key=lambda x: (x["numero"] is None, x["numero"] or 0, x["data"]))
+            links = " · ".join(
+                f'<a href="{raiz}episodio/{x["id"]}/" title="{e(titulo_curto(x))}">{e(rotulo_lista(x))}</a>'
+                for x in ordenados)
             nome = item["p"]["nome"]
             blocos.append(f'<li id="{ancora(nome)}"><span class="nome">{e(nome)}</span> <span class="eps">{links}</span></li>')
         if atual is not None:
