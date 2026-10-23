@@ -63,6 +63,25 @@ def dados_do_site(site, token, inicio, fim):
     }
 
 
+def diagnosticar(sites, token, inicio, fim):
+    """Teste técnico: mostra como a API responde a cada endereço."""
+    for site in sites:
+        base = f"https://{site['codigo']}.goatcounter.com/api/v0"
+        datas = [("dia", inicio.isoformat(), fim.isoformat()),
+                 ("hora", f"{inicio.isoformat()}T00:00:00Z", f"{fim.isoformat()}T23:59:59Z")]
+        caminhos = ["me", "sites", "stats/total", "stats/totals", "stats/hits", "stats/toprefs"]
+        for caminho in caminhos:
+            for nome, ini, fi in datas[: 1 if caminho in ("me", "sites") else 2]:
+                q = urllib.parse.urlencode({"start": ini, "end": fi, "limit": 5})
+                try:
+                    r = _get(f"{base}/{caminho}?{q}", token)
+                    texto = json.dumps(r, ensure_ascii=False)[:250]
+                    print(f"::notice title={caminho} ({nome})::OK {texto}")
+                except urllib.error.HTTPError as e:
+                    corpo = e.read().decode("utf-8", "replace")[:200]
+                    print(f"::notice title={caminho} ({nome})::HTTP {e.code} {corpo}")
+
+
 def montar_texto(sites, dados, rotulo_mes, dona):
     linhas = [f"@{dona} segue o relatório de visitas de **{rotulo_mes}**.", ""]
     for site in sites:
@@ -117,6 +136,9 @@ def main():
     token = os.environ.get("GOATCOUNTER_TOKEN", "").strip()
     if not token:
         sys.exit("ERRO: segredo GOATCOUNTER_TOKEN não encontrado")
+
+    if args.so_mostrar:
+        diagnosticar(sites, token, inicio, fim)
 
     dados = {}
     for site in sites:
