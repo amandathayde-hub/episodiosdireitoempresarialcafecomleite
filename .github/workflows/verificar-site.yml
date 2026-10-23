@@ -20,7 +20,7 @@ jobs:
           final=$(curl -sSL -o /tmp/p -m 30 -w "%{http_code} %{url_effective}" -A "Mozilla/5.0" "$link")
           ids=$(grep -oE 'open\.spotify\.com/(embed/)?episode/[A-Za-z0-9]{22}' /tmp/p | sort -u | head -3 | tr '\n' ' ')
           echo "::notice title=Página do episódio::$final | ids: ${ids:-nenhum} | tamanho $(wc -c < /tmp/p)"
-          show=$(curl -sSL -m 30 -A "Mozilla/5.0" https://open.spotify.com/show/3rgLXFIScTgCGHqidktCG1 | grep -oE 'episode/[A-Za-z0-9]{22}' | sort -u | wc -l)
-          echo "::notice title=Página do programa no Spotify::$show códigos de episódio encontrados"
-          emb=$(curl -sSL -m 30 -A "Mozilla/5.0" https://open.spotify.com/embed/show/3rgLXFIScTgCGHqidktCG1 | grep -oE 'spotify:episode:[A-Za-z0-9]{22}' | sort -u | wc -l)
-          echo "::notice title=Player do programa no Spotify::$emb códigos de episódio encontrados"
+          for id in $(grep -oE 'open\.spotify\.com/(embed/)?episode/[A-Za-z0-9]{22}' /tmp/p | grep -oE '[A-Za-z0-9]{22}$' | sort -u); do
+            ctx=$(grep -oE ".{0,160}$id.{0,60}" /tmp/p | head -2 | tr '\n' ' ' | tr -d '<>')
+            echo "::notice title=Contexto $id::$ctx"
+          done
