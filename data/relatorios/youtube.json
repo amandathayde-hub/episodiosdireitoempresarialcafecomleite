@@ -1,60 +1,8 @@
 {
  "sem_video": [
   {
-   "id": "328",
-   "titulo": "#328: GUTINIEKI, João Otávio Bacchi. A tutela do Direito da Concorrência no Poder Judiciário: o private enforcement do antitruste no Brasil. Londrina: Thoth, 2025."
-  },
-  {
-   "id": "327",
-   "titulo": "#327: MENDONÇA, Saulo Bichara; MACIEL, Alvaro dos Santos. Transformações da ordem econômica e a recuperação judicial às instituições não empresárias no Brasil:"
-  },
-  {
-   "id": "extra-2026-10-05",
-   "titulo": "Aula Ao Vivo - Fusões verticais e conglomerais"
-  },
-  {
-   "id": "extra-2026-09-14",
-   "titulo": "Aula Ao Vivo - Cláusulas de não concorrência em contratos empresariais e em contratos de trabalho"
-  },
-  {
-   "id": "312",
-   "titulo": "#312: CUSTÓDIO, Beatriz Rabelo. A ação derivada de responsabilidade contra o controlador: a instrumentalidade do processo e a tutela jurisdicional plena do patrimônio social da companhia. 2025."
-  },
-  {
-   "id": "311",
-   "titulo": "#311: PEREIRA, Laurence Duarte Araújo. A advocacia como empresa: novas tecnologias, perspectivas e desafios. São Paulo: Expert Editora, 2021."
-  },
-  {
-   "id": "extra-2026-08-18",
-   "titulo": "Aula Ao Vivo - Antitruste no Esporte: Como o direito concorrencial impacta o mercado?"
-  },
-  {
-   "id": "extra-2026-07-07",
-   "titulo": "Encerramento da décima primeira temporada"
-  },
-  {
-   "id": "276",
-   "titulo": "#276: Encerramento da 10ª temporada"
-  },
-  {
-   "id": "261",
-   "titulo": "#261: MALCHER, Clóvis, comenta sobre a novos horizontes do Direito Comercial em relação à COP 30."
-  },
-  {
-   "id": "244",
-   "titulo": "EP#244: Encerramento de temporada"
-  },
-  {
-   "id": "extra-2024-08-27",
-   "titulo": "Pós-Graduação em Prática do Direito da Concorrência"
-  },
-  {
    "id": "137",
    "titulo": "EP#137: AQUINO, Leonardo. Contrato de Franquia. 2023."
-  },
-  {
-   "id": "111",
-   "titulo": "EP#111 ATHAYDE, Amanda. SANÇÕES NÃO PECUNIÁRIAS NO ANTITRUSTE"
   }
  ],
  "duplicados": [
@@ -266,5 +214,59 @@
    "semelhanca": 0.94
   }
  ],
- "videos_sobrando": []
+ "videos_sobrando": [],
+ "achados_fora_da_playlist": [
+  {
+   "id": "328",
+   "video": "VJR1nTJgZ-w"
+  },
+  {
+   "id": "327",
+   "video": "5PogGXLhfwA"
+  },
+  {
+   "id": "extra-2026-10-05",
+   "video": "NjoV1i9QrKU"
+  },
+  {
+   "id": "extra-2026-09-14",
+   "video": "f26dYIFOXUE"
+  },
+  {
+   "id": "312",
+   "video": "QgxK9-KyYLY"
+  },
+  {
+   "id": "311",
+   "video": "SZBZTC1ON3k"
+  },
+  {
+   "id": "extra-2026-08-18",
+   "video": "l9ltR6N2uII"
+  },
+  {
+   "id": "extra-2026-07-07",
+   "video": "W5PhoVFCuwY"
+  },
+  {
+   "id": "276",
+   "video": "jXzogx53wNw"
+  },
+  {
+   "id": "261",
+   "video": "CEVDR5dHxxQ"
+  },
+  {
+   "id": "244",
+   "video": "yhoHKEvLuN4"
+  },
+  {
+   "id": "extra-2024-08-27",
+   "video": "CmTx2URA1I0"
+  },
+  {
+   "id": "111",
+   "video": "bHeq7WPIEe0"
+  }
+ ]
 }

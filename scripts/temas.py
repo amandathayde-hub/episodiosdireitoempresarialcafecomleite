@@ -25,11 +25,13 @@ def trechos_padrao(transcricao):
     texto = sem_acentos(transcricao).lower()
     n = len(texto)
     trechos = []
-    m = re.search(r"xicara de cafe com leite de direito empresarial de hoje", texto)
-    if m and m.start() < n * 0.2:
+    # "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar..."
+    # (com variações das temporadas antigas e erros da transcrição, como "de uso").
+    m = re.search(r"(a nossa )?xicara de [a-z ]{0,45}?de (hoje|uso)\b", texto)
+    if m and m.start() < min(n * 0.2, 6000):
         trechos.append((0, _inicio_da_frase(texto, m.start())))
-    for m in re.finditer(r"segura so um pouquinho que eu (ja )?volto", texto):
-        volta = re.compile(r"vamos voltar (para|pra) (a )?nossa conversa[^.?!]*[.?!]")
+    for m in re.finditer(r"(segura|espera) so um pouquinho que eu (ja )?volto", texto):
+        volta = re.compile(r"voltar (para|pra) (a )?nossa (conversa|entrevista)[^.?!]*[.?!]")
         fim = volta.search(texto, m.end(), m.end() + 2500)
         if fim:
             trechos.append((_inicio_da_frase(texto, m.start()), fim.end()))

@@ -165,6 +165,20 @@ def main():
     if videos:
         print(f"   {len(videos)} vídeos na playlist.")
         rel_yt = youtube.casar(episodios, videos)
+        # Episódios sem vídeo na playlist: procura nos envios e nas
+        # transmissões ao vivo do canal.
+        faltando = [ep for ep in episodios if not ep.get("youtube")]
+        if faltando and config.get("youtube_extras"):
+            usados = {ep["youtube"] for ep in episodios if ep.get("youtube")}
+            extras = []
+            for url in config["youtube_extras"]:
+                extras += [v for v in (youtube.listar_playlist(url) or []) if v["id"] not in usados]
+            if extras:
+                rel_extra = youtube.casar(faltando, extras)
+                rel_yt["sem_video"] = rel_extra["sem_video"]
+                rel_yt["achados_fora_da_playlist"] = [
+                    {"id": ep["id"], "video": ep["youtube"]} for ep in faltando if ep.get("youtube")]
+                print(f"   {len(rel_yt['achados_fora_da_playlist'])} vídeos achados fora da playlist.")
         gravar_json(RELATORIOS / "youtube.json", rel_yt)
     else:
         print("   YouTube indisponível: mantendo os links da última execução.")

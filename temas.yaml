@@ -237,7 +237,15 @@ grupos:
       - criptoativos
 
     Direito do futebol e esporte:
-      - futebol
+      # Só termos específicos: os convidados falam de esportes numa pergunta
+      # fixa de algumas temporadas, o que não torna o episódio sobre o tema.
       - SAF
       - Sociedade Anônima do Futebol
-      - esporte
+      - clube-empresa
+      - clubes de futebol
+      - direito desportivo
+      - Lei Pelé
+      - Lei Geral do Esporte
+      - antitruste no esporte
+      - apostas esportivas
+      - bets

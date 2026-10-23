@@ -36,7 +36,7 @@
   function cartao(ep, trecho) {
     var botoes = "";
     if (ep.sp) botoes += '<a class="botao spotify" href="' + esc(ep.sp) + '">Ouvir no Spotify</a>';
-    if (ep.yt) botoes += '<a class="botao youtube" href="https://www.youtube.com/watch?v=' + esc(ep.yt) + '">Assistir no YouTube</a>';
+    if (ep.yt) botoes += '<a class="botao youtube" href="' + esc(ep.yt) + '">Assistir no YouTube</a>';
     var temas = ep.te.map(function (t) {
       return '<li><a class="etiqueta" href="?tema=' + encodeURIComponent(t) + '">' + esc(t) + "</a></li>";
     }).join("");

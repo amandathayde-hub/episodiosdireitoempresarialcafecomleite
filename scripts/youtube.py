@@ -30,6 +30,8 @@ def listar_playlist(url):
 
 def _normalizar(texto):
     texto = re.sub(r"(\.\.\.|…)\s*$", "", texto)
+    # "Aula Ao Vivo - Tema" no feed costuma ser só "Tema" no YouTube.
+    texto = re.sub(r"^\s*aula ao vivo\s*[-–:]\s*", "", texto, flags=re.IGNORECASE)
     texto = sem_acentos(texto).lower()
     return re.sub(r"[^a-z0-9]+", " ", texto).strip()
 

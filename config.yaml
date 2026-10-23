@@ -3,6 +3,10 @@
 
 rss: https://anchor.fm/s/654b6580/podcast/rss
 playlist_youtube: https://www.youtube.com/playlist?list=PLW-zVBq6n2zkv-lylH2GNdULBLJr8zB9n
+# Onde mais procurar o vídeo quando o episódio não está na playlist acima.
+youtube_extras:
+  - https://www.youtube.com/@AmandaAthayde/videos
+  - https://www.youtube.com/@AmandaAthayde/streams
 
 site:
   titulo: Busca de episódios – Direito Empresarial Café com Leite

@@ -61,6 +61,14 @@ def titulo_curto(ep):
     return curto.rstrip(" .")
 
 
+def link_youtube(ep, cfg):
+    """Vídeo do episódio; se não foi encontrado, a busca pelo título no canal."""
+    if ep.get("youtube"):
+        return f"https://www.youtube.com/watch?v={ep['youtube']}"
+    canal = cfg["youtube_canal"].rsplit("/", 1)[0]
+    return f"{canal}/search?query={quote(titulo_curto(ep))}"
+
+
 def rotulo(ep):
     return f"#{ep['numero']}" if ep["numero"] is not None else "Especial"
 
@@ -77,7 +85,8 @@ def resumo(ep, limite=155):
 
 # ---------------------------------------------------------------- moldura
 
-def pagina(cfg, *, titulo, descricao, caminho, raiz, corpo, extra_head="", tipo_og="website", busca_ativa=False):
+def pagina(cfg, *, titulo, descricao, caminho, raiz, corpo, extra_head="", tipo_og="website", busca_ativa=False,
+           convidados_ativa=False):
     url = cfg["url"].rstrip("/") + "/" + caminho
     imagem = cfg["url"].rstrip("/") + "/capa.jpg"
     return f"""<!doctype html>
@@ -110,9 +119,9 @@ def pagina(cfg, *, titulo, descricao, caminho, raiz, corpo, extra_head="", tipo_
       <img src="{raiz}static/logo.webp" alt="Direito Empresarial Café com Leite" width="511" height="288">
     </a>
     <nav aria-label="Principal">
-      <a href="{raiz}"{' aria-current="page"' if busca_ativa else ''}>Buscar episódios</a>
-      <a href="{raiz}convidados/">Convidados</a>
       <a href="{e(cfg['site_principal'])}">Site do podcast</a>
+      <a href="{raiz}"{' aria-current="page"' if busca_ativa else ''}>Episódios</a>
+      <a href="{raiz}convidados/"{' aria-current="page"' if convidados_ativa else ''}>Convidados</a>
     </nav>
   </div>
 </header>
@@ -183,8 +192,7 @@ def pagina_episodio(ep, cfg, pasta_trans, ordem):
     botoes = []
     if ep.get("spotify"):
         botoes.append(f'<a class="botao spotify" href="{e(ep["spotify"])}">Ouvir no Spotify</a>')
-    if ep.get("youtube"):
-        botoes.append(f'<a class="botao youtube" href="https://www.youtube.com/watch?v={e(ep["youtube"])}">Assistir no YouTube</a>')
+    botoes.append(f'<a class="botao youtube" href="{e(link_youtube(ep, cfg))}">Assistir no YouTube</a>')
 
     video = ""
     if ep.get("youtube"):
@@ -316,7 +324,8 @@ def pagina_inicio(cfg, episodios, grupos_temas):
 # ---------------------------------------------------------------- convidados
 
 def chave_ordem(p):
-    return sem_acentos(f"{p['sobrenome']} {p['nome']}").lower()
+    """Ordem alfabética pelo nome pessoal (primeiro nome)."""
+    return sem_acentos(p["nome"]).lower()
 
 
 def pagina_convidados(cfg, episodios):
@@ -334,7 +343,7 @@ def pagina_convidados(cfg, episodios):
         itens = sorted(dic.values(), key=lambda x: chave_ordem(x["p"]))
         letras, blocos, atual = [], [], None
         for item in itens:
-            letra = sem_acentos(item["p"]["sobrenome"][:1]).upper() or "#"
+            letra = sem_acentos(item["p"]["nome"][:1]).upper() or "#"
             if letra != atual:
                 if atual is not None:
                     blocos.append("</ul>")
@@ -354,13 +363,14 @@ def pagina_convidados(cfg, episodios):
     corpo = f"""
 <section class="pagina-convidados">
   <h1>Convidados</h1>
-  <p class="subtitulo">{len(pessoas)} pessoas participaram do podcast, em ordem alfabética de sobrenome. Clique no número para abrir o episódio.</p>
+  <p class="subtitulo">{len(pessoas)} pessoas participaram do podcast, em ordem alfabética pelo nome. Clique no número para abrir o episódio.</p>
   {lista(pessoas, 'c')}
   <h2>Autores das obras comentadas</h2>
   <p class="subtitulo">Autores de obras discutidas por outros convidados.</p>
   {lista(autores, 'a')}
 </section>"""
     return pagina(cfg, titulo=f"Convidados – {cfg['nome_podcast']}", caminho="convidados/", raiz=raiz, corpo=corpo,
+                  convidados_ativa=True,
                   descricao=f"Lista dos {len(pessoas)} convidados do podcast {cfg['nome_podcast']}, com links para os episódios.")
 
 
@@ -406,7 +416,7 @@ def main():
     lista = [{
         "id": ep["id"], "r": rotulo(ep), "t": titulo_curto(ep), "c": nomes(ep["convidados"]),
         "d": ep["data"], "dx": data_por_extenso(ep["data"]), "du": duracao_legivel(ep.get("duracao_seg")),
-        "te": ep.get("temas", []), "yt": ep.get("youtube"), "sp": ep.get("spotify"),
+        "te": ep.get("temas", []), "yt": link_youtube(ep, cfg), "sp": ep.get("spotify"),
         "tr": ep.get("transcricao") == "ok",
     } for ep in episodios]
     gravar("static/episodios.json", json.dumps(lista, ensure_ascii=False, separators=(",", ":")))
