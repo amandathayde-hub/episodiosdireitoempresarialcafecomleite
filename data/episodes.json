@@ -691,11 +691,19 @@
      "LIMA JUNIOR, João Manoel",
      "LIMA JUNIOR, João Manoel de"
     ]
+   },
+   {
+    "nome": "Priscilla Silva",
+    "sobrenome": "Silva",
+    "citacao": "SILVA, Priscilla",
+    "variantes": [
+     "SILVA, Priscilla"
+    ]
    }
   ],
   "autores": [],
   "origem_convidado": "titulo",
-  "obra": "e SILVA, Priscilla. Vozes do Direito Empresarial. Belo Horizonte, MG: Editora Expert, 2025.",
+  "obra": "Vozes do Direito Empresarial. Belo Horizonte, MG: Editora Expert, 2025.",
   "ano_obra": 2025,
   "data": "2026-08-20",
   "duracao_seg": 2076,
@@ -781,18 +789,9 @@
   "guid": "f2506797-25f5-448d-8fa4-b9f3b3b21856",
   "numero": null,
   "titulo": "Encerramento da décima primeira temporada",
-  "convidados": [
-   {
-    "nome": "Amanda Athayde",
-    "sobrenome": "Athayde",
-    "citacao": "ATHAYDE, Amanda",
-    "variantes": [
-     "ATHAYDE, Amanda"
-    ]
-   }
-  ],
+  "convidados": [],
   "autores": [],
-  "origem_convidado": "apresentadora",
+  "origem_convidado": "sem_convidado",
   "obra": "Encerramento da décima primeira temporada.",
   "ano_obra": null,
   "data": "2026-07-07",
@@ -1195,11 +1194,22 @@
      "MOREIRA, Pedro Ivo",
      "Pedro Moreira"
     ]
+   },
+   {
+    "nome": "Julia Flores Schütt",
+    "sobrenome": "Schütt",
+    "citacao": "SCHÜTT, Julia Flores",
+    "variantes": [
+     "Julia Schütt",
+     "Júlia Schutt",
+     "SCHUTT, Júlia",
+     "SCHÜTT, Julia Flores"
+    ]
    }
   ],
   "autores": [],
   "origem_convidado": "titulo",
-  "obra": "e SCHUTT, Júlia. Intervenção Judicial nas Sociedades Empresárias: Fundamentos, modalidades e aplicações.",
+  "obra": "Intervenção Judicial nas Sociedades Empresárias: Fundamentos, modalidades e aplicações.",
   "ano_obra": null,
   "data": "2026-05-21",
   "duracao_seg": 3329,
@@ -1470,11 +1480,21 @@
      "CALÁBRIA, Marco Antônio",
      "Marco Calábria"
     ]
+   },
+   {
+    "nome": "Wagner José Penereiro Armani",
+    "sobrenome": "Armani",
+    "citacao": "ARMANI, Wagner José Penereiro",
+    "variantes": [
+     "ARMANI, Wagner",
+     "ARMANI, Wagner José Penereiro",
+     "Wagner Armani"
+    ]
    }
   ],
   "autores": [],
   "origem_convidado": "titulo",
-  "obra": "e ARMANI, Wagner. Representação Comercial. São Paulo: Editora Foco. 2025.",
+  "obra": "Representação Comercial. São Paulo: Editora Foco. 2025.",
   "ano_obra": 2025,
   "data": "2026-04-23",
   "duracao_seg": 925,
@@ -1889,18 +1909,9 @@
   "guid": "34af9b91-6f0a-40dd-82f1-50aef11bed7d",
   "numero": 276,
   "titulo": "#276: Encerramento da 10ª temporada",
-  "convidados": [
-   {
-    "nome": "Amanda Athayde",
-    "sobrenome": "Athayde",
-    "citacao": "ATHAYDE, Amanda",
-    "variantes": [
-     "ATHAYDE, Amanda"
-    ]
-   }
-  ],
+  "convidados": [],
   "autores": [],
-  "origem_convidado": "apresentadora",
+  "origem_convidado": "sem_convidado",
   "obra": "Encerramento da 10ª temporada.",
   "ano_obra": null,
   "data": "2025-12-09",
@@ -2507,6 +2518,8 @@
     "citacao": "SCHÜTT, Julia Flores",
     "variantes": [
      "Julia Schütt",
+     "Júlia Schutt",
+     "SCHUTT, Júlia",
      "SCHÜTT, Julia Flores"
     ]
    }
@@ -2973,18 +2986,9 @@
   "guid": "e18f0690-9eab-4d63-914e-0dcdbe7c1918",
   "numero": 244,
   "titulo": "EP#244: Encerramento de temporada",
-  "convidados": [
-   {
-    "nome": "Amanda Athayde",
-    "sobrenome": "Athayde",
-    "citacao": "ATHAYDE, Amanda",
-    "variantes": [
-     "ATHAYDE, Amanda"
-    ]
-   }
-  ],
+  "convidados": [],
   "autores": [],
-  "origem_convidado": "apresentadora",
+  "origem_convidado": "sem_convidado",
   "obra": "Encerramento de temporada.",
   "ano_obra": null,
   "data": "2025-07-01",
@@ -3011,10 +3015,10 @@
     "variantes": [
      "Erasmo França",
      "Erasmo Valadao",
-     "Erasmo Valladão A. França",
+     "Erasmo Valladão A. e N. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
-     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão A. e N.",
      "FRANÇA, Erasmo Valladão Azevedo e Novaes"
     ]
    }
@@ -4869,18 +4873,9 @@
   "guid": "49c871f3-096d-4108-82a7-8b9bb228b6f2",
   "numero": null,
   "titulo": "Pós-Graduação em Prática do Direito da Concorrência",
-  "convidados": [
-   {
-    "nome": "Amanda Athayde",
-    "sobrenome": "Athayde",
-    "citacao": "ATHAYDE, Amanda",
-    "variantes": [
-     "ATHAYDE, Amanda"
-    ]
-   }
-  ],
+  "convidados": [],
   "autores": [],
-  "origem_convidado": "apresentadora",
+  "origem_convidado": "sem_convidado",
   "obra": "Pós-Graduação em Prática do Direito da Concorrência.",
   "ano_obra": null,
   "data": "2024-08-27",
@@ -4951,12 +4946,11 @@
   "titulo": "EP#190: SUSSEKIND, Carolina S.. FREITAS, Fernanda. CAVALCANTI, Flávia. Fusões e aquisições em foco: uma abordagem multidisciplinar. 2020.",
   "convidados": [
    {
-    "nome": "Carolina S. Sussekind",
+    "nome": "Carolina Sussekind",
     "sobrenome": "Sussekind",
-    "citacao": "SUSSEKIND, Carolina S.",
+    "citacao": "SUSSEKIND, Carolina",
     "variantes": [
-     "Carolina Sussekind",
-     "SUSSEKIND, Carolina S."
+     "SUSSEKIND, Carolina"
     ]
    },
    {
@@ -6436,9 +6430,9 @@
     "sobrenome": "Adamek",
     "citacao": "ADAMEK, Marcelo Vieira von",
     "variantes": [
-     "ADAMEK, Marcelo",
      "ADAMEK, Marcelo Vieira von",
-     "Marcelo Adamek"
+     "Marcelo Adamek",
+     "VON ADAMEK, Marcelo Vieira"
     ]
    },
    {
@@ -6509,12 +6503,21 @@
   "titulo": "EP#146: Fernando Gaggini e Haroldo Verçosa - “MOU” não é contrato... e nem pré-contrato. O que é, afinal? - Uma abordagem no plano da natureza jurídica: https://www.migalhas.com.br/depeso/365080",
   "convidados": [
    {
-    "nome": "Fernando Gaggini e Haroldo Verçosa",
-    "sobrenome": "Verçosa",
-    "citacao": "VERÇOSA, Fernando Gaggini e Haroldo",
+    "nome": "Fernando Schwarz Gaggini",
+    "sobrenome": "Gaggini",
+    "citacao": "GAGGINI, Fernando Schwarz",
     "variantes": [
-     "Fernando Verçosa",
-     "VERÇOSA, Fernando Gaggini e Haroldo"
+     "Fernando Gaggini",
+     "GAGGINI, Fernando",
+     "GAGGINI, Fernando Schwarz"
+    ]
+   },
+   {
+    "nome": "Haroldo Verçosa",
+    "sobrenome": "Verçosa",
+    "citacao": "VERÇOSA, Haroldo",
+    "variantes": [
+     "VERÇOSA, Haroldo"
     ]
    }
   ],
@@ -8865,10 +8868,10 @@
     "variantes": [
      "Erasmo França",
      "Erasmo Valadao",
-     "Erasmo Valladão A. França",
+     "Erasmo Valladão A. e N. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
-     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão A. e N.",
      "FRANÇA, Erasmo Valladão Azevedo e Novaes"
     ]
    }
@@ -8936,10 +8939,10 @@
     "variantes": [
      "Erasmo França",
      "Erasmo Valadao",
-     "Erasmo Valladão A. França",
+     "Erasmo Valladão A. e N. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
-     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão A. e N.",
      "FRANÇA, Erasmo Valladão Azevedo e Novaes"
     ]
    }
@@ -9381,10 +9384,10 @@
     "variantes": [
      "Erasmo França",
      "Erasmo Valadao",
-     "Erasmo Valladão A. França",
+     "Erasmo Valladão A. e N. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
-     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão A. e N.",
      "FRANÇA, Erasmo Valladão Azevedo e Novaes"
     ]
    }
@@ -11345,34 +11348,33 @@
   "titulo": "EP #15: FRANÇA, Erasmo Valladão A. e N.; VON ADAMEK, Marcelo Vieira. “Affectio societatis. Um conceito jurídico superado no moderno direito societário pelo conceito de fim social”, In RDM 149-150/108-",
   "convidados": [
    {
-    "nome": "Marcelo Vieira von Adamek",
-    "sobrenome": "Adamek",
-    "citacao": "ADAMEK, Marcelo Vieira von",
-    "variantes": [
-     "ADAMEK, Marcelo",
-     "ADAMEK, Marcelo Vieira von",
-     "Marcelo Adamek"
-    ]
-   }
-  ],
-  "autores": [
-   {
     "nome": "Erasmo Valladão Azevedo e Novaes França",
     "sobrenome": "França",
     "citacao": "FRANÇA, Erasmo Valladão Azevedo e Novaes",
     "variantes": [
      "Erasmo França",
      "Erasmo Valadao",
-     "Erasmo Valladão A. França",
+     "Erasmo Valladão A. e N. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
-     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão A. e N.",
      "FRANÇA, Erasmo Valladão Azevedo e Novaes"
+    ]
+   },
+   {
+    "nome": "Marcelo Vieira von Adamek",
+    "sobrenome": "Adamek",
+    "citacao": "ADAMEK, Marcelo Vieira von",
+    "variantes": [
+     "ADAMEK, Marcelo Vieira von",
+     "Marcelo Adamek",
+     "VON ADAMEK, Marcelo Vieira"
     ]
    }
   ],
-  "origem_convidado": "comentador",
-  "obra": "e N.; VON ADAMEK, Marcelo Vieira. “Affectio societatis. Um conceito jurídico superado no moderno direito societário pelo conceito de fim social”, In RDM 149-150/108.",
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "“Affectio societatis. Um conceito jurídico superado no moderno direito societário pelo conceito de fim social”, In RDM 149-150/108.",
   "ano_obra": null,
   "data": "2021-09-21",
   "duracao_seg": 1027,
@@ -11687,10 +11689,10 @@
     "variantes": [
      "Erasmo França",
      "Erasmo Valadao",
-     "Erasmo Valladão A. França",
+     "Erasmo Valladão A. e N. França",
      "Erasmo Valladão França",
      "FRANÇA, Erasmo Valladão",
-     "FRANÇA, Erasmo Valladão A.",
+     "FRANÇA, Erasmo Valladão A. e N.",
      "FRANÇA, Erasmo Valladão Azevedo e Novaes"
     ]
    }

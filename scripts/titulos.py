@@ -40,7 +40,7 @@ _ITEM = rf"(?:{_PALAVRA}|{_LETRA})"
 # iniciais ("Ricardo V. B."), ou só iniciais ("A. O.").
 _PRENOME = (
     rf"(?:{_ITEM}(?:\s+(?:{_PART}\s+)?{_ITEM})*(?:\s+{_PART}(?=\s*[.;,]))?"
-    rf"(?:\s+(?:{_PART}\s+)?{_INICIAL}(?:\s?{_INICIAL})*)?"
+    rf"(?:\s+(?:{_PART}\s+)?{_INICIAL}(?:\s?(?:{_PART}\s+)?{_INICIAL})*)?"
     rf"|{_INICIAL}(?:\s?{_INICIAL})*)"
 )
 _PRENOME_CAIXA_ALTA = rf"[{_MAI}]{{2,}}(?:\s+[{_MAI}]{{2,}})*(?=\s*\.)"
@@ -57,17 +57,20 @@ _AUTOR_INICIO = re.compile(
     rf"\s*(?P<sobrenome>{_SOBRENOME_TITULO})\s*,\s*(?P<prenome>{_PRENOME})(?=\s*\.)"
 )
 _SO_SOBRENOMES = re.compile(rf"\s*(?P<a>{_SOBRENOME})\s+e\s+(?P<b>{_SOBRENOME})\s*\.\s*")
-_NOME_NATURAL = rf"{_PALAVRA}(?:\s+(?:{_PART}\s+)?{_PALAVRA}){{1,5}}"
+# Nome em ordem natural ("Ivo Waisberg"). O "e" fica de fora das partículas
+# para "Fulano e Beltrana" serem lidos como duas pessoas.
+_PART_NATURAL = r"(?:de|da|do|dos|das|del|di|van|von)"
+_NOME_NATURAL = rf"{_PALAVRA}(?:\s+(?:{_PART_NATURAL}\s+)?{_PALAVRA}){{1,5}}"
 _NATURAL = re.compile(
     rf"\s*(?:Prof(?:a|essora|essor)?\.?\s+)?(?P<a>{_NOME_NATURAL})"
     rf"(?:\s+e\s+(?P<b>{_NOME_NATURAL}))?"
     rf"(?P<comenta>\s*,?\s*comenta\b(?:\s+sobre\b)?\s*:?)?"
 )
-_SEPARADOR = re.compile(rf"\s*(?:[;.:,]|\s[-–]\s|\s+e\s+(?={_SOBRENOME}\s*,))\s*(?:[;.]\s*)*")
+_SEPARADOR = re.compile(rf"\s*(?:[;.:,](?:\s*e\s+(?={_SOBRENOME}\s*,))?|\s[-–]\s|\s+e\s+(?={_SOBRENOME}\s*,))\s*(?:[;.]\s*)*")
 _PROXIMO_AUTOR = re.compile(rf"\s+(?={_SOBRENOME}\s*,)")
 _COMENTA_DESCRICAO = re.compile(
     rf"^\s*(?:(?:A|O)\s+(?:advogad[ao]|professor[a]?|autor[a]?)\s+)?"
-    rf"(?:Prof(?:a|essora|essor)?\.?\s+)?(?P<nome>{_NOME_NATURAL})\s*,?\s+comenta\b"
+    rf"(?:Prof(?:a|essora|essor)?\.?\s+)?(?P<nome>{_NOME_NATURAL}(?:\s*(?:,|\be\b)\s*{_NOME_NATURAL})*)\s*,?\s+comentam?\b"
 )
 
 # Palavras que, no início do título, indicam que não é um nome de pessoa.
@@ -185,9 +188,20 @@ def _autores_citacao(texto, pos):
     return autores, pos
 
 
-def convidado_da_descricao(descricao_texto):
+# Episódios sem convidado: encerramentos de temporada e avisos.
+_SEM_CONVIDADO = re.compile(r"encerramento|p[óo]s-gradua", re.IGNORECASE)
+
+
+def convidados_da_descricao(descricao_texto):
+    """'Fulana comenta…' ou 'Fulano e Beltrana comentam…' → lista de pessoas."""
     m = _COMENTA_DESCRICAO.match(descricao_texto or "")
-    return pessoa_natural(m.group("nome")) if m else None
+    if not m:
+        return []
+    partes = re.split(r"\s*,\s*|\s+e\s+(?=[A-ZÀ-Ú][a-zà-ÿ]+\s+[A-ZÀ-Ú])", m.group("nome"))
+    # Só separa quando cada parte parece um nome completo (duas palavras ou mais).
+    if len(partes) > 1 and all(len(x.split()) >= 2 for x in partes):
+        return [pessoa_natural(x) for x in partes]
+    return [pessoa_natural(m.group("nome"))]
 
 
 def interpretar(titulo, descricao_texto=""):
@@ -221,9 +235,11 @@ def interpretar(titulo, descricao_texto=""):
 
     obra = resto[pos:].strip(" .;:-–") if convidados else resto.strip()
     if not convidados:
-        p = convidado_da_descricao(descricao_texto)
-        if p:
-            convidados, origem = [p], "descricao"
+        pessoas = convidados_da_descricao(descricao_texto)
+        if pessoas:
+            convidados, origem = pessoas, "descricao"
+        elif _SEM_CONVIDADO.search(resto):
+            convidados, origem = [], "sem_convidado"
         else:
             convidados, origem = [pessoa_natural(APRESENTADORA)], "apresentadora"
 
@@ -231,14 +247,16 @@ def interpretar(titulo, descricao_texto=""):
     # na descrição faz dela a convidada, e os nomes do título viram autores.
     autores = []
     if origem == "titulo":
-        comentador = convidado_da_descricao(descricao_texto)
-        if comentador:
+        comentadores = convidados_da_descricao(descricao_texto)
+        for comentador in comentadores:
             # Mesma pessoa, mas com o nome por extenso na descrição: usa o mais completo.
             for i, p in enumerate(convidados):
                 if mesma_pessoa(comentador, p) and "." in p["nome"] and "." not in comentador["nome"]:
                     convidados[i] = comentador
-        if comentador and not any(mesma_pessoa(comentador, p) for p in convidados):
-            autores, convidados, origem = convidados, [comentador], "comentador"
+        novos = [c for c in comentadores if not any(mesma_pessoa(c, p) for p in convidados)]
+        if comentadores and len(novos) == len(comentadores):
+            autores, convidados, origem = convidados, comentadores, "comentador"
+
 
     anos = re.findall(r"\b(1[89]\d{2}|20\d{2})\b", obra)
     if obra and not obra.endswith((".", "?", "!", "”", '"')):

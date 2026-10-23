@@ -14,15 +14,13 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
-      - name: Conferir endereços, HTTPS e páginas
+      - name: Procurar o código do episódio no Spotify
         run: |
-          for u in https://episodios.direitoempresarialcafecomleite.com/ http://episodios.direitoempresarialcafecomleite.com/ \
-                   https://amandathayde-hub.github.io/episodiosdireitoempresarialcafecomleite/ \
-                   https://episodios.direitoempresarialcafecomleite.com/episodio/1/ \
-                   https://episodios.direitoempresarialcafecomleite.com/sitemap.xml \
-                   https://episodios.direitoempresarialcafecomleite.com/pagefind/pagefind.js; do
-            r=$(curl -sS -o /tmp/p -m 20 -w "%{http_code} -> %{redirect_url}" "$u" 2>&1 | tail -1)
-            echo "::notice title=$u::$r | $(head -c 120 /tmp/p | tr '\n' ' ' | tr -d '<>')"
-          done
-          cert=$(echo | openssl s_client -connect episodios.direitoempresarialcafecomleite.com:443 -servername episodios.direitoempresarialcafecomleite.com 2>/dev/null | openssl x509 -noout -subject -issuer -enddate 2>&1 | tr '\n' ' ')
-          echo "::notice title=Certificado::$cert"
+          link="https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/328-GUTINIEKI--Joo-Otvio-Bacchi--A-tutela-do-Direito-da-Concorrncia-no-Poder-Judicirio-o-private-enforcement-do-antitruste-no-Brasil--Londrina-Thoth--2025-e3qoj36"
+          final=$(curl -sSL -o /tmp/p -m 30 -w "%{http_code} %{url_effective}" -A "Mozilla/5.0" "$link")
+          ids=$(grep -oE 'open\.spotify\.com/(embed/)?episode/[A-Za-z0-9]{22}' /tmp/p | sort -u | head -3 | tr '\n' ' ')
+          echo "::notice title=Página do episódio::$final | ids: ${ids:-nenhum} | tamanho $(wc -c < /tmp/p)"
+          show=$(curl -sSL -m 30 -A "Mozilla/5.0" https://open.spotify.com/show/3rgLXFIScTgCGHqidktCG1 | grep -oE 'episode/[A-Za-z0-9]{22}' | sort -u | wc -l)
+          echo "::notice title=Página do programa no Spotify::$show códigos de episódio encontrados"
+          emb=$(curl -sSL -m 30 -A "Mozilla/5.0" https://open.spotify.com/embed/show/3rgLXFIScTgCGHqidktCG1 | grep -oE 'spotify:episode:[A-Za-z0-9]{22}' | sort -u | wc -l)
+          echo "::notice title=Player do programa no Spotify::$emb códigos de episódio encontrados"
