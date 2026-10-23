@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - "static/**"
       - "config.yaml"
       - "overrides.yaml"
       - "temas.yaml"
