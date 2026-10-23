@@ -46,8 +46,9 @@ def _contagem(item):
 def dados_do_site(site, token, inicio, fim):
     """Total, páginas mais vistas, buscas (eventos) e origens do período."""
     base = f"https://{site['codigo']}.goatcounter.com/api/v0"
-    q = urllib.parse.urlencode({"start": inicio.isoformat(), "end": fim.isoformat(), "limit": 100})
-    total = _get(f"{base}/stats/total?{q}", token)
+    periodo = {"start": inicio.isoformat(), "end": fim.isoformat()}
+    q = urllib.parse.urlencode({**periodo, "limit": 100})
+    total = _get(f"{base}/stats/total?{urllib.parse.urlencode(periodo)}", token)
     hits = _get(f"{base}/stats/hits?{q}", token).get("hits", [])
     try:
         origens = _get(f"{base}/stats/toprefs?{q}", token).get("stats", [])
@@ -61,25 +62,6 @@ def dados_do_site(site, token, inicio, fim):
         "buscas": sorted(buscas, key=_contagem, reverse=True)[:15],
         "origens": sorted(origens, key=_contagem, reverse=True)[:8],
     }
-
-
-def diagnosticar(sites, token, inicio, fim):
-    """Teste técnico: mostra como a API responde a cada endereço."""
-    for site in sites:
-        base = f"https://{site['codigo']}.goatcounter.com/api/v0"
-        datas = [("dia", inicio.isoformat(), fim.isoformat()),
-                 ("hora", f"{inicio.isoformat()}T00:00:00Z", f"{fim.isoformat()}T23:59:59Z")]
-        caminhos = ["me", "sites", "stats/total", "stats/totals", "stats/hits", "stats/toprefs"]
-        for caminho in caminhos:
-            for nome, ini, fi in datas[: 1 if caminho in ("me", "sites") else 2]:
-                q = urllib.parse.urlencode({"start": ini, "end": fi, "limit": 5})
-                try:
-                    r = _get(f"{base}/{caminho}?{q}", token)
-                    texto = json.dumps(r, ensure_ascii=False)[:250]
-                    print(f"::notice title={caminho} ({nome})::OK {texto}")
-                except urllib.error.HTTPError as e:
-                    corpo = e.read().decode("utf-8", "replace")[:200]
-                    print(f"::notice title={caminho} ({nome})::HTTP {e.code} {corpo}")
 
 
 def montar_texto(sites, dados, rotulo_mes, dona):
@@ -137,9 +119,6 @@ def main():
     if not token:
         sys.exit("ERRO: segredo GOATCOUNTER_TOKEN não encontrado")
 
-    if args.so_mostrar:
-        diagnosticar(sites, token, inicio, fim)
-
     dados = {}
     for site in sites:
         try:
@@ -149,12 +128,11 @@ def main():
             print(f"::warning title={site['nome']}::{str(e)[:300]}")
 
     corpo = montar_texto(sites, dados, rotulo, rel.get("avisar", "amandathayde-hub"))
+    # O registro do GitHub Actions é público: no teste, só diz se a leitura
+    # funcionou, sem mostrar números.
     for site in sites:
-        d = dados[site["codigo"]]
-        resumo = d if isinstance(d, str) else (f"{d['total']} visitas; {len(d['paginas'])} páginas; "
-                                               f"{len(d['buscas'])} termos buscados; {len(d['origens'])} origens")
-        print(f"::notice title={site['nome']}::{resumo}")
-    print(corpo)
+        ok = not isinstance(dados[site["codigo"]], str)
+        print(f"::notice title={site['nome']}::leitura {'OK' if ok else 'com erro'}")
     if not args.so_mostrar:
         url = publicar(f"Relatório de visitas – {rotulo}", corpo)
         print(f"::notice title=Relatório publicado::{url}")
