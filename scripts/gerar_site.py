@@ -57,6 +57,8 @@ def ancora(nome):
 def titulo_curto(ep):
     """O nome da obra, sem a referência bibliográfica (cidade, editora, ano)."""
     obra = ep.get("obra") or ep["titulo"]
+    # Links não ficam bem no título (ex.: o #146 cita o endereço do Migalhas).
+    obra = re.sub(r"[\s:–-]*https?://\S+", "", obra).strip()
     curto = re.split(r"\.\s+(?:[A-ZÀ-Ú][\wÀ-ú ]+:\s|In:|Revista|São Paulo|Rio de Janeiro|Belo Horizonte|Brasília|Ed\.|Editora)", obra)[0]
     return curto.rstrip(" .")
 
@@ -195,7 +197,8 @@ def pagina_episodio(ep, cfg, pasta_trans, ordem):
     titulo = titulo_curto(ep)
     pessoas = ep["convidados"]
 
-    conv_html = ", ".join(f'<a href="{raiz}convidados/#{ancora(p["nome"])}">{e(p["nome"])}</a>' for p in pessoas)
+    conv_html = ", ".join(f'<a href="{raiz}convidados/#{ancora(p["nome"])}">{e(p["nome"])}</a>' for p in pessoas) \
+        or "Apresentação: Amanda Athayde"
     variantes = sorted({v for p in pessoas + ep.get("autores", []) for v in p.get("variantes", [])})
     autores_html = ""
     if ep.get("autores"):
@@ -209,16 +212,38 @@ def pagina_episodio(ep, cfg, pasta_trans, ordem):
         botoes.append(f'<a class="botao spotify" href="{e(ep["spotify"])}">Ouvir no Spotify</a>')
     botoes.append(f'<a class="botao youtube" href="{e(link_youtube(ep, cfg))}">Assistir no YouTube</a>')
 
-    video = ""
+    # Player: a pessoa escolhe onde ouvir sem sair da página. Nada é
+    # carregado do YouTube ou do Spotify antes do clique.
+    abas, paineis = [], []
     if ep.get("youtube"):
-        video = f"""
-  <div class="video" data-youtube="{e(ep['youtube'])}">
-    <button type="button" class="video-capa" aria-label="Carregar o vídeo do YouTube deste episódio">
-      <img src="https://i.ytimg.com/vi/{e(ep['youtube'])}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-      <span>▶ Ver o vídeo aqui</span>
-    </button>
-  </div>"""
-    audio = f'<audio class="player" controls preload="none" src="{e(ep["mp3"])}"></audio>' if ep.get("mp3") else ""
+        abas.append(("youtube", "▶ YouTube"))
+        paineis.append(f"""
+    <div id="painel-youtube" class="painel video" role="tabpanel" data-youtube="{e(ep['youtube'])}">
+      <button type="button" class="video-capa" aria-label="Carregar o vídeo do YouTube deste episódio">
+        <img src="https://i.ytimg.com/vi/{e(ep['youtube'])}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+        <span>▶ Assistir aqui</span>
+      </button>
+    </div>""")
+    if ep.get("spotify_id"):
+        abas.append(("spotify", "Spotify"))
+        paineis.append(f"""
+    <div id="painel-spotify" class="painel" role="tabpanel" hidden data-spotify="{e(ep['spotify_id'])}">
+      <button type="button" class="botao secundario carregar-spotify">Carregar o player do Spotify</button>
+    </div>""")
+    if ep.get("mp3"):
+        abas.append(("audio", "🎧 Só o áudio"))
+        paineis.append(f"""
+    <div id="painel-audio" class="painel" role="tabpanel" hidden>
+      <audio class="player" controls preload="none" src="{e(ep['mp3'])}"></audio>
+    </div>""")
+    if paineis:
+        paineis[0] = paineis[0].replace(" hidden", "", 1)
+    escolha = "".join(
+        f'<button type="button" role="tab" id="aba-{k}" aria-controls="painel-{k}" '
+        f'aria-selected="{"true" if i == 0 else "false"}">{rot}</button>' for i, (k, rot) in enumerate(abas))
+    player = (f'<p class="onde-ouvir">Ouça ou assista aqui mesmo:</p>'
+              f'<div class="abas-player" role="tablist" aria-label="Onde ouvir">{escolha}</div>{"".join(paineis)}'
+              if abas else "")
 
     if texto:
         trans = f"""
@@ -275,9 +300,8 @@ def pagina_episodio(ep, cfg, pasta_trans, ordem):
   <span data-pagefind-filter="ano" hidden>{ep['data'][:4]}</span>
   <span data-pagefind-meta="id" hidden>{e(ep['id'])}</span>
   <div class="ouvir" data-pagefind-ignore>
-    {audio}
-    <div class="botoes">{''.join(botoes)}</div>
-    {video}
+    {player}
+    <div class="botoes"><span class="ou-abra">Ou abra no aplicativo:</span>{''.join(botoes)}</div>
   </div>
   <section class="descricao">
     <h2 id="descricao">Sobre o episódio</h2>
@@ -289,8 +313,9 @@ def pagina_episodio(ep, cfg, pasta_trans, ordem):
   </section>
   {navegacao}
 </article>"""
-    descricao = f"{rotulo(ep)} do podcast {cfg['nome_podcast']}, com {nomes(pessoas)}: {titulo}"
-    return caminho, pagina(cfg, titulo=f"{rotulo(ep)}: {titulo} – {nomes(pessoas)}",
+    quem = nomes(pessoas) or "Amanda Athayde"
+    descricao = f"{rotulo(ep)} do podcast {cfg['nome_podcast']}, com {quem}: {titulo}"
+    return caminho, pagina(cfg, titulo=f"{rotulo(ep)}: {titulo} – {quem}",
                            descricao=descricao[:300], caminho=caminho, raiz=raiz, corpo=corpo,
                            extra_head=extra, tipo_og="article")
 
@@ -300,10 +325,11 @@ def pagina_episodio(ep, cfg, pasta_trans, ordem):
 def pagina_inicio(cfg, episodios, grupos_temas):
     anos = sorted({ep["data"][:4] for ep in episodios}, reverse=True)
     op_anos = "".join(f'<option value="{a}">{a}</option>' for a in anos)
-    op_temas = ""
+    botoes_temas = ""
     for grupo, temas in grupos_temas.items():
-        op_temas += f'<optgroup label="{e(grupo)}">' + "".join(
-            f'<option value="{e(t)}">{e(t)}</option>' for t in temas) + "</optgroup>"
+        botoes_temas += f'<div class="grupo-temas"><p class="nome-grupo">{e(grupo)}</p><div class="chips">' + "".join(
+            f'<button type="button" class="chip" data-tema="{e(t)}" aria-pressed="false">{e(t)}</button>'
+            for t in temas) + "</div></div>"
     horas = round(sum(ep.get("duracao_seg") or 0 for ep in episodios) / 3600)
     corpo = f"""
 <section class="busca" aria-labelledby="titulo-busca">
@@ -311,16 +337,29 @@ def pagina_inicio(cfg, episodios, grupos_temas):
   <p class="subtitulo">Procure por título, convidado, tema ou qualquer assunto falado nas conversas. São cerca de {horas} horas de Direito Empresarial.</p>
   <form class="caixa" role="search" action="./" onsubmit="return false">
     <label for="q" class="so-leitor">O que você procura?</label>
-    <input id="q" name="q" type="search" placeholder="Ex.: business judgment rule, Forgioni, recuperação judicial" autocomplete="off" enterkeyhint="search">
+    <input id="q" name="q" type="search" placeholder="Ex.: business judgment rule, Forgioni, recuperação judicial" autocomplete="off" enterkeyhint="search" aria-describedby="dicas-resumo">
   </form>
+  <details class="dicas">
+    <summary id="dicas-resumo">Como pesquisar: a busca vale para o título, os convidados, a descrição <strong>e tudo o que foi falado</strong> nos episódios</summary>
+    <ul>
+      <li><strong>Várias palavras</strong> trazem só os episódios que têm <em>todas</em> elas. Ex.: <code>forgioni arbitragem</code>. Quanto mais palavras, menos resultados.</li>
+      <li><strong>Expressão exata:</strong> use aspas. Ex.: <code>"recuperação judicial"</code>.</li>
+      <li><strong>Uma coisa OU outra</strong> (para ampliar): escreva <code>OU</code> em maiúsculas. Ex.: <code>leniência OU "termo de compromisso"</code>.</li>
+      <li><strong>Excluir uma palavra</strong> (para reduzir): use o sinal de menos. Ex.: <code>arbitragem -societária</code>.</li>
+      <li><strong>Parte da palavra</strong> também funciona: <code>recupera</code> encontra recuperação, recuperar…</li>
+      <li>Acentos e maiúsculas não importam: <code>falencia</code> encontra falência.</li>
+      <li>Os trechos destacados mostram onde o termo aparece na conversa. As transcrições são automáticas e podem errar nomes próprios; para pessoas, prefira buscar pelo sobrenome ou usar a aba <a href="convidados/">Convidados</a>.</li>
+    </ul>
+  </details>
   <div class="filtros">
     <label>Ano
       <select id="ano"><option value="">Todos</option>{op_anos}</select>
     </label>
-    <label>Tema
-      <select id="tema"><option value="">Todos</option>{op_temas}</select>
-    </label>
     <button type="button" id="limpar" class="link">Limpar filtros</button>
+  </div>
+  <div class="temas-filtro" role="group" aria-label="Filtrar por tema">
+    <button type="button" class="chip" data-tema="" aria-pressed="true">Todos os temas</button>
+    {botoes_temas}
   </div>
 </section>
 <section aria-labelledby="titulo-resultados">

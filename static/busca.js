@@ -1,11 +1,14 @@
 // Página inicial: busca com o Pagefind (índice em pedaços, tolerante a
 // acentos) e filtros por ano e tema. Sem texto digitado, lista os episódios
 // do mais novo para o mais antigo usando static/episodios.json.
+// Além do que o Pagefind já faz (todas as palavras; "expressão exata"),
+// aceita "OU" para juntar buscas e "-palavra" para excluir.
 (function () {
   var POR_PAGINA = 20;
   var campo = document.getElementById("q");
   var selAno = document.getElementById("ano");
-  var selTema = document.getElementById("tema");
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".temas-filtro .chip"));
+  var temaAtual = "";
   var lista = document.getElementById("resultados");
   var contagem = document.getElementById("contagem");
   var botaoMais = document.getElementById("mais");
@@ -46,7 +49,7 @@
       (ep.du ? "<span>" + esc(ep.du) + "</span>" : "") +
       (ep.tr ? "" : '<span class="selo-pendente">transcrição pendente</span>') + "</div>" +
       '<h3><a href="episodio/' + encodeURIComponent(ep.id) + '/">' + esc(ep.t) + "</a></h3>" +
-      '<p class="quem">' + esc(ep.c) + "</p>" +
+      '<p class="quem">' + esc(ep.c || "Episódio especial") + "</p>" +
       (trecho ? '<p class="trecho">… ' + trecho + " …</p>" : "") +
       (temas ? '<ul class="temas" aria-label="Temas">' + temas + "</ul>" : "") +
       '<div class="botoes">' + botoes + "</div></li>";
@@ -65,7 +68,7 @@
   function filtrosAtivos() {
     var f = {};
     if (selAno.value) f.ano = selAno.value;
-    if (selTema.value) f.tema = selTema.value;
+    if (temaAtual) f.tema = temaAtual;
     return f;
   }
 
@@ -73,9 +76,44 @@
     var p = new URLSearchParams();
     if (campo.value.trim()) p.set("q", campo.value.trim());
     if (selAno.value) p.set("ano", selAno.value);
-    if (selTema.value) p.set("tema", selTema.value);
+    if (temaAtual) p.set("tema", temaAtual);
     var nova = location.pathname + (p.toString() ? "?" + p.toString() : "");
     history.replaceState(null, "", nova);
+  }
+
+  function escolherTema(tema) {
+    temaAtual = tema || "";
+    chips.forEach(function (c) { c.setAttribute("aria-pressed", c.dataset.tema === temaAtual ? "true" : "false"); });
+  }
+
+  // Divide a consulta em alternativas ("OU") e, em cada uma, separa os termos
+  // a excluir ("-palavra" ou -"expressão").
+  function interpretar(consulta) {
+    return consulta.split(/\s+OU\s+/).map(function (parte) {
+      var excluir = [];
+      var resto = parte.replace(/(^|\s)-("[^"]+"|\S+)/g, function (_, espaco, termo) {
+        excluir.push(termo);
+        return " ";
+      });
+      return { incluir: resto.trim(), excluir: excluir };
+    }).filter(function (p) { return p.incluir; });
+  }
+
+  async function pesquisar(pf, consulta, filtros) {
+    var melhores = {};
+    for (const parte of interpretar(consulta)) {
+      var busca = await pf.search(parte.incluir, { filters: filtros });
+      var fora = {};
+      for (const termo of parte.excluir) {
+        (await pf.search(termo, { filters: filtros })).results.forEach(function (r) { fora[r.id] = true; });
+      }
+      busca.results.forEach(function (r) {
+        if (fora[r.id]) return;
+        if (!melhores[r.id] || melhores[r.id].score < r.score) melhores[r.id] = r;
+      });
+    }
+    return Object.keys(melhores).map(function (k) { return melhores[k]; })
+      .sort(function (a, b) { return b.score - a.score; });
   }
 
   function texto(n, um, varios) { return n + " " + (n === 1 ? um : varios); }
@@ -119,14 +157,14 @@
       var busca;
       try {
         var pf = await carregarPagefind();
-        busca = await pf.search(termo, { filters: filtros });
+        busca = await pesquisar(pf, termo, filtros);
       } catch (erro) {
         pagefind = null;
         contagem.textContent = "Não foi possível buscar agora. Verifique a conexão e tente de novo.";
         return;
       }
       if (minha !== rodada) return;
-      atual.itens = busca.results.map(function (r) { return { resultado: r }; });
+      atual.itens = busca.map(function (r) { return { resultado: r }; });
       contagem.textContent = atual.itens.length
         ? texto(atual.itens.length, "episódio encontrado", "episódios encontrados") + " para “" + termo + "”"
         : "Nenhum episódio encontrado para “" + termo + "”. Tente outra palavra ou tire os filtros.";
@@ -144,10 +182,15 @@
     agendar();
   });
   selAno.addEventListener("change", buscar);
-  selTema.addEventListener("change", buscar);
+  chips.forEach(function (c) {
+    c.addEventListener("click", function () {
+      escolherTema(c.dataset.tema === temaAtual ? "" : c.dataset.tema);
+      buscar();
+    });
+  });
   botaoMais.addEventListener("click", mostrarMais);
   document.getElementById("limpar").addEventListener("click", function () {
-    selAno.value = ""; selTema.value = ""; buscar();
+    selAno.value = ""; escolherTema(""); buscar();
   });
 
   fetch("static/episodios.json").then(function (r) { return r.json(); }).then(function (dados) {
@@ -156,7 +199,7 @@
     var p = new URLSearchParams(location.search);
     campo.value = p.get("q") || "";
     selAno.value = p.get("ano") || "";
-    selTema.value = p.get("tema") || "";
+    escolherTema(p.get("tema") || "");
     buscar();
   });
 })();
