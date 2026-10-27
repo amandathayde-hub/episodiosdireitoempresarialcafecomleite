@@ -1,5 +1,72 @@
 [
  {
+  "guid": "41b1d865-59e4-4342-a648-d6b760d6a930",
+  "numero": 329,
+  "titulo": "#329: DIAS, L. P.. Novo Arcabouço Regulatório dos Fundos de Investimento em Direito Creditórios. Luciana Dias comenta sobre os Fundos de Investimento em Direitos Creditórios",
+  "convidados": [
+   {
+    "nome": "Luciana Dias",
+    "sobrenome": "Dias",
+    "citacao": "DIAS, Luciana",
+    "variantes": [
+     "DIAS, L. P.",
+     "DIAS, Luciana",
+     "L. P. Dias"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "Novo Arcabouço Regulatório dos Fundos de Investimento em Direito Creditórios. Luciana Dias comenta sobre os Fundos de Investimento em Direitos Creditórios.",
+  "ano_obra": null,
+  "data": "2026-10-27",
+  "duracao_seg": 1951,
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar sobre o artigo “Novo Arcabouço Regulatório dos Fundos de Investimento em Direito Creditórios” da Luciana Dias. E para isso teremos a alegria de contar com a participação da própria autora para comentá-lo.",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/329-DIAS--L--P---Novo-Arcabouo-Regulatrio-dos-Fundos-de-Investimento-em-Direito-Creditrios--Luciana-Dias-comenta-sobre-os-Fundos-de-Investimento-em-Direitos-Creditrios-e3r4dip",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/128119833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2F435034610-44100-2-a0463d7f93eee.mp3",
+  "id": "329",
+  "youtube": "D7nkWfQ42ro",
+  "transcricao": "pendente",
+  "temas": [
+   "Fundos de investimento"
+  ]
+ },
+ {
+  "guid": "adb83185-f178-4715-b1d4-6b4dd3f40024",
+  "numero": null,
+  "titulo": "Aula Ao Vivo - Novo guia de leniência do CADE",
+  "convidados": [
+   {
+    "nome": "Amanda Athayde",
+    "sobrenome": "Athayde",
+    "citacao": "ATHAYDE, Amanda",
+    "variantes": [
+     "ATHAYDE, Amanda"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "apresentadora",
+  "obra": "Aula Ao Vivo - Novo guia de leniência do CADE.",
+  "ano_obra": null,
+  "data": "2026-10-26",
+  "duracao_seg": 3426,
+  "descricao": "📚 Profª UnB - Direito Empresarial e Concorrencial📖 Comércio Internacional | Compliance | Acordos | Arbitragem🎓 Pós Graduação e Cursos Online - https://amandaathayde.com.br/cursos-digitais▶ Instagram: https://www.instagram.com/direitoempresarialcafecomleite/",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/Aula-Ao-Vivo---Novo-guia-de-lenincia-do-CADE-e3nitev",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/124400543/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430084324-44100-2-b2bb5c153c17c.mp3",
+  "id": "extra-2026-10-26",
+  "youtube": "UMWl4UCRUeU",
+  "transcricao": "ok",
+  "temas": [
+   "Concorrência e antitruste",
+   "Arbitragem e solução de conflitos",
+   "Governança corporativa",
+   "Acordos sancionadores e leniência",
+   "Defesa comercial e comércio internacional",
+   "Regulação, Estado e empresas estatais"
+  ]
+ },
+ {
   "guid": "62f260d0-3841-4c4f-be35-8a16a7114f24",
   "numero": 328,
   "titulo": "#328: GUTINIEKI, João Otávio Bacchi. A tutela do Direito da Concorrência no Poder Judiciário: o private enforcement do antitruste no Brasil. Londrina: Thoth, 2025.",
@@ -6548,7 +6615,9 @@
     "sobrenome": "Dias",
     "citacao": "DIAS, Luciana",
     "variantes": [
-     "DIAS, Luciana"
+     "DIAS, L. P.",
+     "DIAS, Luciana",
+     "L. P. Dias"
     ]
    }
   ],
