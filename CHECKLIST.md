@@ -66,6 +66,8 @@ Documentação: https://docs.github.com/pt/pages/configuring-a-custom-domain-for
 - [x] **Estatísticas de visitas sem cookies** (GoatCounter): ativado em todas as
       páginas do site de episódios. Painel: https://direitoempresarialcafecomleite.goatcounter.com
       (para desligar, apague o endereço em `goatcounter:` no `config.yaml`).
+      O relatório mensal por e-mail fica no repositório **privado** `relatorios`
+      (assim os números não ficam públicos).
 - [ ] Revisar os temas adicionais propostos a partir das transcrições completas.
 
 ## Limites e custos (conferir antes de divulgar)
