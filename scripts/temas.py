@@ -30,15 +30,40 @@ def trechos_padrao(transcricao):
     m = re.search(r"(a nossa )?xicara de [a-z ]{0,45}?de (hoje|uso)\b", texto)
     if m and m.start() < min(n * 0.2, 6000):
         trechos.append((0, _inicio_da_frase(texto, m.start())))
-    for m in re.finditer(r"(segura|espera) so um pouquinho que eu (ja )?volto", texto):
+    for m in re.finditer(r"(segura|segurar|espera) so um pouquinho,? que eu (ja )?volto", texto):
         volta = re.compile(r"voltar (para|pra) (a )?nossa (conversa|entrevista)[^.?!]*[.?!]")
         fim = volta.search(texto, m.end(), m.end() + 2500)
         if fim:
             trechos.append((_inicio_da_frase(texto, m.start()), fim.end()))
+    encerramento = n
     for m in re.finditer(r"xicara de cafe com leite (foi|ja foi|esta) devidamente tomada", texto):
         if m.start() > n * 0.7:
-            trechos.append((_inicio_da_frase(texto, m.start()), n))
+            encerramento = _inicio_da_frase(texto, m.start())
+            trechos.append((encerramento, n))
             break
+    # Pergunta final padrão, de tom pessoal ("quem é você na pessoa física",
+    # "um esporte que você tem afinidade", "uma habilidade não jurídica"...),
+    # e a resposta do convidado, até o encerramento.
+    pessoal = re.compile(
+        r"copa do mundo|na (pessoa )?fisica\b|em termos de esporte|habilidade nao juridica|nao (sejam |forem )?juridicos|tempo livre|hobb"
+        r"|parte mais pessoal|afinidade com (o )?esporte|gostos? (em termos )?de esporte|gostos? esportiv"
+        r"|pergunta sobre esportes|esporte que voce|a respeito dos esportes"
+        r"|(voce|vc) (pratica|praticava|acompanha) (algum )?esporte")
+    chamada_re = re.compile(r"ultima pergunta|pergunta final|(uma|essa|a) pergunta|por fim|agora sim")
+    for m in pessoal.finditer(texto, int(n * 0.75)):
+        if m.start() >= encerramento:
+            break
+        inicio = m.start()
+        chamada = None
+        for c in chamada_re.finditer(texto, max(inicio - 600, 0), inicio):
+            chamada = c
+        if chamada:
+            inicio = chamada.start()
+        corte = max(texto.rfind(". ", 0, inicio), texto.rfind("? ", 0, inicio), texto.rfind("] ", 0, inicio))
+        if corte != -1 and inicio - corte < 400:
+            inicio = corte + 2
+        trechos.append((inicio, encerramento))
+        break
     return trechos
 
 
