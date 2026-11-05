@@ -1,5 +1,68 @@
 [
  {
+  "guid": "f81cada8-8099-4792-bf04-e535978584ac",
+  "numero": 332,
+  "titulo": "#332: ROCHA, Glauco. A teoria do órgão de fato e sua aplicação ao Direito brasileiro. São Paulo: Dialética, 2023. Glauco da Rocha comenta sobre sua análise da \"teoria do órgão do fato\"",
+  "convidados": [
+   {
+    "nome": "Glauco Rocha",
+    "sobrenome": "Rocha",
+    "citacao": "ROCHA, Glauco",
+    "variantes": [
+     "ROCHA, Glauco"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "A teoria do órgão de fato e sua aplicação ao Direito brasileiro. São Paulo: Dialética, 2023. Glauco da Rocha comenta sobre sua análise da \"teoria do órgão do fato\"",
+  "ano_obra": 2023,
+  "data": "2026-11-05",
+  "duracao_seg": 1727,
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da obra \"A teoria do órgão de fato e sua aplicação ao Direito brasileiro\" do professor Glauco da Rocha. E, para isso, teremos a alegria de contar com a participação do próprio autor, que irá comentar os principais pontos do trabalho.",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/332-ROCHA--Glauco--A-teoria-do-rgo-de-fato-e-sua-aplicao-ao-Direito-brasileiro--So-Paulo-Dialtica--2023--Glauco-da-Rocha-comenta-sobre-sua-anlise-da-teoria-do-rgo-do-fato-e3rkeb9",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/128644905/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435703491-44100-2-40c651f6c9117.mp3",
+  "id": "332",
+  "youtube": "trMptZu5nvo",
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
+  ]
+ },
+ {
+  "guid": "06f84940-6ca0-45be-bbf6-12e227e3d2d7",
+  "numero": 331,
+  "titulo": "#331: MONTEIRO, A. S. C.. Litigância Regulatória Antitruste. 1. ed., 2025. Ana Sofia Monteiro comenta sobre o papel da Litigância Regulatória Antitruste, focado na regulação das plataformas digitais.",
+  "convidados": [
+   {
+    "nome": "A. S. C. Monteiro",
+    "sobrenome": "Monteiro",
+    "citacao": "MONTEIRO, A. S. C.",
+    "variantes": [
+     "A. Monteiro",
+     "MONTEIRO, A. S. C."
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "Litigância Regulatória Antitruste. 1. ed., 2025. Ana Sofia Monteiro comenta sobre o papel da Litigância Regulatória Antitruste, focado na regulação das plataformas digitais.",
+  "ano_obra": 2025,
+  "data": "2026-11-03",
+  "duracao_seg": 2428,
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar sobre o livro “Litigância Regulatória Antitruste: o papel da persecução privada do direito concorrencial brasileiro na regulação das plataformas digitais”, de autoria de Ana Sofia Monteiro. E para isso teremos a alegria de contar com a participação da própria autora para comentá-lo.",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/331-MONTEIRO--A--S--C---Litigncia-Regulatria-Antitruste--1--ed---2025--Ana-Sofia-Monteiro-comenta-sobre-o-papel-da-Litigncia-Regulatria-Antitruste--focado-na-regulao-das-plataformas-digitais-e3rkdus",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/128644508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F435748555-44100-2-57d63df8057e.mp3",
+  "id": "331",
+  "youtube": "Mk3cmZ6szsU",
+  "transcricao": "ok",
+  "temas": [
+   "Concorrência e antitruste",
+   "Regulação, Estado e empresas estatais"
+  ]
+ },
+ {
   "guid": "c091b169-10f8-4d80-a713-38101e547673",
   "numero": 330,
   "titulo": "#330: SOUZA, A. P. M. G. Redes Empresariais: A Distribuição de Bens e Serviços e o seu Propósito Comum. 1a ed. São Paulo: Quartier latin, 2019.",
