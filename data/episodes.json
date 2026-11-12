@@ -1,5 +1,37 @@
 [
  {
+  "guid": "1809a294-9711-4d1a-82ee-724e118bff36",
+  "numero": 334,
+  "titulo": "#334: HAUSCHILD, George Sant’Ana. Usufruto Acionário. George Hauschild comenta sobre o regime jurídico do usufruto de ações no Direito brasileiro.",
+  "convidados": [
+   {
+    "nome": "George Sant’Ana Hauschild",
+    "sobrenome": "Hauschild",
+    "citacao": "HAUSCHILD, George Sant’Ana",
+    "variantes": [
+     "George Hauschild",
+     "HAUSCHILD, George Sant’Ana"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "Usufruto Acionário. George Hauschild comenta sobre o regime jurídico do usufruto de ações no Direito brasileiro.",
+  "ano_obra": null,
+  "data": "2026-11-12",
+  "duracao_seg": 2867,
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da dissertação de Mestrado de George Sant’Ana Hauschild, intitulada “Usufruto Acionário”. E, para isso, teremos a alegria de contar com a participação do próprio autor, que irá comentar os principais pontos do trabalho.",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/334-HAUSCHILD--George-SantAna--Usufruto-Acionrio--George-Hauschild-comenta-sobre-o-regime-jurdico-do-usufruto-de-aes-no-Direito-brasileiro-e3s45g2",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/129160130/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F436359059-44100-2-8904f5fe769c9.mp3",
+  "id": "334",
+  "youtube": "dqvI46ArXo8",
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
+  ]
+ },
+ {
   "guid": "4afd9c8f-6ed2-4350-9e68-e38fa1477bd5",
   "numero": 333,
   "titulo": "#333: VICTER, Renata Bastos Maccacchero. Transações entre partes relacionadas e conflito de interesse nas sociedades anônimas: a superação de vetos para a formulação de uma política pública.",
