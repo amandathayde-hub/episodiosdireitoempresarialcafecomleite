@@ -1,5 +1,37 @@
 [
  {
+  "guid": "82d3aa31-3689-43f7-90b4-c815c98c09c5",
+  "numero": 335,
+  "titulo": "#335: FREITAS, Marcos Aurélio Paiva Mansur de. A transformação de associações em sociedades empresárias (e vice-versa). Tese de Láurea. São Paulo.",
+  "convidados": [
+   {
+    "nome": "Marcos Aurélio Paiva Mansur de Freitas",
+    "sobrenome": "Freitas",
+    "citacao": "FREITAS, Marcos Aurélio Paiva Mansur de",
+    "variantes": [
+     "FREITAS, Marcos Aurélio Paiva Mansur de",
+     "Marcos Freitas"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "A transformação de associações em sociedades empresárias (e vice-versa). Tese de Láurea. São Paulo.",
+  "ano_obra": null,
+  "data": "2026-11-17",
+  "duracao_seg": 2826,
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar da tese “A transformação de associações em sociedades empresárias (e vice-versa)”, de Marcos Aurélio\n\nPaiva Mansur de Freitas. E, para isso, teremos a alegria de contar com a participação do próprio autor para comentá-la.",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/335-FREITAS--Marcos-Aurlio-Paiva-Mansur-de--A-transformao-de-associaes-em-sociedades-empresrias-e-vice-versa--Tese-de-Lurea--So-Paulo-e3sfu0n",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/129545687/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F436868279-44100-2-647754d2491608.mp3",
+  "id": "335",
+  "youtube": "FWPe656Owto",
+  "transcricao": "ok",
+  "temas": [
+   "Societário geral",
+   "Sociedades anônimas (S.A.)"
+  ]
+ },
+ {
   "guid": "e2a46f1e-6b30-4234-8eb6-92c4024fdee1",
   "numero": null,
   "titulo": "Aula Ao Vivo - Troca de informações concorrencialmente sensíveis e benchmarking: investigações para além do cartel",
