@@ -1,5 +1,65 @@
 [
  {
+  "guid": "37c32e38-1fad-4498-b710-b3d589fbe636",
+  "numero": 336,
+  "titulo": "#336: TIRONI, Fábio. Insolvência no Agronegócio: Crédito, Extraconcursalidade e o Microssistema de Recuperação. 1a Edição. Editora Quartier Latin do Brasil: São Paulo, verão de 2026",
+  "convidados": [
+   {
+    "nome": "Fábio Tironi",
+    "sobrenome": "Tironi",
+    "citacao": "TIRONI, Fábio",
+    "variantes": [
+     "TIRONI, Fábio"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "titulo",
+  "obra": "Insolvência no Agronegócio: Crédito, Extraconcursalidade e o Microssistema de Recuperação. 1a Edição. Editora Quartier Latin do Brasil: São Paulo, verão de 2026.",
+  "ano_obra": 2026,
+  "data": "2026-11-19",
+  "duracao_seg": 2637,
+  "descricao": "A nossa xícara de café com leite de Direito Empresarial de hoje vai tratar sobre o livro “Insolvência no Agronegócio: Crédito, Extraconcursalidade e o Microssistema de Recuperação” de Fábio Tironi. E para isso teremos a alegria de contar com a participação do próprio autor para comentá-lo.",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/336-TIRONI--Fbio--Insolvncia-no-Agronegcio-Crdito--Extraconcursalidade-e-o-Microssistema-de-Recuperao--1a-Edio--Editora-Quartier-Latin-do-Brasil-So-Paulo--vero-de-2026-e3sfutr",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/129546619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F436869440-44100-2-fe4db0e9b0d2b.mp3",
+  "id": "336",
+  "youtube": "f-cecftgCTY",
+  "transcricao": "pendente",
+  "temas": [
+   "Recuperação judicial e falência"
+  ]
+ },
+ {
+  "guid": "6ae58da4-4840-4cec-87ae-722494f59fec",
+  "numero": null,
+  "titulo": "Black Friday Pós Graduação em Direito Concorrencial",
+  "convidados": [
+   {
+    "nome": "Amanda Athayde",
+    "sobrenome": "Athayde",
+    "citacao": "ATHAYDE, Amanda",
+    "variantes": [
+     "ATHAYDE, Amanda"
+    ]
+   }
+  ],
+  "autores": [],
+  "origem_convidado": "apresentadora",
+  "obra": "Black Friday Pós Graduação em Direito Concorrencial.",
+  "ano_obra": null,
+  "data": "2026-11-18",
+  "duracao_seg": 2158,
+  "descricao": "Tenha acesso a Maior oferta da história para fazer a Única pós graduação online do Brasil\n\nhttps://amandaathayde.com.br/black-friday-po",
+  "spotify": "https://podcasters.spotify.com/pod/show/direito-empresarial-caf-com-leite/episodes/Black-Friday-Ps-Graduao-em-Direito-Concorrencial-e3sl7o2",
+  "mp3": "https://anchor.fm/s/654b6580/podcast/play/129719490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F437100284-44100-2-fcbd6f4edb48d.mp3",
+  "id": "extra-2026-11-18",
+  "youtube": "SSxB-rrEeq0",
+  "transcricao": "pendente",
+  "temas": [
+   "Concorrência e antitruste"
+  ]
+ },
+ {
   "guid": "82d3aa31-3689-43f7-90b4-c815c98c09c5",
   "numero": 335,
   "titulo": "#335: FREITAS, Marcos Aurélio Paiva Mansur de. A transformação de associações em sociedades empresárias (e vice-versa). Tese de Láurea. São Paulo.",
